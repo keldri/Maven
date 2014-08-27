@@ -207,7 +207,7 @@ height: auto;
 
 
 .hero-image{
-background: url("file://localhost/Users/kateeldridge/Desktop/yunick1.1/images/home.jpg");
+background: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/home.jpg");
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -329,16 +329,18 @@ color: white;
       }
 /*--------------------------- Our Clients-----------------------*/
 
+
 #our-clients {
 margin-top: 10%;
 background-color: #C9C9C9;
 }
+
 #our-clients div {
 padding-bottom: 10%;
 }
 
-#our-clients ul {
-	padding: 3% 10% 6% 10%;
+#our-clients > div > p {
+padding-top: 5%;
 }
 
 #our-clients li {
@@ -370,19 +372,12 @@ footer.col-xs-12 {
 }	
 .subscribe{
 	background-color:#758D8F;
-	padding-bottom: 20%;
+	padding-top: 7%;
+	padding-bottom: 17%;
+	p{
+		text-align:center;
+	}
 }
-	.subscribe h3 {
-	padding: 7% 0 0 0;
-}
-
-.subscribe p {
-	padding: 0% 1%;
-	font-size: .76rem;
-	color: #ffffff;
-	text-align:center;
-}
-
 .subscribe input[type="email"] {
 	border: 1px solid #fff;
 	color: $darkblue;
@@ -391,34 +386,39 @@ footer.col-xs-12 {
 	width:66%;
 }
 .subscribe input[type="submit"] {
+padding: 4% 0 4% 0;
+top: -3.4px;
 width: 31%;
 margin: 0;
-padding: 4% 0 3.5% 0;
-top: -3px;
 }
 	.contact-info {
 	padding: 14% .5% 3% 0;
 }
 
-.contact-info i.fa {
+
+ footer ul li {
+ .fa{
     font-size: 1.5rem;
     color:#ffffff;
-    margin-left: 47%;
-}
-
-.contact-info p {
+    margin-left: 47%;}
+ 
+ p {
 	padding: 14px 0;
 	text-align: center;
+	font-size: 1.3em;
 }
-.contact-info a {
+ 
+ a {
 color: #eae3cb;
 text-decoration: none;
 	&:hover{
 	color: #ffffff;
 	}
 }
+}
 
-.social-media{
+
+footer{
 		h2{
 		padding: 0 0 5% 0;
 			}
@@ -436,12 +436,14 @@ text-decoration: none;
 		font-size: .7rem;
 		text-align: center;
 		}
-		ul{
-		margin-left:26%;
-		margin-bottom: 5%;
-		}
+		
+	ul {
+	margin-top: 14% !important;
+	margin-left: 0 !important;
+	margin-bottom: 0!important;
+	}
+		
 }		
-
 /*-----------MEDIA QUERIES-----------------------*/
 
 
@@ -478,20 +480,12 @@ text-decoration: none;
 	left: -53%;
 top: 7px;
 }
-#our-clients ul {
-padding: 0 0% 6% 4%;
-}
+
 #our-clients p{
 	padding-left:0;
 }
  }
- .subscribe input[type="submit"] {
- padding: 4% 0 2.4% 0;
-top: -3.4px;
-		p{
-		margin-bottom: 2%;
-		}
- }
+
 
 /*sm*/
 @media (min-width:768px) { 
@@ -519,6 +513,11 @@ margin-top: 71px;
 }
 footer {
 margin-top: 47px;
+	ul {
+	margin-top: 14% !important;
+	margin-left: 0 !important;
+	margin-bottom: 0!important;
+	}
 }
 
 }

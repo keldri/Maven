@@ -2,7 +2,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify'); //minifies js docs into one file
 	grunt.loadNpmTasks('grunt-contrib-watch'); //minifies js docs into one file
 		grunt.loadNpmTasks('grunt-contrib-compass'); //minifies js docs into one file
-
 	grunt.initConfig({
 		uglify:{
 			my_target: {
@@ -35,4 +34,5 @@ module.exports = function(grunt){
 		}//watch
 	}) //initConfig
 	grunt.registerTask('default', 'watch');
+
 }//exports

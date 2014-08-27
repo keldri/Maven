@@ -1,0 +1,1153 @@
+
+@import url('http://fonts.googleapis.com/css?family=Muli');
+@import url('http://fonts.googleapis.com/css?family=Raleway:900,800,700');
+
+
+body{
+	font-family: $font-primary;
+	font-size:10px;
+	line-height:160%;
+	color:$darkblue;
+}
+section > div:first-child {
+padding-top: 17%;
+}
+
+#{headings()}{
+	font-family: $font-secondary;
+	font-weight:800;
+	color:#ffffff;
+	text-align:	center;
+	padding-bottom:4%;
+	/*@include text-shadow($paleryellow 1px 1px);*/
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2 {
+	font-size:2.2em;
+	line-height: 60%;
+	color: #104151;
+	font-weight: 900;
+}
+h3{
+color: $darkblue;
+font-weight: 100;
+line-height: 18px;
+font-size: 1.6em;
+}
+
+h4{
+	font-size: 1.6em;
+	line-height: 100%;
+	color: $darkblue;
+	margin: 0;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+a{
+	text-decoration:underline;
+	color:$mediumgray;
+	&:hover{
+		clor:$orange;
+	}
+}
+
+p {
+font-family:$font-primary;
+	margin-bottom: 5%;
+	font-size: 1.4em;
+	text-align: left;
+	line-height:20px;
+}
+
+.small{
+	font-size:1rem;
+	color:$blue;
+}
+input,textarea {
+	width:100%;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	font-size: .9rem;
+	color: $darkblue;
+	cursor: pointer;
+	padding: 5%;
+	display: inline-block;
+	margin: 1% 2% 1% 0;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-weight: 800;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border: 1px solid $darkblue;
+}
+button, input[type="submit"]  {
+	border: none;
+	font-size: .6rem;
+	color: inherit;
+	cursor: pointer;
+	padding: 8px 12px;
+	display: inline-block;
+	margin: 15px 2px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	text-align:center;
+	font-weight: 800;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	&:hover{
+		color:$darkblue;
+		background-color:#ffffff;
+		}
+}		
+section#header {
+margin-bottom: 0%;
+}
+
+/*---------------------------Navigation-----------------------*/
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	padding-top:0 !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+	&:hover{
+		background-color: $darkblue;
+	}
+}
+/*navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;	
+}
+.navbar-nav {
+margin: 1.5px -4px;
+}
+.navbar-default .navbar-nav > ul {
+	background-color:#ffffff;
+	border-color:lighten($gray,20);
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:$darkblue;
+	background-color:#ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+font-weight: 700;
+	&:hover{
+		background-color:$darkblue;
+		color:#ffffff;
+	}
+}
+.navbar-toggle .icon-bar {
+	width: 19px;
+	height: 2px;
+}	
+
+.navbar-collapse{
+	border:0;
+}
+.sticky-navigation ul li {
+padding: 0px;
+border-bottom: 1px solid transparent;
+padding-bottom: 2px;
+}
+
+div.sticky-wrapper {
+height: 50px;
+margin-top: 50px;
+}
+.sticky-navigation.stuck {
+position: fixed;
+top: 0;
+box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+z-index: 1030;
+width: 100%;
+background-color: #f60;
+height: 280px;
+margin: 0;
+-webkit-box-shadow: 0px 1px 6px 0px rgba(68, 68, 68, 0.07);
+box-shadow: 0px 1px 6px 0px rgba(68, 68, 68, 0.07);
+}
+.stuck ul.navbar-nav {
+margin: 13.5px -15px;
+bckground-color:#ffffff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #e7e7e7;
+margin-left: 8%;
+height: auto;
+}
+
+/*---------------------------Home Section-----------------------*/
+ #home{
+ 	height: 500px;
+	background-color: blue;
+	margin-top:0;
+ }
+
+
+
+.hero-image{
+background: url("file://localhost/Users/kateeldridge/Desktop/yunick1.1/images/home.jpg");
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+  padding-top:0 !Important;
+		.container {
+		position: relative;
+		top: 67%;
+		}
+}
+
+.intro-btn{
+position: relative;
+width: 138px;
+margin: 0 auto;
+top: 319px;
+}
+
+.intro-copy{
+position: relative;
+width: 270px;
+margin: 0 auto;
+top: 331px;
+	h1{
+	font-size: 3em;
+	padding-bottom: 5%;
+}
+	h2 {
+		font-size:2.2em;
+		line-height: 60%;
+		color: #104151;
+		font-weight: 900;
+	}
+}
+
+.intro-copy div {
+padding-left: 22%;
+}
+
+/*---------------------------About Us Section-----------------------*/
+#about-us{
+	img {
+	top: -115px;
+	left: 68%;
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	overflow:inherit;
+	}
+}
+.opaque {
+	position: relative;
+	z-index: -100;
+	opacity: 0.4;
+}
+
+/*---------------------------Our Services Section-----------------------*/
+#ourservices{
+	background-color: rgba(117, 141, 143, 0.06);
+		img{
+		max-width: 276px;
+		-ms-transform: rotate(7deg);
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		left: -66%;
+		top: -15px;
+		}
+}
+#ourservices ul li{
+	max-height: 154px;	
+	padding-left: 5%;
+	padding-top: 9%;
+padding-bottom: 33%;
+}
+
+
+/*---------------------------Grid--------------------------------*/
+#grid{
+	padding:0;
+	background-color: #fff;
+}
+.port{
+top: -34px;
+position: absolute;
+z-index: 1000;
+width: 45%;
+left: 29%;
+padding-bottom: 2%;
+margin-top: 16%;
+padding-top: 5% !important;
+border: .9px solid white;
+color: white;
+	h2{
+	fint-weight:500 !important;
+	color:white;
+	}
+}
+.img-responsive{
+	width:100%;
+}
+* {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+ 
+      .item {
+        float: left;
+        border-bottom: 1px solid #ffffff;
+        padding: .15% !important;
+        -webkit-filter: grayscale(100%);
+      }
+      .item:hover{
+      -webkit-filter: grayscale(0%);
+      }
+      img-responsive{
+      width: 100%;
+      }
+/*--------------------------- Our Clients-----------------------*/
+
+#our-clients {
+margin-top: 10%;
+background-color: #C9C9C9;
+}
+#our-clients div {
+padding-bottom: 10%;
+}
+
+#our-clients ul {
+	padding: 3% 10% 6% 10%;
+}
+
+#our-clients li {
+	display: inline-block;
+}
+#our-clients img {
+	height: 75px;
+	width: 75px;
+}
+/*---------------------------Contact Us-----------------------*/
+#contact-us input[type="submit"]{
+	background: $darkblue;
+	color: #fff;
+	margin-left: 33%;
+	margin-bottom: 14%;
+	margin-top: 10%;
+	&:hover{
+		color:$darkblue;
+		background-color:#ffffff;
+	}	
+}
+
+#contact-us input[type="textarea"] {
+	height: 110px;
+}
+/*---------------------------Footer-----------------------*/
+footer.col-xs-12 {
+	padding: 0px 0;
+}	
+.subscribe{
+	background-color:#758D8F;
+	padding-bottom: 20%;
+}
+	.subscribe h3 {
+	padding: 7% 0 0 0;
+}
+
+.subscribe p {
+	padding: 0% 1%;
+	font-size: .76rem;
+	color: #ffffff;
+	text-align:center;
+}
+
+.subscribe input[type="email"] {
+	border: 1px solid #fff;
+	color: $darkblue;
+	padding: 4.5% 0 2% 4%;
+	margin: 0;
+	width:66%;
+}
+.subscribe input[type="submit"] {
+width: 31%;
+margin: 0;
+padding: 4% 0 3.5% 0;
+top: -3px;
+}
+	.contact-info {
+	padding: 14% .5% 3% 0;
+}
+
+.contact-info i.fa {
+    font-size: 1.5rem;
+    color:#ffffff;
+    margin-left: 47%;
+}
+
+.contact-info p {
+	padding: 14px 0;
+	text-align: center;
+}
+.contact-info a {
+color: #eae3cb;
+text-decoration: none;
+	&:hover{
+	color: #ffffff;
+	}
+}
+
+.social-media{
+		h2{
+		padding: 0 0 5% 0;
+			}
+		 li {
+		float: left;
+		padding: 0 1.8% 0% 0;
+			}
+			
+		 i.fa {
+			font-size: 2rem;
+			color:#ffffff
+		}
+
+		 p {
+		font-size: .7rem;
+		text-align: center;
+		}
+		ul{
+		margin-left:26%;
+		margin-bottom: 5%;
+		}
+}		
+
+/*-----------MEDIA QUERIES-----------------------*/
+
+
+/*xsl*/
+@media (min-width:468px) { 
+	body{
+		font-size:12px;
+	}
+	input, textarea{
+	padding: 7px 265px 8px 7px;
+	}
+	#home h1 {
+	padding-top: 32%;
+	}
+	.hero-image{
+	min-height: 600px;
+	height: 100%;
+	background-position: 0px -23px;
+		}
+	.hero-image .container {
+	top: 65%;
+	}
+	
+	.intro-copy{
+	width:302px;
+	}
+	section > div:first-child {
+	padding-top: 11%;
+	}
+	#about-us{
+	margin-top:17%;
+	} 
+#ourservices img{
+	left: -53%;
+top: 7px;
+}
+#our-clients ul {
+padding: 0 0% 6% 4%;
+}
+#our-clients p{
+	padding-left:0;
+}
+ }
+ .subscribe input[type="submit"] {
+ padding: 4% 0 2.4% 0;
+top: -3.4px;
+		p{
+		margin-bottom: 2%;
+		}
+ }
+
+/*sm*/
+@media (min-width:768px) { 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	margin-left:0;
+}
+
+#home h1 {
+padding-top: 29%;}
+
+.hero-image{
+	min-height: 622px;
+	background-position: 0px -57px;
+	}
+	.hero-image .container {
+	top: 58%;
+	}
+.subscribe {
+padding: 0% 3% 3% 3%;
+margin-top: -79px;
+margin-bottom: 0;
+}
+.contact-info ul li {
+margin-top: 71px;
+}
+footer {
+margin-top: 47px;
+}
+
+}
+
+/*md*/
+
+@media (min-width:992px){
+	
+	.hero-image{
+	min-height: 662px;
+	background-position: 0px -194px;
+	}
+
+}
+/*lg*/
+
+@media (min-width:1200px){
+	.hero-image{
+	min-height: 700px;
+	background-position: 0px -394px;
+	}
+}
+
+/*bootstrap*/
+@media (min-width: 320px) and (max-width: 467px) {
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_grid.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container-fluid:after {
+  clear: both;
+}
+
+/* line 39, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_grid.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 11, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 27, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1 {
+  width: 8.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-2 {
+  width: 16.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-4 {
+  width: 33.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-5 {
+  width: 41.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-7 {
+  width: 58.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-8 {
+  width: 66.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-10 {
+  width: 83.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-11 {
+  width: 91.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 55, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-1 {
+  right: 8.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-2 {
+  right: 16.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-4 {
+  right: 33.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-5 {
+  right: 41.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-7 {
+  right: 58.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-8 {
+  right: 66.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-10 {
+  right: 83.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-11 {
+  right: 91.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 45, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-1 {
+  left: 8.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-2 {
+  left: 16.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-4 {
+  left: 33.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-5 {
+  left: 41.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-7 {
+  left: 58.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-8 {
+  left: 66.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-10 {
+  left: 83.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-11 {
+  left: 91.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-1 {
+  margin-left: 8.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-4 {
+  margin-left: 33.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-5 {
+  margin-left: 41.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-7 {
+  margin-left: 58.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-8 {
+  margin-left: 66.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-10 {
+  margin-left: 83.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-11 {
+  margin-left: 91.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+}
+/*xsl*/
+
+
+@media (min-width: 468px) and (max-width: 767px) {
+ 
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_grid.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.container-fluid:after {
+  clear: both;
+}
+
+/* line 39, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_grid.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 11, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xsl-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xsl-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xsl-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xsl-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xsl-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xsl-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xsl-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xsl-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xsl-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xsl-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xsl-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 27, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-1, .col-xsl-2, .col-xsl-3, .col-xsl-4, .col-xsl-5, .col-xsl-6, .col-xsl-7, .col-xsl-8, .col-xsl-9, .col-xsl-10, .col-xsl-11, .col-xsl-12 {
+  float: left;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-1 {
+  width: 8.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-2 {
+  width: 16.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-3 {
+  width: 25%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-4 {
+  width: 33.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-5 {
+  width: 41.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-6 {
+  width: 50%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-7 {
+  width: 58.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-8 {
+  width: 66.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-9 {
+  width: 75%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-10 {
+  width: 83.3333333333%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-11 {
+  width: 91.6666666667%;
+}
+
+/* line 35, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-12 {
+  width: 100%;
+}
+
+/* line 55, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-0 {
+  right: auto;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-1 {
+  right: 8.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-2 {
+  right: 16.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-3 {
+  right: 25%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-4 {
+  right: 33.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-5 {
+  right: 41.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-6 {
+  right: 50%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-7 {
+  right: 58.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-8 {
+  right: 66.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-9 {
+  right: 75%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-10 {
+  right: 83.3333333333%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-11 {
+  right: 91.6666666667%;
+}
+
+/* line 50, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-pull-12 {
+  right: 100%;
+}
+
+/* line 45, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-0 {
+  left: auto;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-1 {
+  left: 8.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-2 {
+  left: 16.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-3 {
+  left: 25%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-4 {
+  left: 33.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-5 {
+  left: 41.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-6 {
+  left: 50%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-7 {
+  left: 58.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-8 {
+  left: 66.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-9 {
+  left: 75%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-10 {
+  left: 83.3333333333%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-11 {
+  left: 91.6666666667%;
+}
+
+/* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-push-12 {
+  left: 100%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-1 {
+  margin-left: 8.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-4 {
+  margin-left: 33.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-5 {
+  margin-left: 41.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-7 {
+  margin-left: 58.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-8 {
+  margin-left: 66.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-10 {
+  margin-left: 83.3333333333%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-11 {
+  margin-left: 91.6666666667%;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
+.col-xsl-offset-12 {
+  margin-left: 100%;
+}
+}

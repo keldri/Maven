@@ -1,47 +1,219 @@
-//layout------------
-.layout{
-	padding:3%;
-}
-//header----------------------
+//layout-----------
 
-header{
-	img{
-		width:95%;
-		margin:2.5%;
-		max-width:500px;
-		margin-bottom:0;
+/*****************Navigation***************/
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	padding-top:0 !important;//see if this is important when you have jquery
+}
+.navbar-toggle .icon-bar {
+	background-color: #ffffff;	
+	width: 19px;
+	height: 2px;
+}
+.navbar-default .navbar-toggle:hover {
+	background-color: $color-secondary;
+}//is this neccessary? with jquery
+
+
+.navbar-nav { //check on this with media queries when you have jquery
+	margin: 1.5px -4px;//is this neccessary? with jquery
+	ul {
+		background-color:#f60;
+		border-color:lighten($gray,20);
+		}
+	 a {
+		color:$color-secondary;
+		background-color:#ffffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1.3em;
+		font-weight: 700;
+		&:hover{
+			background-color:$color-secondary;
+			color:#ffffff;
+			}
+		}
+}//these are all stylistic not layout
+/*****************Sticky Navigation*********/
+.sticky-navigation ul li {
+padding: 0px;
+border-bottom: 1px solid transparent;
+padding-bottom: 2px;
+}
+div.sticky-wrapper {
+height: 50px;
+margin-top: 50px;
+}
+.sticky-navigation.stuck {
+height: 280px;
+width: 100%;
+margin: 0;
+position: fixed;
+top: 0;
+z-index: 1030;
+background-color: #f60;
+ @include box-shadow ( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 );
+}
+.stuck ul.navbar-nav {
+margin: 13.5px -15px;
+background-color:#ffffff;
+}
+
+
+
+/*---------------------------Home Section-----------------------*/
+ #home{
+ 	height: 500px;
+	background-color: blue;
+	margin-top:0;
+ }
+.hero-image{
+	background: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/home.jpg");
+	@include background-size(cover);
+	height:100%;
+	padding-top:0 !Important;
+		.container {
+		position: relative;
+		top: 67%;
+		}
+}
+.intro-btn{
+position: relative;
+width: 138px;
+margin: 0 auto;
+top: 319px;
+}
+.intro-copy{
+position: relative;
+width: 270px;
+margin: 0 auto;
+top: 331px;
+	h1{
+	padding-bottom: 5%;
 	}
 }
 
-//navigation------------
+/*---------------------------About Us Section-----------------------*/
+/*#about-us img {
+	top: -115px;
+	left: 68%;
+	overflow:inherit;
+	@include rotate (70);
+	}*/
+/*---------------------------Our Services Section-----------------------*/
+#ourservices{
+	background-color: rgba(117, 141, 143, 0.06);
+		img{
+			max-width: 276px;
+			@include rotate (7);
+			left: -66%;
+			top: -15px;
+		}
+		 li{
+			max-height: 154px;	
+			padding-left: 5%;
+			padding-top: 9%;
+			padding-bottom: 33%;//consolidate padding
+		}
+}
 
-.navigation{
-	background:lighten($darkblue, 15);
-	ul.nav{
-		li{
-			i{
-				color:lighten($yellow,20);
-				padding-right:.5ems;
+/*---------------------------Grid--------------------------------*/
+#grid{
+	padding:0;
+	background-color: #fff;
+}
+.port {
+position: relative;
+top: 54px;
+z-index: 1000;
+height: 50px;
+width: 45%;
+left: 29%;
+padding-bottom: 2%;
+padding: 5% 0 0 6%;//consolidate padding
+border: .9px solid white;
+color: white;
+	h2{
+		position: absolute;
+		font-weight:500 !important;
+		color:white;
+	}
+}
+* {
+@include box-sizing(border-box);
+    }
+      .item {
+        float: left;
+        border-bottom: 1px solid #ffffff;
+        padding: .15% !important;
+        -webkit-filter: grayscale(100%);
+      }
+      .item:hover{
+      -webkit-filter: grayscale(0%);
+      }
+      
+/*--------------------------- Our Clients-----------------------*/
+#our-clients {
+background-color: #C9C9C9;
+	div {
+		padding-bottom: 10%;
+	}
+	 p {
+		padding-top: 5%;
+	}
+	li {
+		display: inline-block;
+	}
+	 img {
+		height: 75px;
+		width: 75px;
+	}
+}
+/*---------------------------Contact Us-----------------------*/
+#contact-us input[type="submit"]{
+	background: $color-secondary;
+	margin-left: 33%;
+	margin-bottom: 14%;
+	margin-top: 10%;//consolidate margins	
+}
 
-			}//icons
-			a{
-			display:block;
-			text-decoration:underline;
-			padding:5px 10px;
-			color:$paleryellow;
-			}//a
-		}//li
-
-	}//ul.nav
-
-}//navigation
-
-//footer------------
-
+#contact-us input[type="textarea"] {
+	height: 110px;
+}
+/*---------------------------Footer-----------------------*/
 footer{
-	color:$paleyellow;
-	background:lighten($darkblue,3);
-	padding-bottom:100px;
-}//footer
+color: $paleyellow;
+background: $color-primary;
+padding-bottom: 100px;
+		h2{
+		padding: 0 0 5% 0;
+			}
+		ul {
+			margin-top: 14% !important;
+			margin-left: 0 !important;
+			margin-bottom: 0!important;//consolidate
+		}
+		 li {
+		float: left;
+		padding: 0 1.8% 0% 0;
+				 p {
+					padding: 14px 0;
+					text-align: center;
+					font-size: 1.3em;
+				}
+			}
+		a {
+			color: #eae3cb;
+			text-decoration: none;
+				&:hover{
+				color: #ffffff;
+				}
+		}
 
+		 i.fa {
+			font-size: 2rem;
+			color:#ffffff;
+		}
 
+}

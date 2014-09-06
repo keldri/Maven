@@ -7,11 +7,12 @@ body{
 	font-family: $font-primary;
 	font-size:10px;
 	line-height:160%;
-	color:$darkblue;
+	color:$color-secondary;
 }
-section > div:first-child {
-padding-top: 17%;
+.container-fluid {
+padding-top: 12%;
 }
+//check to see how this affects mobile when have internet resizer
 
 #{headings()}{
 	font-family: $font-secondary;
@@ -19,7 +20,6 @@ padding-top: 17%;
 	color:#ffffff;
 	text-align:	center;
 	padding-bottom:4%;
-	/*@include text-shadow($paleryellow 1px 1px);*/
 }
 
 h1{
@@ -29,11 +29,11 @@ h1{
 h2 {
 	font-size:2.2em;
 	line-height: 60%;
-	color: #104151;
+	color: $color-primary;
 	font-weight: 900;
 }
 h3{
-color: $darkblue;
+color:$color-secondary;
 font-weight: 100;
 line-height: 18px;
 font-size: 1.6em;
@@ -42,7 +42,7 @@ font-size: 1.6em;
 h4{
 	font-size: 1.6em;
 	line-height: 100%;
-	color: $darkblue;
+	color: $color-secondary;
 	margin: 0;
 	font-weight: 400;
 	text-align: center;
@@ -53,7 +53,7 @@ a{
 	text-decoration:underline;
 	color:$mediumgray;
 	&:hover{
-		clor:$orange;
+		color:orange;
 	}
 }
 
@@ -64,18 +64,13 @@ font-family:$font-primary;
 	text-align: left;
 	line-height:20px;
 }
-
-.small{
-	font-size:1rem;
-	color:$blue;
-}
 input,textarea {
 	width:100%;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
 	font-size: .9rem;
-	color: $darkblue;
+	color: $color-secondary;
 	cursor: pointer;
 	padding: 5%;
 	display: inline-block;
@@ -88,7 +83,7 @@ input,textarea {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	border: 1px solid $darkblue;
+	border: 1px solid $color-secondary;
 }
 button, input[type="submit"]  {
 	border: none;
@@ -111,153 +106,13 @@ button, input[type="submit"]  {
 	background: transparent;
 	color: #fff;
 	&:hover{
-		color:$darkblue;
+		color:$color-secondary;
 		background-color:#ffffff;
 		}
 }		
-section#header {
-margin-bottom: 0%;
-}
 
-/*---------------------------Navigation-----------------------*/
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-	padding-top:0 !important;
-}
-.navbar-default .navbar-toggle {
-	border-color: transparent;
-	&:hover{
-		background-color: $darkblue;
-	}
-}
-/*navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: transparent;
-}*/
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #ffffff;	
-}
-.navbar-nav {
-margin: 1.5px -4px;
-}
-.navbar-default .navbar-nav > ul {
-	background-color:#ffffff;
-	border-color:lighten($gray,20);
-}
-
-.navbar-default .navbar-nav > li > a{
-	color:$darkblue;
-	background-color:#ffffff;
-	text-align: center;
-	text-decoration: none;
-	font-size: 1.3em;
-font-weight: 700;
-	&:hover{
-		background-color:$darkblue;
-		color:#ffffff;
-	}
-}
-.navbar-toggle .icon-bar {
-	width: 19px;
-	height: 2px;
-}	
-
-.navbar-collapse{
-	border:0;
-}
-.sticky-navigation ul li {
-padding: 0px;
-border-bottom: 1px solid transparent;
-padding-bottom: 2px;
-}
-
-div.sticky-wrapper {
-height: 50px;
-margin-top: 50px;
-}
-.sticky-navigation.stuck {
-position: fixed;
-top: 0;
-box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-z-index: 1030;
-width: 100%;
-background-color: #f60;
-height: 280px;
-margin: 0;
--webkit-box-shadow: 0px 1px 6px 0px rgba(68, 68, 68, 0.07);
-box-shadow: 0px 1px 6px 0px rgba(68, 68, 68, 0.07);
-}
-.stuck ul.navbar-nav {
-margin: 13.5px -15px;
-bckground-color:#ffffff;
-}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-border-color: #e7e7e7;
-margin-left: 8%;
-height: auto;
-}
-
-/*---------------------------Home Section-----------------------*/
- #home{
- 	height: 500px;
-	background-color: blue;
-	margin-top:0;
- }
-
-
-
-.hero-image{
-background: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/home.jpg");
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:100%;
-  padding-top:0 !Important;
-		.container {
-		position: relative;
-		top: 67%;
-		}
-}
-
-.intro-btn{
-position: relative;
-width: 138px;
-margin: 0 auto;
-top: 319px;
-}
-
-.intro-copy{
-position: relative;
-width: 270px;
-margin: 0 auto;
-top: 331px;
-	h1{
-	font-size: 3em;
-	padding-bottom: 5%;
-}
-	h2 {
-		font-size:2.2em;
-		line-height: 60%;
-		color: #104151;
-		font-weight: 900;
-	}
-}
-
-.intro-copy div {
-padding-left: 22%;
-}
-
-/*---------------------------About Us Section-----------------------*/
-#about-us{
-	img {
-	top: -115px;
-	left: 68%;
-	-ms-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
-	transform: rotate(30deg);
-	overflow:inherit;
-	}
+.img-responsive{
+	width:100%;
 }
 .opaque {
 	position: relative;
@@ -265,113 +120,12 @@ padding-left: 22%;
 	opacity: 0.4;
 }
 
-/*---------------------------Our Services Section-----------------------*/
-#ourservices{
-	background-color: rgba(117, 141, 143, 0.06);
-		img{
-		max-width: 276px;
-		-ms-transform: rotate(7deg);
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-		left: -66%;
-		top: -15px;
-		}
-}
-#ourservices ul li{
-	max-height: 154px;	
-	padding-left: 5%;
-	padding-top: 9%;
-padding-bottom: 33%;
-}
-
-
-/*---------------------------Grid--------------------------------*/
-#grid{
-	padding:0;
-	background-color: #fff;
-}
-.port{
-top: -34px;
-position: absolute;
-z-index: 1000;
-width: 45%;
-left: 29%;
-padding-bottom: 2%;
-margin-top: 16%;
-padding-top: 5% !important;
-border: .9px solid white;
-color: white;
-	h2{
-	fint-weight:500 !important;
-	color:white;
-	}
-}
-.img-responsive{
-	width:100%;
-}
-* {
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
- 
-      .item {
-        float: left;
-        border-bottom: 1px solid #ffffff;
-        padding: .15% !important;
-        -webkit-filter: grayscale(100%);
-      }
-      .item:hover{
-      -webkit-filter: grayscale(0%);
-      }
-      img-responsive{
-      width: 100%;
-      }
-/*--------------------------- Our Clients-----------------------*/
-
-
-#our-clients {
-margin-top: 10%;
-background-color: #C9C9C9;
-}
-
-#our-clients div {
-padding-bottom: 10%;
-}
-
-#our-clients > div > p {
-padding-top: 5%;
-}
-
-#our-clients li {
-	display: inline-block;
-}
-#our-clients img {
-	height: 75px;
-	width: 75px;
-}
-/*---------------------------Contact Us-----------------------*/
-#contact-us input[type="submit"]{
-	background: $darkblue;
-	color: #fff;
-	margin-left: 33%;
-	margin-bottom: 14%;
-	margin-top: 10%;
-	&:hover{
-		color:$darkblue;
-		background-color:#ffffff;
-	}	
-}
-
-#contact-us input[type="textarea"] {
-	height: 110px;
-}
 /*---------------------------Footer-----------------------*/
 footer.col-xs-12 {
 	padding: 0px 0;
 }	
 .subscribe{
-	background-color:#758D8F;
+	background-color:$color-primary;
 	padding-top: 7%;
 	padding-bottom: 17%;
 	p{
@@ -380,7 +134,7 @@ footer.col-xs-12 {
 }
 .subscribe input[type="email"] {
 	border: 1px solid #fff;
-	color: $darkblue;
+	color: $color-secondary;
 	padding: 4.5% 0 2% 4%;
 	margin: 0;
 	width:66%;
@@ -394,56 +148,7 @@ margin: 0;
 	.contact-info {
 	padding: 14% .5% 3% 0;
 }
-
-
- footer ul li {
- .fa{
-    font-size: 1.5rem;
-    color:#ffffff;
-    margin-left: 47%;}
- 
- p {
-	padding: 14px 0;
-	text-align: center;
-	font-size: 1.3em;
-}
- 
- a {
-color: #eae3cb;
-text-decoration: none;
-	&:hover{
-	color: #ffffff;
-	}
-}
-}
-
-
-footer{
-		h2{
-		padding: 0 0 5% 0;
-			}
-		 li {
-		float: left;
-		padding: 0 1.8% 0% 0;
-			}
-			
-		 i.fa {
-			font-size: 2rem;
-			color:#ffffff
-		}
-
-		 p {
-		font-size: .7rem;
-		text-align: center;
-		}
 		
-	ul {
-	margin-top: 14% !important;
-	margin-left: 0 !important;
-	margin-bottom: 0!important;
-	}
-		
-}		
 /*-----------MEDIA QUERIES-----------------------*/
 
 

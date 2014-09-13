@@ -1,0 +1,129 @@
+@media (min-width:768px){
+     header{
+     height: 10%;
+     padding-top: 3%;
+     background-color:black;
+     }
+      lable.to_nav {
+        display: none;
+    }
+    label.to_nav {
+        display: none;
+    }
+     
+    .wrapper {
+        position: relative;
+        width: 768px;
+        margin: auto;
+    }
+     
+    #menu {
+position: absolute;
+top: 32%;
+right: 2%;
+background: none;
+display:inline;
+margin-top:0;
+}
+   
+     
+    #menu li {
+        display: inline;
+    }
+     
+    #menu li a {
+        float: left;
+        border: none;
+        padding: 0 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: transparent;
+        text-transform: uppercase;
+    }
+  
+ 
+/* newnav*/
+      .hero-image .container {
+      top: 58%;
+      }
+    padding: 3%;
+margin-top: -131px;
+margin-bottom: 0;
+background-color: #73B2C7;
+width: 75%;
+margin: -131px auto 0 auto;
+
+    .contact-info ul li {
+    margin-top: 71px;
+    }
+
+    footer {
+    margin-top: 47px;
+      ul {
+      margin-top: 14% !important;
+      margin-left: 0 !important;
+      margin-bottom: 0!important;
+      }
+    }
+    #our-clients img {
+    height: 100px;
+    width: 100px;
+    }
+
+  .port h2 {
+    font-size: 2em;
+    padding: 4% 0;
+    top: 40px; 
+    }
+
+ 
+
+
+#our-clients img {
+height: 150px;
+width: 150px;
+}
+
+.subscribe {
+padding: 3%;
+background-color: #73B2C7;
+margin: -131px auto 0 auto;
+}
+#contact-us{
+  width: 70%;
+margin: 0 auto;
+}
+/*---------Contact-info--------*/
+.contact-info {
+margin: 5%;
+height: 300px;
+padding:0px;
+}
+.contact-info li {
+margin-bottom: 2%;
+width: 30%;
+float: left;
+padding: 12% 9%;
+
+}
+
+/*--end query--*/
+}
+
+
+@media (min-width:992px){
+.contact-info li {
+width: 33%;
+}
+
+}
+  
+
+
+
+
+@media (min-width:1200px){
+  
+  
+}

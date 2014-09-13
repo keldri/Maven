@@ -1,99 +1,160 @@
 //layout-----------
 
-/*****************Navigation***************/
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-	padding-top:0 !important;//see if this is important when you have jquery
-}
-.navbar-toggle .icon-bar {
-	background-color: #ffffff;	
-	width: 19px;
-	height: 2px;
-}
-.navbar-default .navbar-toggle:hover {
-	background-color: $color-secondary;
-}//is this neccessary? with jquery
-
-
-.navbar-nav { //check on this with media queries when you have jquery
-	margin: 1.5px -4px;//is this neccessary? with jquery
-	ul {
-		background-color:#f60;
-		border-color:lighten($gray,20);
-		}
-	 a {
-		color:$color-secondary;
-		background-color:#ffffff;
-		text-align: center;
-		text-decoration: none;
-		font-size: 1.3em;
-		font-weight: 700;
-		&:hover{
-			background-color:$color-secondary;
-			color:#ffffff;
-			}
-		}
-}//these are all stylistic not layout
-/*****************Sticky Navigation*********/
-.sticky-navigation ul li {
-padding: 0px;
-border-bottom: 1px solid transparent;
-padding-bottom: 2px;
-}
-div.sticky-wrapper {
-height: 50px;
-margin-top: 50px;
-}
-.sticky-navigation.stuck {
-height: 280px;
-width: 100%;
-margin: 0;
+/*header*/
+ 
+header {
+background: transparent;
+padding: 15px 20px;
 position: fixed;
-top: 0;
-z-index: 1030;
-background-color: #f60;
- @include box-shadow ( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 );
+width: 100%;
+z-index: 10;
 }
-.stuck ul.navbar-nav {
-margin: 13.5px -15px;
-background-color:#ffffff;
+ 
+        /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+        header:before,
+        header:after {
+            content:"";
+            display:table;
+        }
+         
+        header:after {
+            clear:both;
+        }
+         
+        /* For IE 6/7 (trigger hasLayout) */
+        header {
+            zoom:1;
+        }
+ 
+h1.logo{
+	padding-bottom: 8%;
+	a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2em;
+	}
 }
+ 
+label.to_nav {
+float: right;
+color: #fff;
+background: rgba(0, 0, 0, 0.55);text-decoration: none;
+padding: 0 10px;
+font-size: 12px;
+font-weight: bold;
+line-height: 22px;
+height: 32px;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+margin-top: -8%;
+background-image: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/menu.svg");
+width: 32px;
+}
+ 
+label.to_nav:hover,
+label.to_nav:focus {
+   background: rgba(16, 65, 81, 0.92);
+background-image: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/menu.svg");
+
+}
+/*navigation*/ 
+ 
+#primary_nav ul {
+    list-style: none;
+    padding: 5px 0;
+    border-color:lighten($gray,20);
+}
+ 
+#menu li {
+padding: 0px;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+	a {
+background-color: rgba(0, 0, 0, 0.82);
+text-align: center;
+text-decoration: none;
+font-size: 1.3em;
+font-weight: 700;
+display: block;
+padding: 0 31px;
+color: #fff;
+letter-spacing: 0.1em;
+line-height: 2em;
+height: 2em;
+border-bottom: 0;
+padding-bottom: 11.5%;
+padding-top: 3%;
+text-transform: uppercase;
+		&:hover{
+		background-color: rgb(191, 191, 196);
+		}
+		}
+}		
+	 
+#primary_nav li:last-child a {
+    border-bottom: none;
+}
+ 
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+/*Test2 nav*/
+ label {
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+#menu {
+  display: none;
+  margin-top: 10%;
+}
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
 
 
 
 /*---------------------------Home Section-----------------------*/
  #home{
  	height: 500px;
-	background-color: blue;
-	margin-top:0;
+	margin-top: 0;
+	padding: 0;
  }
+
 .hero-image{
 	background: url("file://localhost/Users/kateeldridge/Documents/kivvi/images/home.jpg");
 	@include background-size(cover);
 	height:100%;
 	padding-top:0 !Important;
-		.container {
-		position: relative;
-		top: 67%;
-		}
-}
-.intro-btn{
-position: relative;
-width: 138px;
-margin: 0 auto;
-top: 319px;
+		
 }
 .intro-copy{
 position: relative;
-width: 270px;
-margin: 0 auto;
-top: 331px;
+top: 72%;
 	h1{
-	padding-bottom: 5%;
+	padding-bottom: 6%;
+	}
+	h2{
+	padding-bottom: 0%;
 	}
 }
-
+.intro-btn {
+margin: 0 auto;
+text-align: center;
+}
 /*---------------------------About Us Section-----------------------*/
 /*#about-us img {
 	top: -115px;
@@ -109,10 +170,15 @@ top: 331px;
 			@include rotate (7);
 			left: -66%;
 			top: -15px;
-		}
+			-webkit-transform: rotate(7deg);
+transform: rotate(7deg);
+transform: translateX(-200px); 
+transform: translateX(10px);
+-webkit-animation: moveLeft 1.65s ease forwards;
+}
+		
 		 li{
 			max-height: 154px;	
-			padding-left: 5%;
 			padding-top: 9%;
 			padding-bottom: 33%;//consolidate padding
 		}
@@ -120,39 +186,46 @@ top: 331px;
 
 /*---------------------------Grid--------------------------------*/
 #grid{
-	padding:0;
 	background-color: #fff;
+	padding-top: 0;
+	min-height: 1690px;
 }
 .port {
 position: relative;
-top: 54px;
-z-index: 1000;
-height: 50px;
-width: 45%;
-left: 29%;
-padding-bottom: 2%;
-padding: 5% 0 0 6%;//consolidate padding
-border: .9px solid white;
-color: white;
-	h2{
-		position: absolute;
-		font-weight:500 !important;
-		color:white;
+margin-left: 35%;
+	h2 {
+	position: absolute;
+	font-weight: 500 !important;
+	color: white;
+	top: 20px;
+	padding: 7% 4%;
+	border: .9px solid white;
+	z-index: 1000;
+	font-size: 1.5em;
 	}
 }
+.wrapper { position: relative; }
+.wrapper .item { position: absolute; }
 * {
 @include box-sizing(border-box);
     }
       .item {
         float: left;
-        border-bottom: 1px solid #ffffff;
         padding: .15% !important;
         -webkit-filter: grayscale(100%);
+        width:24%;
       }
       .item:hover{
       -webkit-filter: grayscale(0%);
       }
       
+      .item.w2{
+      width:49%;
+      }
+       .item.w3{
+      width:74%
+      }
+     
 /*--------------------------- Our Clients-----------------------*/
 #our-clients {
 background-color: #C9C9C9;
@@ -161,6 +234,11 @@ background-color: #C9C9C9;
 	}
 	 p {
 		padding-top: 5%;
+	}
+	ul{
+padding-bottom: 6%;
+width: 81%;
+margin: 0 auto;
 	}
 	li {
 		display: inline-block;
@@ -172,30 +250,38 @@ background-color: #C9C9C9;
 }
 /*---------------------------Contact Us-----------------------*/
 #contact-us input[type="submit"]{
-	background: $color-secondary;
-	margin-left: 33%;
-	margin-bottom: 14%;
-	margin-top: 10%;//consolidate margins	
+
+background: #0a2933;
+padding: 4%;
+	&:hover{
+color: #0a2933;
+background-color: #ffffff;
+border: 1px solid #0a2933;
+	}
 }
 
 #contact-us input[type="textarea"] {
 	height: 110px;
+}
+#contact-us p {
+text-align: center;
 }
 /*---------------------------Footer-----------------------*/
 footer{
 color: $paleyellow;
 background: $color-primary;
 padding-bottom: 100px;
-		h2{
-		padding: 0 0 5% 0;
-			}
-		ul {
-			margin-top: 14% !important;
-			margin-left: 0 !important;
-			margin-bottom: 0!important;//consolidate
-		}
+		 h3 {
+padding: 0 0 5% 0;
+color: #ffffff;
+font-weight: 600;
+font-family: muli;
+text-transform: uppercase;
+}
+		p{
+		text-align:center;
+		}	
 		 li {
-		float: left;
 		padding: 0 1.8% 0% 0;
 				 p {
 					padding: 14px 0;
@@ -216,4 +302,23 @@ padding-bottom: 100px;
 			color:#ffffff;
 		}
 
+}
+.social-media {
+margin: 0 23% 12% 23%;
+}
+.social-media li {
+float: left;
+display: inline-block;
+}
+.contact-info{
+margin: 0% 1%;
+background-color: rgba(51, 51, 51, 0.24);
+	li{
+	margin-bottom:2%;
+	font-size: .9em;
+	text-align: center;
+	}
+}
+.scalers:hover{
+@include scale(3);
 }

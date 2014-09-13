@@ -28,3 +28,10 @@
 @mixin rotate ($deg) {
   @include transform(rotate(#{$deg}deg));
 }
+
+@mixin scale ($scale){
+	/* -webkit-transform: $scale; */
+-moz-transform: $scale;
+-o-transform: $scale;
+
+}

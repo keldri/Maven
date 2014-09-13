@@ -20,55 +20,38 @@
 	    <![endif]-->
 		</head>
 	<body>
-		<section id="header">
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-					<!-- BEGIN: NAV-CONTAINER -->
-					<div class="nav-container container sticky-navigation">
-				    	<div class="navbar-header">
-				        	<!-- BEGIN: TOGGLE BUTTON (RESPONSIVE)-->
-				        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					        	<span class="sr-only">Toggle navigation</span>
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					        </button>
-					        
-				        	<!-- BEGIN: LOGO -->
-					        <a class="navbar-brand nav-to logo" href="index.html"></a>
-				        </div><!--navbar-header-->
-				       	
-				       	<!-- BEGIN: MENU -->       
-				        <div class="navbar-collapse collapse col-xs-10">
-					        <ul class="nav navbar-nav " data-smartmenus-id="14042774936109922">
-						    	<li><a class="nav-to selected" href="#home-fsslider">HOME</a></li>
-						    	<li><a class="nav-to" href="#about">ABOUT US</a></li>
-						        <li><a class="nav-to" href="#services">SERVICES</a></li> 
-							    <li><a class="nav-to" href="#portfolio">PORTFOLIO</a></li>
-							    <li><a class="nav-to" href="#clients">CLIENTS</a></li>
-							    <li><a class="nav-to" href="#contacts">CONTACT</a></li>
-							    <li><a class="nav-to" href="blog.html">BLOG</a></li>
-							 
-							</ul><!--nav navbar-nav navbar-right sm-->
-						</div><!-- END: MENU -->
-					</div> <!--END: NAV-CONTAINER -->
-			</div><!--END: NAVBAR -->
-		</section><!--END:HEADER -->
+		         
+	<header>
+	    <h1 class="logo"><a href="">Nav</a></h1>
+
+	
+<label for="menu-toggle" class="to_nav"></label>
+<input type="checkbox" id="menu-toggle"/>
+
+			<ul id="menu">
+				<li><a href="#">Friends</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Etc</a></li>
+				<li><a href="#">Other Stuff</a></li>
+			</ul>
+		</header>
 	 	<section id="home">
-	 		<div class="hero-image">
+		 	  <!--hero-image-->
+		  	  <div class="hero-image">
+		  	  
 	 			<div class="intro-copy">
 	 				<h1>KIVVI</h1>
 			 		<h2>ARTIST EXTRORDINARE</h2>
-		 		</div><!--test-->
-		 		<div class="intro-btn">
-		 		<button>LOVES</button>
-			 	<button>HATES</button>
-		 		</div>
-
-	 		</div>
-	 	</section><!--END:HOME -->
-		<section id="about-us" class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12">
+			 		<div class="intro-btn">
+				 		<button>ME</button>
+					 	<button>MY WORK</button>
+			 		</div><!--intro-btn-->
+		 		</div><!--intro-copy-->
+	 	</div><!--hero-image-->
+	 	</section>
+		<section id="about-us" class="sections">
+				<div>
 					<h2>KIVVI</h2>
 					<h3>JUST TRY ME</h3>
 					<p>These are my thoughts, expressions, feelings, moods and desires all laid out before you in photos and videos. I want this blog to be a reflection of my life; the things I find beautiful and inspiring. All materials are works that I have either styled, photographed, modeled or directed. Enjoy!</p>
@@ -79,26 +62,25 @@
 		</section><!--END:ABOUT US -->
 
 
-		<section id="ourservices" class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12">	
+		<section id="ourservices" class="sections">
+				<div>	
 					<h2>TASTEMAKER</h2>
 					<h3>PHOTOGRAPHER-ART DIRECTOR-TRENDSETTER</h3>
 				</div><!--end col-xs-12-->
-				<div class="col-xs-12 col-xsl-10 col-xsl-offset-1">
+				<div>
 					<ul>
-						<li class="col-xs-12 col-sm-4">
+						<li>
 							<h4>Photographer</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. </p>
 							<img class="opaque" src="images/cardcase.jpg" alt="placeholder">
 						</li>
-						<li class="col-xs-12 col-sm-4">
+						<li>
 							<h4>Art Director</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. </p>
 						</li>
-						<li class="col-xs-12 col-sm-4">
+						<li>
 							<h4>Trendsetter</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -108,21 +90,24 @@
 			</div><!--end row-->
 		</section><!--end ourservices-->
 
-		<section id="grid" class="container-fluid"> 
-			<div class="row">
-			    <div id='masonry'>
-					  <div class="item col-xs-12 col-xsl-6 col-sm-6">
-					  	<img class="img-responsive" src="images/Kivvi-1.jpg" alt="img placeholder">
-					  </div>
-					   <div class="item col-xs-12 col-xsl-6 col-sm-6">
+		<section id="grid"> 
+			
+			   		 <div class="port"><h2>PORTFOLIO</h2></div><!--end port h2-->
+
+			    <div id="masonry" class="container">
+					  <div class="item w3">
 					  	<img class="img-responsive" src="images/Kivvi-2.jpg" alt="img placeholder">
 					  </div>
-					   <div class="item col-xs-12 col-xsl-6 col-sm-6">
+					  <div class="item">
+					  	<img class="img-responsive" src="images/Kivvi-1.jpg" alt="img placeholder">
+					  </div>
+					   <div class="item">
 					  	<img class="img-responsive" src="images/Kivvi-3.jpg" alt="img placeholder">
 					  </div>
-					   <div class="item col-xs-12 col-xsl-6 col-sm-6">
+					   <div class="item">
 					  	<img class="img-responsive" src="images/Kivvi-4.jpg" alt="img placeholder">
 					  </div>
+					   
 					  <!-- <div class="item col-xs-12 col-sm-6">
 					  	<img class="img-responsive" src="#" alt="img placeholder">
 					  </div>
@@ -132,39 +117,34 @@
 					   <div class="item col-xs-12 col-sm-6">
 					  	<img class="img-responsive" src="#" alt="img placeholder">
 					  </div>-->
-					  <div class="port"><h2>PORTFOLIO</h2></div><!--end port h2-->
-
 				</div><!--END:MASONRY -->
-			</div><!--end row-->
 		</section>	<!--END:GRID -->
 		
-		<section id="our-clients" class="container-fluid"> 
-			<div class="row"> 
+		<section id="our-clients" class="sections"> 
 				<h2>FAVORITES</h2>
 				<h3>CAN'T LOVE 'EM ALL</h3>
-				<ul class="col-xs-10 col-xs-offset-1 col-xsl-7 col-sm-6">
-					<li><a href=""><img src="images/thumb1.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb2.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb3.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb4.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb5.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb6.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb7.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb8.jpg" alt="client thumbs"></a></li>
-					<li><a href=""><img src="images/thumb9.jpg" alt="client thumbs"></a></li>
+				<ul>
+					<li><a href="#"><img src="images/thumb1.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb2.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb3.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb4.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb5.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb6.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb7.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb8.jpg" alt="client thumbs"></a></li>
+					<li><a href="#"><img src="images/thumb9.jpg" alt="client thumbs"></a></li>
 				</ul>
-				<p class="col-xsl-5 col-sm-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aiqua.</p>
 			</div><!--end row -->
 		
 		</section><!--END:OUR-CLIENTS -->
-		<section id="contact-us" class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-xsl-10 col-xsl-offset-1 col-sm-8 col-sm-offset-2">
+		<section id="contact-us" class="sections">
+				<div>
 					<h2>KEEP IN TOUCH</h2>
 					<p>Keep in touch.  Kivvi loves to collaborate, create, and get feedback.</p>
 				</div><!--END:CONTACT US DIV -->
-				<div class="col-xs-12 col-xsl-10 col-xsl-offset-1 col-sm-8 col-sm-offset-2">
+				<div>
 				<form action="contact-form/send.php" method="post">
 					<input type="text" name="name" is="" placeholder="NAME">
 					<input type="email" name="email-contact" is="" placeholder="EMAIL">
@@ -175,95 +155,73 @@
 				</div>
 			</div><!--end row-->
 		</section><!--END:CONTACT US -->
-		<footer class="container-fluid">
-			<div class="row">
-				<div class="subscribe col-sm-6 col-sm-offset-3">
+		<footer class="sections">
+				<div class="subscribe">
 					<div>
 						<h3>Subscribe our Newsletter</h3>
 						<p>Lorem Ipsum available of Lorem Ipsum</p>
 					</div>	
-					<form class="col-xs-10 col-xs-offset-1">
+					<form>
 						<input type="email" name="email-subscribe" is="" placeholder="EMAIL">
 						<input type="submit" class="button"name="subscribe" is="" placeholder="SUBSCRIBE">
 					</form><!--END:FORM -->
 				</div><!--subscribe-->
-			</div><!--end row-->		
 			
-			<div class="row">
-				<div class="col-xs-12">
+			<div class="contact-info">
+			
 					<ul>
-						<li class="col-sm-4">
+						<li>
 							<i class="fa fa-phone"></i> 
+							<br><br>
 							<p>(+ 351) 209 456 666</p>
 						</li>
-						<li class="col-sm-4">
+						<li> 
 							<i class="fa fa-laptop"></i> 
+							<br><br>
 							<p>
 								<a href="#">info@kateeldridge.com</a>
 								<br>
 								<a href="#">kivvi@friendsofkate.com</a>
 							</p>
 						</li>
-						<li class="col-sm-4">
+						<li>
 							<i class="fa fa-home"></i>
+							<br><br>
 							<p>1010 President St 1N
 							<br>Brooklyn, NY 11225</p>
 						</li>
 					</ul><!--END:CONTACT-INFO UL-->
-				</div>
-			</div><!--end row-->
+				
+			</div><!--contact-info-->
 			
-			<div class="row">
-					<h2>FRIENDS OF KATE</h2>
-					<ul class="col-sm-6 col-sm-offset-3">
+					
+					<!--<ul class="social-media">
 						<li><a href="http//www.facebook.com"><i class="fa fa-facebook-square"></i> </a></li>
 						<li><a href="http//www.twitter.com"><i class="fa fa-twitter-square"></i></a></li>
 						<li><a href="http//www.instagram.com"><i class="fa fa-instagram"></i></a></li>
 						<li><a href="http//www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
 						<li><a href="http//www.googleplus.com"><i class="fa fa-google-plus-square"></i></a></li>
-					</ul><!--END:SOCIAL MEDIA UL--><br>
-					<p>Copyright © KateEldridge 2014</p>
-			</div><!--end row-->
+					</ul>
+			<p>Copyright © KateEldridge 2014</p>-->
+			
+			
 		</footer><!--END:FOOTER -->
 	 
 	 <!-- Latest compiled and minified JavaScript -->
 	 <script src="http://localhost:35729/livereload.js"></script>
 	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	 <script src="_/js/script.js"></script>
-	   <script src="js/waypoints.js"></script>
-    <script src="js/waypoints-sticky.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	 <script src="_/js/masonry.js"></script>
 
 	 <script>$(document).ready(function () {
-           
-            $('.sticky-navigation').waypoint('sticky');
+           $('.container').masonry({
+  columnWidth: 30,
+  itemSelector: '.item'
+});
+            $(".sticky-navigation").waypoint("sticky");
+            	
         });
-  var container = document.querySelector('#masonry');
-  var masonry = new Masonry(container, {
-    isAnimated:true,
-    itemSelector: '.item',
-    columnWidth: function( containerWidth ) {
- 
-				// do nothing for browsers with no media query support
-				// .container will always be 940px
-				if($(".container").width() == 940) {
-					return 240;
-				}	
- 
-				var width = $(window).width();
-				var col = 300;
- 
-				if(width &lt; 1200 &amp;&amp; width &gt;= 980) {
-					col = 240;
-				}
-				else if(width &lt; 980 &amp;&amp; width &gt;= 768) {
-					col = 186;
-				}
- 
-				return col;
-			}
-		});
-  });
+  
   </script>
 
 	

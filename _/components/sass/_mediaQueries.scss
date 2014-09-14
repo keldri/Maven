@@ -89,6 +89,7 @@ width: 150px;
 padding: 3%;
 background-color: #73B2C7;
 margin: -131px auto 0 auto;
+width: 66%;
 }
 #contact-us{
   width: 70%;
@@ -96,7 +97,7 @@ margin: 0 auto;
 }
 /*---------Contact-info--------*/
 .contact-info {
-margin: 5%;
+margin: -7% 0 0 0;
 height: 300px;
 padding:0px;
 }
@@ -108,6 +109,16 @@ padding: 12% 9%;
 
 }
 
+.item{width:49%;
+-webkit-filter: grayscale(100%);
+&:hover{
+  -webkit-filter: grayscale(0%);
+}
+}
+
+.social-media i.fa{
+padding:21% 25%;
+}
 /*--end query--*/
 }
 
@@ -116,6 +127,7 @@ padding: 12% 9%;
 .contact-info li {
 width: 33%;
 }
+.item{width:33.25%;}
 
 }
   

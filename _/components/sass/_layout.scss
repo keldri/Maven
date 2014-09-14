@@ -144,6 +144,7 @@ text-transform: uppercase;
 .intro-copy{
 position: relative;
 top: 72%;
+padding: 0 3%;
 	h1{
 	padding-bottom: 6%;
 	}
@@ -153,7 +154,6 @@ top: 72%;
 }
 .intro-btn {
 margin: 0 auto;
-text-align: center;
 }
 /*---------------------------About Us Section-----------------------*/
 /*#about-us img {
@@ -164,7 +164,7 @@ text-align: center;
 	}*/
 /*---------------------------Our Services Section-----------------------*/
 #ourservices{
-	background-color: rgba(117, 141, 143, 0.06);
+	background-color: rgba(237, 239, 240, 0.44);
 		img{
 			max-width: 276px;
 			@include rotate (7);
@@ -185,11 +185,7 @@ transform: translateX(10px);
 }
 
 /*---------------------------Grid--------------------------------*/
-#grid{
-	background-color: #fff;
-	padding-top: 0;
-	min-height: 1690px;
-}
+
 .port {
 position: relative;
 margin-left: 35%;
@@ -203,29 +199,25 @@ margin-left: 35%;
 	z-index: 1000;
 	font-size: 1.5em;
 	}
+	.container { position: relative; width:100%; }
+
 }
-.wrapper { position: relative; }
-.wrapper .item { position: absolute; }
-* {
-@include box-sizing(border-box);
-    }
+.container .item { position: absolute;  }
+
+*{@include box-sizing(border-box);}
       .item {
         float: left;
-        padding: .15% !important;
-        -webkit-filter: grayscale(100%);
-        width:24%;
+        padding: .10% !important;
+        ;
+        width:100%;
+  -moz-box-sizing: border-box;
+         box-sizing: border-box;    
       }
       .item:hover{
-      -webkit-filter: grayscale(0%);
+   
       }
       
-      .item.w2{
-      width:49%;
-      }
-       .item.w3{
-      width:74%
-      }
-     
+    
 /*--------------------------- Our Clients-----------------------*/
 #our-clients {
 background-color: #C9C9C9;
@@ -263,9 +255,7 @@ border: 1px solid #0a2933;
 #contact-us input[type="textarea"] {
 	height: 110px;
 }
-#contact-us p {
-text-align: center;
-}
+
 /*---------------------------Footer-----------------------*/
 footer{
 color: $paleyellow;
@@ -280,9 +270,11 @@ text-transform: uppercase;
 }
 		p{
 		text-align:center;
+		color: #eae3cb;
+
 		}	
 		 li {
-		padding: 0 1.8% 0% 0;
+		
 				 p {
 					padding: 14px 0;
 					text-align: center;
@@ -290,7 +282,6 @@ text-transform: uppercase;
 				}
 			}
 		a {
-			color: #eae3cb;
 			text-decoration: none;
 				&:hover{
 				color: #ffffff;
@@ -304,12 +295,33 @@ text-transform: uppercase;
 
 }
 .social-media {
-margin: 0 23% 12% 23%;
+width: 100%;
+padding: 8% 0 4% 0;
+float: left;
+text-align: center;
 }
 .social-media li {
-float: left;
+margin: 0 .5%;
+float: none;
 display: inline-block;
 }
+.social-media i.fa{
+	border-radius: 80px;
+border: 2px solid #272f38;
+text-align: center;
+padding: 8px 10px;
+display: block;
+color: #fff;
+background: #272f38;
+-webkit-transition: all 0.25s 0s ease;
+transition: all 0.25s 0s ease;
+}
+
+i.fa.fa-facebook {
+padding: 8px 16px;
+}
+
+
 .contact-info{
 margin: 0% 1%;
 background-color: rgba(51, 51, 51, 0.24);

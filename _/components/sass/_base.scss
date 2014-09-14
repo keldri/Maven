@@ -1,7 +1,7 @@
 
 @import url('http://fonts.googleapis.com/css?family=Muli');
 @import url('http://fonts.googleapis.com/css?family=Raleway:900,800,700');
-
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 body{
 	font-family: $font-primary;
 	font-size:10px;
@@ -14,26 +14,26 @@ padding-top: 12%;
 //check to see how this affects mobile when have internet resizer
 
 #{headings()}{
-	font-family: $font-secondary;
-	font-weight:800;
+	font-family: lato;
+	font-weight: 300;
 	color:#ffffff;
-	text-align:	center;
+	text-align: left;
 	padding-bottom:4%;
 }
 
 h1{
-	font-size: 3em;
+	font-size: 4.5em;
 }
 
 h2 {
-	font-size:2.2em;
-	line-height: 60%;
-	color: $color-primary;
-	font-weight: 900;
+	font-size: 3.4em;
+line-height: 60%;
+color: #147574;
+font-weight: 300;
 }
 h3{
 color:$color-secondary;
-font-weight: 100;
+font-weight: 300;
 line-height: 18px;
 font-size: 1.6em;
 }
@@ -44,7 +44,7 @@ h4{
 	color: $color-secondary;
 	margin: 0;
 	font-weight: 400;
-	text-align: center;
+
 }
 
 
@@ -57,18 +57,21 @@ a{
 }
 
 p {
-font-family:$font-primary;
-	margin-bottom: 5%;
-	font-size: 1.4em;
-	text-align: left;
-	line-height:20px;
+font-family: "proxima-nova",sans-serif;
+margin-bottom: 5%;
+font-size: 1.67em;
+text-align: left;
+line-height: 1.5;
+font-weight: 100;
+color: #303c40;
+text-rendering: optimizeLegibility;
 }
 #contact-us input,textarea {
 	width:100%;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
-	font-size: .9rem;
+	font-size: 1.3em;
 	color: #ffffff;
 	cursor: pointer;
 	padding: 5%;
@@ -119,8 +122,7 @@ font-size: 1.45em;
 	opacity: 0.4;
 }
 .sections{
-padding: 10% 5% 5% 5%;
-}
+padding: 12% 6%;}
 /*---------------------------Footer-----------------------*/
 
 .subscribe{
@@ -138,6 +140,8 @@ margin: 0;
 width: 66%;
 height: 100%;
 margin-right:1%;
+padding: 0 2%;
+font-size: 1.3em;
 }
 .subscribe input[type="submit"] {
 top: -1px;
@@ -150,4 +154,4 @@ height: 100%;
 	.contact-info {
 	padding: 14% .5% 3% 0;
 }
-		
+

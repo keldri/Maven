@@ -11,7 +11,9 @@
 	<!---Compiled stylesheet-->
 	<link rel="stylesheet" href="_/css/styles.css">
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9, chrome=1">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	    <!--[if lt IE 9]>
@@ -28,7 +30,7 @@
 <label for="menu-toggle" class="to_nav"></label>
 <input type="checkbox" id="menu-toggle"/>
 
-			<ul id="menu">
+			<ul id="menu"><!--adding in copy here to test git please delete"-->
 				<li><a href="#">Friends</a></li>
 				<li><a href="#">Portfolio</a></li>
 				<li><a href="#">Shop</a></li>
@@ -38,11 +40,11 @@
 		</header>
 	 	<section id="home">
 		 	  <!--hero-image-->
-		  	  <div class="hero-image">
+		  	  <div class="hero-image"><!--think about how to make this an img rather than a bkgrd image-->
 		  	  
 	 			<div class="intro-copy">
 	 				<h1>KIVVI</h1>
-			 		<h2>ARTIST EXTRORDINARE</h2>
+			 		<h2>Artist Extrodinaire</h2>
 			 		<div class="intro-btn">
 				 		<button>ME</button>
 					 	<button>MY WORK</button>
@@ -50,9 +52,21 @@
 		 		</div><!--intro-copy-->
 	 	</div><!--hero-image-->
 	 	</section>
+	 	<section id="testing" class="sections" style="
+   background-color: #FC5253;
+padding: 23% 6%;
+">
+  <p style="
+    color: #ffffff;
+    font-size: 1.7em; 
+    line-height: 1.3;
+    text-transform: none;
+    text-align: center;
+"> This is a great place for a quote or link to twitter</p>
+</section>
 		<section id="about-us" class="sections">
 				<div>
-					<h2>KIVVI</h2>
+					<h2>Kivvi</h2>
 					<h3>JUST TRY ME</h3>
 					<p>These are my thoughts, expressions, feelings, moods and desires all laid out before you in photos and videos. I want this blog to be a reflection of my life; the things I find beautiful and inspiring. All materials are works that I have either styled, photographed, modeled or directed. Enjoy!</p>
 					<p>If you’d like to work on a project with myself or any of the people listed on here please feel free to contact me at</p><!--END:ABOUT US P -->
@@ -64,7 +78,7 @@
 
 		<section id="ourservices" class="sections">
 				<div>	
-					<h2>TASTEMAKER</h2>
+					<h2>Tastemaker</h2>
 					<h3>PHOTOGRAPHER-ART DIRECTOR-TRENDSETTER</h3>
 				</div><!--end col-xs-12-->
 				<div>
@@ -91,11 +105,8 @@
 		</section><!--end ourservices-->
 
 		<section id="grid"> 
-			
-			   		 <div class="port"><h2>PORTFOLIO</h2></div><!--end port h2-->
-
 			    <div id="masonry" class="container">
-					  <div class="item w3">
+					  <div class="item">
 					  	<img class="img-responsive" src="images/Kivvi-2.jpg" alt="img placeholder">
 					  </div>
 					  <div class="item">
@@ -121,7 +132,7 @@
 		</section>	<!--END:GRID -->
 		
 		<section id="our-clients" class="sections"> 
-				<h2>FAVORITES</h2>
+				<h2>Favorites</h2>
 				<h3>CAN'T LOVE 'EM ALL</h3>
 				<ul>
 					<li><a href="#"><img src="images/thumb1.jpg" alt="client thumbs"></a></li>
@@ -141,7 +152,7 @@
 		</section><!--END:OUR-CLIENTS -->
 		<section id="contact-us" class="sections">
 				<div>
-					<h2>KEEP IN TOUCH</h2>
+					<h2>Keep In Touch</h2>
 					<p>Keep in touch.  Kivvi loves to collaborate, create, and get feedback.</p>
 				</div><!--END:CONTACT US DIV -->
 				<div>
@@ -158,7 +169,7 @@
 		<footer class="sections">
 				<div class="subscribe">
 					<div>
-						<h3>Subscribe our Newsletter</h3>
+						<h3>Subscribe To Our Newsletter</h3>
 						<p>Lorem Ipsum available of Lorem Ipsum</p>
 					</div>	
 					<form>
@@ -195,14 +206,15 @@
 			</div><!--contact-info-->
 			
 					
-					<!--<ul class="social-media">
-						<li><a href="http//www.facebook.com"><i class="fa fa-facebook-square"></i> </a></li>
-						<li><a href="http//www.twitter.com"><i class="fa fa-twitter-square"></i></a></li>
+					<ul class="social-media">
+						<li><a href="http//www.facebook.com"><i class="fa fa-facebook"></i> </a></li>
+						<li><a href="http//www.twitter.com"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="http//www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="http//www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
-						<li><a href="http//www.googleplus.com"><i class="fa fa-google-plus-square"></i></a></li>
+						<li><a href="http//www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+						
 					</ul>
-			<p>Copyright © KateEldridge 2014</p>-->
+					
+			<p>Copyright © KateEldridge 2014</p>
 			
 			
 		</footer><!--END:FOOTER -->
@@ -215,7 +227,7 @@
 
 	 <script>$(document).ready(function () {
            $('.container').masonry({
-  columnWidth: 30,
+  columnWidth: 5,
   itemSelector: '.item'
 });
             $(".sticky-navigation").waypoint("sticky");

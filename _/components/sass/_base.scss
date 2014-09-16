@@ -1,6 +1,7 @@
 
 @import url('http://fonts.googleapis.com/css?family=Muli');
 @import url('http://fonts.googleapis.com/css?family=Raleway:900,800,700');
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 
 body{
 	font-family: $font-primary;
@@ -14,10 +15,10 @@ padding-top: 12%;
 //check to see how this affects mobile when have internet resizer
 
 #{headings()}{
-	font-family: $font-secondary;
+	font-family:'Lato', sans-serif;
 	font-weight:800;
 	color:#ffffff;
-	text-align:	center;
+	text-align:	left;
 	padding-bottom:4%;
 }
 
@@ -28,12 +29,12 @@ h1{
 h2 {
 	font-size:2.2em;
 	line-height: 60%;
-	color: $color-primary;
+	color: #0a2933;
 	font-weight: 900;
 }
 h3{
 color:$color-secondary;
-font-weight: 100;
+font-weight: 300;
 line-height: 18px;
 font-size: 1.6em;
 }
@@ -44,7 +45,6 @@ h4{
 	color: $color-secondary;
 	margin: 0;
 	font-weight: 400;
-	text-align: center;
 }
 
 
@@ -57,18 +57,18 @@ a{
 }
 
 p {
-font-family:$font-primary;
-	margin-bottom: 5%;
-	font-size: 1.4em;
-	text-align: left;
-	line-height:20px;
+font-family: 'Lato', sans-serif;
+margin-bottom: 5%;
+font-size: 1.7em;
+text-align: left;
+line-height: 27px;
 }
 #contact-us input,textarea {
 	width:100%;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
-	font-size: .9rem;
+	font-size: 1.5em;
 	color: #ffffff;
 	cursor: pointer;
 	padding: 5%;
@@ -83,6 +83,15 @@ font-family:$font-primary;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 	border: 1px solid $color-secondary;
+	&:focus::-webkit-input-placeholder{
+	color:#0a2933;
+}
+&:focus::-moz-placeholder {
+color:#0a2933;
+}
+&:focus:-ms-input-placeholder{
+	color:#0a2933;
+}
 }
 #contact-us button, input[type="submit"], .intro-btn button, input[type="submit"] {
 	border: none;
@@ -95,15 +104,16 @@ font-size: 1.45em;
 	text-transform: uppercase;
 	letter-spacing: 0;
 	text-align:center;
-	font-weight: 800;
+	font-weight: 900;
 	outline: none;
 	position: relative;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	background: transparent;
 	color: #fff;
+	font-family: 'Lato', sans-serif;
 	&:hover{
 		color:$color-secondary;
 		background-color:#ffffff;
@@ -138,16 +148,27 @@ margin: 0;
 width: 66%;
 height: 100%;
 margin-right:1%;
+padding: 0 4%;
+font-size: 1.5em;
+&:focus::-webkit-input-placeholder{
+	color:#0a2933;
 }
+&:focus::-moz-placeholder {
+color:#0a2933;
+}
+&:focus:-ms-input-placeholder{
+	color:#0a2933;
+}
+}
+
+
 .subscribe input[type="submit"] {
-top: -1px;
+top: -2.7%;
 width: 31%;
 margin: 0;
-font-size: 1em;
+font-size: 1.5em;
 font-family: muli;
 height: 100%;
 }
-	.contact-info {
-	padding: 14% .5% 3% 0;
-}
+
 		

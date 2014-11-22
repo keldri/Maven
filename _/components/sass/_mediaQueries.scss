@@ -66,6 +66,9 @@ margin: -131px auto 0 auto;
       margin-bottom: 0!important;
       }
     }
+    .connect{
+      margin-top: 0!important;
+    }
     #our-clients img {
     height: 100px;
     width: 100px;
@@ -88,7 +91,9 @@ width: 150px;
 .subscribe {
 padding: 3%;
 background-color: #73B2C7;
-margin: -131px auto 0 auto;
+margin:0 auto;
+max-width: 726px;
+margin-top: -118px;
 }
 #contact-us{
   width: 70%;
@@ -96,9 +101,10 @@ margin: 0 auto;
 }
 /*---------Contact-info--------*/
 .contact-info {
-margin: 5%;
-height: 300px;
-padding:0px;
+margin: 0 auto;
+height: 200px;
+padding: 0px;
+max-width: 600px;
 }
 .contact-info li {
 margin-bottom: 2%;

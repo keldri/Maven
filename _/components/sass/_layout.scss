@@ -1,348 +1,59 @@
-//layout-----------
 
-/*---------------------*header*------------------------*/
- 
-header{
-	background: transparent;
-	padding: 15px 20px;
-	width: 100%;
-	z-index: 1000;
-	position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
--webkit-animation: feature-bg-anim .6s ease-in-out;
+.body-wrapper{
+	position:relative;
 }
-/*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
-header:before,
-header:after {
-    content:"";
-    display:table;
+.masthead{
+  width:100%;
+  overflow: hidden;
+  position: relative;
+background-color: #000;
+padding: 0;
+z-index: 6;
+background-size: 100%;
+/*background-image: url("images/home.jpg");*/
+background-image: url("http://web.kateeldridge.co/kivvi/images/home.jpg");
+height: 700px;
+max-height: 48em;
+background-position: right 5% top 38%;
+@include respond-to(medium-screens) { 
+	background-position: right 5% top 38%;
 }
-header:after {
-    clear:both;
-}
-/* For IE 6/7 (trigger hasLayout) */
-header {
-    zoom:1;
-}
-h1.logo{
-	padding-bottom: 8%;
-	a {
-    color: #d8d8d8;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 22px;
-    float: left;
-    letter-spacing: 0.2em;
-	}
-}
-label.to_nav {
-	float: right;
-color: #fff;
-text-decoration: none;
-padding: 0 10px;
-font-size: 3em;
-font-weight: bold;
-line-height: 22px;
-height: 32px;
-text-transform: uppercase;
-letter-spacing: 0.1em;
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
-border-radius: 2px;
-margin-top: -8%;
-width: 32px;
-color:rgb(2, 13, 40);
+@include respond-to(large-screens) { 
+	background-position: right 5% top 38%;
 }
 
-label.to_nav:hover,label.to_nav:focus {
-	color: #B88D1F;
-	}
-/*----------*navigation*----------*/ 
-
-nav.sidebar-menu-expanded {
-display: none;
-margin-top: 10%;
-display: block;
--webkit-transition: height 0s .14s linear,visibility 0s 0s linear;
--moz-transition: height 0s .14s linear,visibility 0s 0s linear;
--ms-transition: height 0s .14s linear,visibility 0s 0s linear;
--o-transition: height 0s .14s linear,visibility 0s 0s linear;
-transition: height 0s .14s linear,visibility 0s 0s linear;
-position: fixed;
-width: 85%;
-top: 0;
-height: 100%;
-line-height: 1em;
-text-align: left;
-overflow: auto;
-/* visibility: hidden; */
-background-color: #201a16;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
--moz-box-sizing: border-box;
--webkit-box-sizing: border-box;
-box-sizing: border-box;
--webkit-transition: height 0s .14s linear,visibility 0s .14s linear;
--moz-transition: height 0s .14s linear,visibility 0s .14s linear;
--ms-transition: height 0s .14s linear,visibility 0s .14s linear;
--o-transition: height 0s .14s linear,visibility 0s .14s linear;
-transition: height 0s .14s linear,visibility 0s .14s linear;
-margin: 0;
-padding: 6%;
-background-color: #696868 !important;
-z-index: 2000;
-left: 15% !important;
-overflow: hidden;
 }
-.sidebar-menu-expanded li{
-	text-align: center;
-text-decoration: none;
-font-size: 1.3em;
-font-weight: 700;
-display: block;
-padding: 0 31px;
-color: #fff;
-letter-spacing: 0.1em;
-line-height: 2.35em;
-height: 3em;
-border-bottom: 0;
-text-transform: uppercase;
-width: 100%;
-background-color: black;
-margin-bottom: 2%;
-padding: 2.6%;
-}
-
-      nav.sidebar ul li a.expandable {
-        outline: 0;
-        color: white;
-        text-decoration: none;
-     }
-     
-        nav.sidebar ul li a.expandable:hover {
-          color: #bbbbbb; }
-   
-      nav.sidebar ul li.active {
-        background: none repeat scroll 0 0 transparent;
-        margin-left: -4px;
-        padding: 4px; }
-        nav.sidebar ul li.active a.expandable {
-          color: blue !important; }
-          nav.sidebar ul li.active a.expandable:hover {
-            color: #ffffff !important; }
-#logout-icon .glyphicon {
-top: -440px;
-left: 232px;
-}   
-
-  
-
-  
-/*-------*Test2 nav*--------*/
-
-
-#menu-toggle {
-	float: right;
-}
-#menu-close{
-	margin-top: 3%;
+.individual .masthead{
+@include respond-to(x-large-screens) { 
+	width:50%;
+	background-position: right 5% top 38%;
+	max-height:none;
+	height:100%;
 	position:fixed;
-}
-.toggle{
-	float: left;
-	color: #fff;
-	text-decoration: none;
-	font-size: 3em;
-	font-weight: bold;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
-	margin-top: -7.2%;
-}
-
-
-/*---------------------------Home Section-----------------------*/
-
-
-#home img.img-responsive {
-margin-top: 0%;
-z-index: 1000;
-}
-
-
-ul.questions {
-padding-top: 5%;
-}
-.questions h3{
-color: #0a2933;
-font-weight: 700;
-line-height: 0.9em;
-font-size: 1.5em;
-padding-bottom: 0;
-text-align: left;
-	}
-
-/*---------------------------Grid-----------------------------*/
-#grid{
-	background-color: #fff;
-	padding-top: 0;
-	min-height: 1690px;
-}
-.container{
-	background-color: #fff;
-}
-.port {
-	position: relative;
-	margin-left: 35%;
-		h2 {
-		position: absolute;
-		font-weight: 500 !important;
-		color: white;
-		top: 20px;
-		padding: 7% 4%;
-		border: .9px solid white;
-		z-index: 1000;
-		font-size: 1.5em;
 		}
 }
-.wrapper { 
-	position: relative;
-}
-.wrapper .item { 
-	position: absolute; 
-}
-* {
-	@include box-sizing(border-box);
-}
+
+
 .item {
-        float: left;
-        padding: .15% !important;
-        -webkit-filter: grayscale(100%);
-        width:100%;
-}
-.item:hover{
-      -webkit-filter: grayscale(0%);
-}
-      
-.item.w2{
-	   width:49%;
-}
-.item.w3{
-	    width:74%
-}
-   
-/*---------------------------Contact Us-----------------------*/
-#contact-us input[type="submit"]{
-
-background: #020d28;
-padding: 4%;
-	&:hover{
-color: #0a2933;
-background-color: #ffffff;
-border: 1px solid #0a2933;
-	}
+	-webkit-filter: grayscale(100%);
+	padding: 1% 5%;
+		 &:hover{
+		      -webkit-filter: grayscale(0%);
+			}
 }
 
-#contact-us input[type="textarea"] {
-	height: 110px;
+ .item.w2{
+	 @include respond-to(x-large-screens)  { 
+		width:48%;
+	    clear:both;
+		}
+    @include respond-to(x-large-screens) {
+	     width:20%;
+	     }
 }
 
-footer{
-		ul{
-				li{
-					display: inline-block;
-					text-align: center;
-					background: none;
-					padding: 0 1%;
-					font-size: 2em;
-						a{
-					text-decoration: none;
-					color: #020d28;
-					font-size: 1.2em;
-				  		}
-				}
-			}	
-		p{
-			font-size: 1.1em;
-			text-transform: uppercase;
-			line-height: 1.4em;
-			font-weight: 400;
-			letter-spacing: .05em;
-			color: #020d28;
-			text-align: center;
-			margin-top: 5%;
-		 }		
-}
 
-.scalers:hover{
-@include scale(3);
-}
-
-/*-----------------Friends----------------*/
-
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
- 
-ul.img-list li {
- display: inline-block;
-margin: 0 .5em 1em .6em;
-position: relative;
-float: left;
-}
-
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-}
-
-img.friends-image.img-responsive {
-height: 158px;
-margin-bottom: 16%;
-}
-
-span.text-content {
-	background: rgba(0, 0, 0, 0.5);
-color: white;
-cursor: pointer;
-display: table;
-left: 0;
-position: absolute;
-top: 0;
-width: 100%;
-height: 100%;
-opacity: 0;
--webkit-transition: opacity 500ms;
--moz-transition: opacity 500ms;
--o-transition: opacity 500ms;
-transition: opacity 500ms;
-min-height: 158px;
-}
- 
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-/*-----------------Converse----------------*/
-/*.header-img {
-top: 0px;
-left: 0px;
-min-width: 378px;
-height: 252px;
-position: relative;
-overflow: hidden;
-
-    }*/
-
+/*-----------------Focal-Point----------------*/
 .focal-point.focal-test div{
 margin: -3em -2em;
 }
@@ -380,4 +91,8 @@ font-size: 1.5em;
 		text-decoration:none;
 		}
 }
+
+
+
+
 

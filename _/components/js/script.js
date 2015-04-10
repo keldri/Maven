@@ -1,44 +1,43 @@
-/*$(window).scroll(function () {
-    $('.sections').each(function () {
-        var w = $(window).scrollTop();
-        var t = $(this).offset().top - 100;
-        if (w > t) {
-           $("header").css('background-color', '#020d28');
-		} 
-    });
-});*/
+;( function( $, window, document, undefined ) {
 
+/*--------------SIDEBAR--------*/
 
-
-(function() {
-  
   $(function() {
-    
-    var collapseMyMenu, expandMyMenu;
+  	
 
-    expandMyMenu = function() {$("#menu-close").show();
-      $("nav.sidebar ul a span.expanded-element").show();
-      $("h1.logo").hide();
-     
+   $(".body-wrapper").removeClass("push"); 
+   $(".user-infobar").removeClass("push-margin");
+	/*$(".main-content,header,.masthead,.focal-point img").removeClass("push"); */
+	$(".sidebar").hide();
 
-      return $("nav.sidebar").removeClass("sidebar-menu-collapsed").addClass("sidebar-menu-expanded");
-    };
-    collapseMyMenu = function() {$("#menu-close").hide();
- 		$("nav.sidebar ul a span.expanded-element").hide(); 
- 		$("h1.logo").show();
-      return $("nav.sidebar").removeClass("sidebar-menu-expanded").addClass("sidebar-menu-collapsed");
-    };
-    $("#menu-close").hide();
-    $("nav.sidebar ul a span.expanded-element").hide(); 
-    $("#menu-close").click(function (e) {
-        collapseMyMenu();
-      });
-    return $("#menu-toggle").click(function(e) {
-      if ($("nav.sidebar").hasClass("sidebar-menu-collapsed")) {
-        expandMyMenu();
-        
-      } 
-    });
+    return $(".toggle").click(function() {
+    	$(".body-wrapper").toggleClass("push");   
+    	$(".user-infobar").toggleClass("push-margin");
+     /* $(".main-content,header,.masthead, .focal-point img").toggleClass("push"); */  
+      $(".sidebar").toggle();   
+	  });
     
+    /*if($(window).width() >= 993 && $(".body-wrapper").hasClass("push")){
+     $(".user-infobar").toggleClass("push"); 
+	//dohere
+    } else{ $(".user-infobar").removeClass("push"); }*/
+
   });
-}).call(this);
+
+//ON LOAD
+  $(document).ready(function(){
+	if (typeof $.fn.prettyPhoto == "function") {
+		$("a[rel^='prettyPhoto[gal1]']").prettyPhoto({
+				social_tools:false,
+				overlay_gallery: false
+		});
+	}
+	$("#responsive_headline").fitText();
+	$("#responsive_headline2").fitText(1.2);
+	$("#responsive_headline3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+});
+
+
+})( jQuery, window, document );
+
+

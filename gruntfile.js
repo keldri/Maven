@@ -6,7 +6,7 @@ module.exports = function(grunt){
 		uglify:{
 			my_target: {
 				files:{
-				'_/js/script.js' : ['_/components/js/*.js']//compresses to the js file
+					'_/js/script.js' : ['_/components/js/*.js']//compresses to the js file
 				}//files
 			}//my_target
 		},//uglify
@@ -19,18 +19,18 @@ module.exports = function(grunt){
 		},//compass
 		
 		watch:{
-		options: { livereload: true},
-		scripts: {
-			files:['_/components/js/*.js'],
-			tasks: ['uglify']
-		 },//scripts
-		 sass:{
-		   files:['_/components/sass/*.scss'],
-		   tasks: ['compass:dev']
-		 },//sass
-		 html: {
-		 files: ['*.html']
-		 }
+			options: { livereload: true },
+			scripts: {
+				files:['_/components/js/*.js'],
+				tasks: ['uglify']
+			 },//scripts
+			 sass:{
+			   files:['_/components/sass/*.scss'],
+			   tasks: ['compass:dev']
+			 },//sass
+			 html: {
+			 files: ['*.html']
+			 }
 		}//watch
 	}) //initConfig
 	grunt.registerTask('default', 'watch');

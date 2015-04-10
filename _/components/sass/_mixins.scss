@@ -35,3 +35,18 @@
 -o-transform: $scale;
 
 }
+
+@mixin respond-to($media) {
+  @if $media == small-screens  {
+    @media only screen and (min-width: 600px) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: 601px) and (max-width: 772px) { @content; }
+  }
+    @else if $media == large-screens {
+    @media only screen and (min-width: 773px) and (max-width: 992px){ @content; }
+  }
+   @else if $media == x-large-screens {
+    @media only screen and (min-width: 993px) { @content; }
+  }
+}

@@ -1,3 +1,4 @@
+
 // =============================================================================
 // Focal Point: Pure HTML/CSS Adaptive Images Framework
 // Author: Adam Bradley, Daniel Guillan, 2012
@@ -41,7 +42,7 @@
         $grid: 12,
         $landscape-classes: true,
 	$portrait-classes: true,
-	$breakpoint: 767px,
+	$breakpoint: 600px,
 	$inner-element: div,
 	$zoom-factor: 1,
 	$zoom-levels: 1
@@ -73,6 +74,7 @@
         width: 100%;
         height: auto;
         overflow: hidden;
+        max-height:39em;
     }
 
     .focal-point img {

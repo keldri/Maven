@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Syntax error: Invalid CSS after "...:900,800,700');": expected selector or at-rule, was "<<<<<<< HEAD"
         on line 4 of /Users/kateeldridge/Documents/kivvi/_/components/sass/_base.scss
@@ -59,3 +60,3044 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Syntax error: Invalid CSS after \"...:900,800,700');\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 4 of /Users/kateeldridge/Documents/kivvi/_/components/sass/_base.scss\A         from line 5 of /Users/kateeldridge/Documents/kivvi/_/components/sass/styles.scss\A \A 1: /Users/kateeldridge/Documents/kivvi/_/components/sass/styles.scss"; }
+=======
+/* Vendor Dependancies */
+@import url("http://fonts.googleapis.com/css?family=Muli");
+@import url("http://fonts.googleapis.com/css?family=Raleway:900,800,700");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700");
+/* line 5, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Authored Dependancies*/
+/* line 6, ../components/sass/_base.scss */
+body {
+  font-family: Muli, serif;
+  font-size: 10px;
+  color: #0A2933;
+  background-color: #f9f9f9;
+}
+
+/* line 13, ../components/sass/_base.scss */
+.site-wrapper {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* line 18, ../components/sass/_base.scss */
+.container-fluid {
+  padding-top: 12%;
+}
+
+/* line 23, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  color: #0A2933;
+  text-align: left;
+  padding-bottom: 4%;
+}
+
+/* line 30, ../components/sass/_base.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 33, ../components/sass/_base.scss */
+h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 0.9;
+  padding: 0 3%;
+  text-align: center;
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 33, ../components/sass/_base.scss */
+  h2 {
+    padding-bottom: 4%;
+  }
+}
+
+/* line 43, ../components/sass/_base.scss */
+h3 {
+  font-weight: 300;
+  line-height: 18px;
+  font-size: 1.6em;
+  padding: 0;
+  text-align: center;
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 43, ../components/sass/_base.scss */
+  h3 {
+    padding: 4% 0;
+    font-size: 2.6em;
+    line-height: 1.2;
+  }
+}
+
+/* line 55, ../components/sass/_base.scss */
+h4 {
+  font-size: 1.3em;
+  line-height: 100%;
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* line 61, ../components/sass/_base.scss */
+a {
+  text-decoration: underline;
+  font-family: 'Lato', sans-serif;
+  color: #536870;
+}
+/* line 65, ../components/sass/_base.scss */
+a:hover {
+  color: #AF8812;
+}
+
+/* line 69, ../components/sass/_base.scss */
+hr {
+  width: 50%;
+}
+
+/* line 72, ../components/sass/_base.scss */
+article {
+  margin-bottom: 13%;
+}
+
+/* line 75, ../components/sass/_base.scss */
+p {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 5%;
+  font-size: 1.6em;
+  text-align: left;
+  line-height: 23px;
+  font-weight: 400;
+  opacity: 0.8;
+  padding: 0 6%;
+  color: #0A2933;
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 75, ../components/sass/_base.scss */
+  p {
+    margin-bottom: 2%;
+  }
+}
+
+/* line 94, ../components/sass/_base.scss */
+.img-responsive {
+  width: 100%;
+}
+
+/* line 97, ../components/sass/_base.scss */
+.opaque {
+  position: relative;
+  z-index: -100;
+  opacity: 0.4;
+}
+
+/*-----------prettyphoto---move---*/
+/*.portfolio ul {
+overflow: hidden;
+padding: 0 10%;
+	li{
+		width: 100%;
+		height: 242px;
+		overflow: hidden;
+		float: left;
+		margin-bottom: 10%;
+	}
+}
+.portfolio ul li a img{
+	width:100%;
+}
+#imagelightbox{
+    /*position: fixed;*/
+   /* z-index: 9999;
+    -ms-touch-action: none;
+    touch-action: none;
+}*/
+/* line 2, ../components/sass/_layout.scss */
+.body-wrapper {
+  position: relative;
+}
+
+/* line 5, ../components/sass/_layout.scss */
+.masthead {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  padding: 0;
+  z-index: 6;
+  background-size: 100%;
+  /*background-image: url("images/home.jpg");*/
+  background-image: url("http://web.kateeldridge.co/kivvi/images/home.jpg");
+  height: 700px;
+  max-height: 48em;
+  background-position: right 5% top 38%;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 5, ../components/sass/_layout.scss */
+  .masthead {
+    background-position: right 5% top 38%;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 5, ../components/sass/_layout.scss */
+  .masthead {
+    background-position: right 5% top 38%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 26, ../components/sass/_layout.scss */
+  .individual .masthead {
+    width: 50%;
+    background-position: right 5% top 38%;
+    max-height: none;
+    height: 100%;
+    position: fixed;
+  }
+}
+
+/* line 37, ../components/sass/_layout.scss */
+.item {
+  -webkit-filter: grayscale(100%);
+  padding: 1% 5%;
+}
+/* line 40, ../components/sass/_layout.scss */
+.item:hover {
+  -webkit-filter: grayscale(0%);
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 45, ../components/sass/_layout.scss */
+  .item.w2 {
+    width: 48%;
+    clear: both;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 45, ../components/sass/_layout.scss */
+  .item.w2 {
+    width: 20%;
+  }
+}
+
+/*-----------------Focal-Point----------------*/
+/* line 57, ../components/sass/_layout.scss */
+.focal-point.focal-test div {
+  margin: -3em -2em;
+}
+
+/* line 73, ../components/sass/_focal-point.scss */
+.focal-point {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-height: 39em;
+}
+
+/* line 80, ../components/sass/_focal-point.scss */
+.focal-point img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 87, ../components/sass/_focal-point.scss */
+.focal-point div {
+  position: relative;
+  max-width: none;
+  height: auto;
+}
+
+@media all and (max-width: 767px) {
+  /* line 105, ../components/sass/_focal-point.scss */
+  .focal-point div {
+    margin: -3em -12em;
+  }
+
+  /* line 115, ../components/sass/_focal-point.scss */
+  .focal-point.zoom-2 div {
+    margin: -6em -24em;
+  }
+  /* line 115, ../components/sass/_focal-point.scss */
+  .focal-point.zoom-1 div {
+    margin: -3em -12em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-1 div {
+    margin-top: -3.5em;
+    margin-bottom: -2.5em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-1 div {
+    margin-top: -2.5em;
+    margin-bottom: -3.5em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-1 div {
+    margin-left: -14em;
+    margin-right: -10em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-1 div {
+    margin-left: -10em;
+    margin-right: -14em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-2 div {
+    margin-top: -4em;
+    margin-bottom: -2em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-2 div {
+    margin-top: -2em;
+    margin-bottom: -4em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-2 div {
+    margin-left: -16em;
+    margin-right: -8em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-2 div {
+    margin-left: -8em;
+    margin-right: -16em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-3 div {
+    margin-top: -4.5em;
+    margin-bottom: -1.5em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-3 div {
+    margin-top: -1.5em;
+    margin-bottom: -4.5em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-3 div {
+    margin-left: -18em;
+    margin-right: -6em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-3 div {
+    margin-left: -6em;
+    margin-right: -18em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-4 div {
+    margin-top: -5em;
+    margin-bottom: -1em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-4 div {
+    margin-top: -1em;
+    margin-bottom: -5em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-4 div {
+    margin-left: -20em;
+    margin-right: -4em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-4 div {
+    margin-left: -4em;
+    margin-right: -20em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-5 div {
+    margin-top: -5.5em;
+    margin-bottom: -0.5em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-5 div {
+    margin-top: -0.5em;
+    margin-bottom: -5.5em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-5 div {
+    margin-left: -22em;
+    margin-right: -2em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-5 div {
+    margin-left: -2em;
+    margin-right: -22em;
+  }
+
+  /* line 139, ../components/sass/_focal-point.scss */
+  .down-6 div {
+    margin-top: -6em;
+    margin-bottom: -0em;
+  }
+
+  /* line 144, ../components/sass/_focal-point.scss */
+  .up-6 div {
+    margin-top: -0em;
+    margin-bottom: -6em;
+  }
+
+  /* line 149, ../components/sass/_focal-point.scss */
+  .right-6 div {
+    margin-left: -24em;
+    margin-right: -0em;
+  }
+
+  /* line 154, ../components/sass/_focal-point.scss */
+  .left-6 div {
+    margin-left: -0em;
+    margin-right: -24em;
+  }
+
+  /* line 171, ../components/sass/_focal-point.scss */
+  .portrait.focal-point div {
+    margin: -12em -3em;
+  }
+
+  /* line 181, ../components/sass/_focal-point.scss */
+  .portrait.focal-point.zoom-2 div {
+    margin: -24em -6em;
+  }
+  /* line 181, ../components/sass/_focal-point.scss */
+  .portrait.focal-point.zoom-1 div {
+    margin: -12em -3em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-1 div {
+    margin-top: -14em;
+    margin-bottom: -10em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-1 div {
+    margin-top: -10em;
+    margin-bottom: -14em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-1 div {
+    margin-left: -3.5em;
+    margin-right: -2.5em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-1 div {
+    margin-left: -2.5em;
+    margin-right: -3.5em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-2 div {
+    margin-top: -16em;
+    margin-bottom: -8em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-2 div {
+    margin-top: -8em;
+    margin-bottom: -16em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-2 div {
+    margin-left: -4em;
+    margin-right: -2em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-2 div {
+    margin-left: -2em;
+    margin-right: -4em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-3 div {
+    margin-top: -18em;
+    margin-bottom: -6em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-3 div {
+    margin-top: -6em;
+    margin-bottom: -18em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-3 div {
+    margin-left: -4.5em;
+    margin-right: -1.5em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-3 div {
+    margin-left: -1.5em;
+    margin-right: -4.5em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-4 div {
+    margin-top: -20em;
+    margin-bottom: -4em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-4 div {
+    margin-top: -4em;
+    margin-bottom: -20em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-4 div {
+    margin-left: -5em;
+    margin-right: -1em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-4 div {
+    margin-left: -1em;
+    margin-right: -5em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-5 div {
+    margin-top: -22em;
+    margin-bottom: -2em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-5 div {
+    margin-top: -2em;
+    margin-bottom: -22em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-5 div {
+    margin-left: -5.5em;
+    margin-right: -0.5em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-5 div {
+    margin-left: -0.5em;
+    margin-right: -5.5em;
+  }
+
+  /* line 205, ../components/sass/_focal-point.scss */
+  .portrait.down-6 div {
+    margin-top: -24em;
+    margin-bottom: -0em;
+  }
+
+  /* line 210, ../components/sass/_focal-point.scss */
+  .portrait.up-6 div {
+    margin-top: -0em;
+    margin-bottom: -24em;
+  }
+
+  /* line 215, ../components/sass/_focal-point.scss */
+  .portrait.right-6 div {
+    margin-left: -6em;
+    margin-right: -0em;
+  }
+
+  /* line 220, ../components/sass/_focal-point.scss */
+  .portrait.left-6 div {
+    margin-left: -0em;
+    margin-right: -6em;
+  }
+}
+/* line 71, ../components/sass/_layout.scss */
+.img-list p {
+  text-align: center;
+}
+
+/* line 74, ../components/sass/_layout.scss */
+.content-wrapper {
+  padding-top: 2%;
+}
+
+/* line 77, ../components/sass/_layout.scss */
+.post-meta {
+  padding-bottom: 9%;
+}
+
+/* line 80, ../components/sass/_layout.scss */
+.post-meta p {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+/* line 84, ../components/sass/_layout.scss */
+.post-meta a {
+  text-decoration: none;
+}
+
+/* line 88, ../components/sass/_layout.scss */
+.pagination {
+  font-size: 1.5em;
+}
+/* line 90, ../components/sass/_layout.scss */
+.pagination a {
+  text-decoration: none;
+}
+
+/* line 1, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_top, div.pp_default .pp_top .pp_middle, div.pp_default .pp_top .pp_left, div.pp_default .pp_top .pp_right, div.pp_default .pp_bottom, div.pp_default .pp_bottom .pp_left, div.pp_default .pp_bottom .pp_middle, div.pp_default .pp_bottom .pp_right {
+  height: 13px;
+}
+
+/* line 2, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_top .pp_left {
+  background: url(../images/prettyPhoto/default/sprite.png) -78px -93px no-repeat;
+}
+
+/* line 3, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_top .pp_middle {
+  background: url(../images/prettyPhoto/default/sprite_x.png) top left repeat-x;
+}
+
+/* line 4, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_top .pp_right {
+  background: url(../images/prettyPhoto/default/sprite.png) -112px -93px no-repeat;
+}
+
+/* line 5, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_content .ppt {
+  color: #f8f8f8;
+}
+
+/* line 6, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_content_container .pp_left {
+  background: url(../images/prettyPhoto/default/sprite_y.png) -7px 0 repeat-y;
+  padding-left: 16px;
+}
+
+/* line 7, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_content_container .pp_right {
+  background: url(../images/prettyPhoto/default/sprite_y.png) top right repeat-y;
+  padding-right: 13px;
+}
+
+/* line 8, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_next:hover {
+  background: url(../images/prettyPhoto/default/sprite_next.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 9, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_previous:hover {
+  background: url(../images/prettyPhoto/default/sprite_prev.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 10, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_expand {
+  background: url(../images/prettyPhoto/default/sprite.png) 0 -29px no-repeat;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+/* line 11, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_expand:hover {
+  background: url(../images/prettyPhoto/default/sprite.png) 0 -56px no-repeat;
+  cursor: pointer;
+}
+
+/* line 12, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_contract {
+  background: url(../images/prettyPhoto/default/sprite.png) 0 -84px no-repeat;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+/* line 13, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_contract:hover {
+  background: url(../images/prettyPhoto/default/sprite.png) 0 -113px no-repeat;
+  cursor: pointer;
+}
+
+/* line 14, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_close {
+  width: 30px;
+  height: 30px;
+  background: url(../images/prettyPhoto/default/sprite.png) 2px 1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 15, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_gallery ul li a {
+  background: url(../images/prettyPhoto/default/default_thumb.png) center center #f8f8f8;
+  border: 1px solid #aaa;
+}
+
+/* line 16, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_social {
+  margin-top: 7px;
+}
+
+/* line 17, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_gallery a.pp_arrow_previous, div.pp_default .pp_gallery a.pp_arrow_next {
+  position: static;
+  left: auto;
+}
+
+/* line 18, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_nav .pp_play, div.pp_default .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/default/sprite.png) -51px 1px no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 19, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_nav .pp_pause {
+  background-position: -51px -29px;
+}
+
+/* line 20, ../components/sass/_prettyPhoto.scss */
+div.pp_default a.pp_arrow_previous, div.pp_default a.pp_arrow_next {
+  background: url(../images/prettyPhoto/default/sprite.png) -31px -3px no-repeat;
+  height: 20px;
+  width: 20px;
+  margin: 4px 0 0;
+}
+
+/* line 21, ../components/sass/_prettyPhoto.scss */
+div.pp_default a.pp_arrow_next {
+  left: 52px;
+  background-position: -82px -3px;
+}
+
+/* line 22, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_content_container .pp_details {
+  Display: none;
+}
+
+/*Author Changed*/
+/* line 23, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_nav {
+  clear: none;
+  height: 30px;
+  width: 110px;
+  position: relative;
+}
+
+/* line 24, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_nav .currentTextHolder {
+  font-family: Georgia;
+  font-style: italic;
+  color: #999;
+  font-size: 11px;
+  left: 75px;
+  line-height: 25px;
+  position: absolute;
+  top: 2px;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+/* line 25, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_close:hover, div.pp_default .pp_nav .pp_play:hover, div.pp_default .pp_nav .pp_pause:hover, div.pp_default .pp_arrow_next:hover, div.pp_default .pp_arrow_previous:hover {
+  opacity: 0.7;
+}
+
+/* line 26, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_description {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 14px;
+  margin: 5px 50px 5px 0;
+}
+
+/* line 27, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_bottom .pp_left {
+  background: url(../images/prettyPhoto/default/sprite.png) -78px -127px no-repeat;
+}
+
+/* line 28, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_bottom .pp_middle {
+  background: url(../images/prettyPhoto/default/sprite_x.png) bottom left repeat-x;
+}
+
+/* line 29, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_bottom .pp_right {
+  background: url(../images/prettyPhoto/default/sprite.png) -112px -127px no-repeat;
+}
+
+/* line 30, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_loaderIcon {
+  background: url(../images/prettyPhoto/default/loader.gif) center center no-repeat;
+}
+
+/* line 31, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_top .pp_left {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -53px no-repeat;
+}
+
+/* line 32, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_top .pp_right {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -53px no-repeat;
+}
+
+/* line 33, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_next:hover {
+  background: url(../images/prettyPhoto/light_rounded/btnNext.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 34, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_previous:hover {
+  background: url(../images/prettyPhoto/light_rounded/btnPrevious.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 35, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_expand {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -31px -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 36, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_expand:hover {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -31px -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 37, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_contract {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 38, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_contract:hover {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 39, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_close {
+  width: 75px;
+  height: 22px;
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -1px -1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 40, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_nav .pp_play {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -1px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 41, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -24px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 42, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_arrow_previous {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) 0 -71px no-repeat;
+}
+
+/* line 43, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_arrow_next {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -22px -71px no-repeat;
+}
+
+/* line 44, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_bottom .pp_left {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -88px -80px no-repeat;
+}
+
+/* line 45, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_bottom .pp_right {
+  background: url(../images/prettyPhoto/light_rounded/sprite.png) -110px -80px no-repeat;
+}
+
+/* line 46, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_top .pp_left {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -53px no-repeat;
+}
+
+/* line 47, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_top .pp_right {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -53px no-repeat;
+}
+
+/* line 48, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_content_container .pp_left {
+  background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat-y;
+}
+
+/* line 49, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_content_container .pp_right {
+  background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top right repeat-y;
+}
+
+/* line 50, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_next:hover {
+  background: url(../images/prettyPhoto/dark_rounded/btnNext.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 51, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_previous:hover {
+  background: url(../images/prettyPhoto/dark_rounded/btnPrevious.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 52, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_expand {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 53, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_expand:hover {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -31px -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 54, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_contract {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 55, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_contract:hover {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 56, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_close {
+  width: 75px;
+  height: 22px;
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 57, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_description {
+  margin-right: 85px;
+  color: #fff;
+}
+
+/* line 58, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_nav .pp_play {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -1px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 59, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -24px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 60, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_arrow_previous {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) 0 -71px no-repeat;
+}
+
+/* line 61, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_arrow_next {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -22px -71px no-repeat;
+}
+
+/* line 62, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_bottom .pp_left {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -88px -80px no-repeat;
+}
+
+/* line 63, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_bottom .pp_right {
+  background: url(../images/prettyPhoto/dark_rounded/sprite.png) -110px -80px no-repeat;
+}
+
+/* line 64, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_loaderIcon {
+  background: url(../images/prettyPhoto/dark_rounded/loader.gif) center center no-repeat;
+}
+
+/* line 65, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_left, div.dark_square .pp_middle, div.dark_square .pp_right, div.dark_square .pp_content {
+  background: #000;
+}
+
+/* line 66, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_description {
+  color: #fff;
+  margin: 0 85px 0 0;
+}
+
+/* line 67, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_loaderIcon {
+  background: url(../images/prettyPhoto/dark_square/loader.gif) center center no-repeat;
+}
+
+/* line 68, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_expand {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -31px -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 69, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_expand:hover {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -31px -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 70, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_contract {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 71, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_contract:hover {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 72, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_close {
+  width: 75px;
+  height: 22px;
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -1px -1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 73, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_nav {
+  clear: none;
+}
+
+/* line 74, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_nav .pp_play {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -1px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 75, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -24px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 76, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_arrow_previous {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) 0 -71px no-repeat;
+}
+
+/* line 77, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_arrow_next {
+  background: url(../images/prettyPhoto/dark_square/sprite.png) -22px -71px no-repeat;
+}
+
+/* line 78, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_next:hover {
+  background: url(../images/prettyPhoto/dark_square/btnNext.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 79, ../components/sass/_prettyPhoto.scss */
+div.dark_square .pp_previous:hover {
+  background: url(../images/prettyPhoto/dark_square/btnPrevious.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 80, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_expand {
+  background: url(../images/prettyPhoto/light_square/sprite.png) -31px -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 81, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_expand:hover {
+  background: url(../images/prettyPhoto/light_square/sprite.png) -31px -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 82, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_contract {
+  background: url(../images/prettyPhoto/light_square/sprite.png) 0 -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 83, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_contract:hover {
+  background: url(../images/prettyPhoto/light_square/sprite.png) 0 -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 84, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_close {
+  width: 75px;
+  height: 22px;
+  background: url(../images/prettyPhoto/light_square/sprite.png) -1px -1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 85, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_nav .pp_play {
+  background: url(../images/prettyPhoto/light_square/sprite.png) -1px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 86, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/light_square/sprite.png) -24px -100px no-repeat;
+  height: 15px;
+  width: 14px;
+}
+
+/* line 87, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_arrow_previous {
+  background: url(../images/prettyPhoto/light_square/sprite.png) 0 -71px no-repeat;
+}
+
+/* line 88, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_arrow_next {
+  background: url(../images/prettyPhoto/light_square/sprite.png) -22px -71px no-repeat;
+}
+
+/* line 89, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_next:hover {
+  background: url(../images/prettyPhoto/light_square/btnNext.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 90, ../components/sass/_prettyPhoto.scss */
+div.light_square .pp_previous:hover {
+  background: url(../images/prettyPhoto/light_square/btnPrevious.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 91, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_top .pp_left {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -88px -53px no-repeat;
+}
+
+/* line 92, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_top .pp_middle {
+  background: url(../images/prettyPhoto/facebook/contentPatternTop.png) top left repeat-x;
+}
+
+/* line 93, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_top .pp_right {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -110px -53px no-repeat;
+}
+
+/* line 94, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_content_container .pp_left {
+  background: url(../images/prettyPhoto/facebook/contentPatternLeft.png) top left repeat-y;
+}
+
+/* line 95, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_content_container .pp_right {
+  background: url(../images/prettyPhoto/facebook/contentPatternRight.png) top right repeat-y;
+}
+
+/* line 96, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_expand {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 97, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_expand:hover {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 98, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_contract {
+  background: url(../images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;
+  cursor: pointer;
+}
+
+/* line 99, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_contract:hover {
+  background: url(../images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;
+  cursor: pointer;
+}
+
+/* line 100, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_close {
+  width: 22px;
+  height: 22px;
+  background: url(../images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
+  cursor: pointer;
+}
+
+/* line 101, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_description {
+  margin: 0 37px 0 0;
+}
+
+/* line 102, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_loaderIcon {
+  background: url(../images/prettyPhoto/facebook/loader.gif) center center no-repeat;
+}
+
+/* line 103, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_arrow_previous {
+  background: url(../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+  height: 22px;
+  margin-top: 0;
+  width: 22px;
+}
+
+/* line 104, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_arrow_previous.disabled {
+  background-position: 0 -96px;
+  cursor: default;
+}
+
+/* line 105, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_arrow_next {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;
+  height: 22px;
+  margin-top: 0;
+  width: 22px;
+}
+
+/* line 106, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_arrow_next.disabled {
+  background-position: -32px -96px;
+  cursor: default;
+}
+
+/* line 107, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_nav {
+  margin-top: 0;
+}
+
+/* line 108, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_nav p {
+  font-size: 15px;
+  padding: 0 3px 0 4px;
+}
+
+/* line 109, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_nav .pp_play {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;
+  height: 22px;
+  width: 22px;
+}
+
+/* line 110, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_nav .pp_pause {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;
+  height: 22px;
+  width: 22px;
+}
+
+/* line 111, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_next:hover {
+  background: url(../images/prettyPhoto/facebook/btnNext.png) center right no-repeat;
+  cursor: pointer;
+}
+
+/* line 112, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_previous:hover {
+  background: url(../images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;
+  cursor: pointer;
+}
+
+/* line 113, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_bottom .pp_left {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -88px -80px no-repeat;
+}
+
+/* line 114, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_bottom .pp_middle {
+  background: url(../images/prettyPhoto/facebook/contentPatternBottom.png) top left repeat-x;
+}
+
+/* line 115, ../components/sass/_prettyPhoto.scss */
+div.facebook .pp_bottom .pp_right {
+  background: url(../images/prettyPhoto/facebook/sprite.png) -110px -80px no-repeat;
+}
+
+/* line 116, ../components/sass/_prettyPhoto.scss */
+div.pp_pic_holder a:focus {
+  outline: none;
+}
+
+/* line 117, ../components/sass/_prettyPhoto.scss */
+div.pp_overlay {
+  background: #000;
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9500;
+}
+
+/* line 118, ../components/sass/_prettyPhoto.scss */
+div.pp_pic_holder {
+  display: none;
+  position: absolute;
+  width: 100px;
+  z-index: 10000;
+}
+
+/* line 119, ../components/sass/_prettyPhoto.scss */
+.pp_content {
+  height: 40px;
+  min-width: 40px;
+}
+
+/* line 120, ../components/sass/_prettyPhoto.scss */
+* html .pp_content {
+  width: 40px;
+}
+
+/* line 121, ../components/sass/_prettyPhoto.scss */
+.pp_content_container {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+/* line 122, ../components/sass/_prettyPhoto.scss */
+.pp_content_container .pp_left {
+  padding-left: 20px;
+}
+
+/* line 123, ../components/sass/_prettyPhoto.scss */
+.pp_content_container .pp_right {
+  padding-right: 20px;
+}
+
+/* line 124, ../components/sass/_prettyPhoto.scss */
+.pp_content_container .pp_details {
+  float: left;
+  margin: 10px 0 2px;
+}
+
+/* line 125, ../components/sass/_prettyPhoto.scss */
+.pp_description {
+  display: none;
+  margin: 0;
+}
+
+/* line 126, ../components/sass/_prettyPhoto.scss */
+.pp_social {
+  float: left;
+  margin: 0;
+}
+
+/* line 127, ../components/sass/_prettyPhoto.scss */
+.pp_social .facebook {
+  float: left;
+  margin-left: 5px;
+  width: 55px;
+  overflow: hidden;
+}
+
+/* line 128, ../components/sass/_prettyPhoto.scss */
+.pp_social .twitter {
+  float: left;
+}
+
+/* line 129, ../components/sass/_prettyPhoto.scss */
+.pp_nav {
+  clear: right;
+  float: left;
+  margin: 3px 10px 0 0;
+}
+
+/* line 130, ../components/sass/_prettyPhoto.scss */
+.pp_nav p {
+  float: left;
+  white-space: nowrap;
+  margin: 2px 4px;
+}
+
+/* line 131, ../components/sass/_prettyPhoto.scss */
+.pp_nav .pp_play, .pp_nav .pp_pause {
+  float: left;
+  margin-right: 4px;
+  text-indent: -10000px;
+}
+
+/* line 132, ../components/sass/_prettyPhoto.scss */
+a.pp_arrow_previous, a.pp_arrow_next {
+  display: block;
+  float: left;
+  height: 15px;
+  margin-top: 3px;
+  overflow: hidden;
+  text-indent: -10000px;
+  width: 14px;
+}
+
+/* line 133, ../components/sass/_prettyPhoto.scss */
+.pp_hoverContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+/* line 134, ../components/sass/_prettyPhoto.scss */
+.pp_gallery {
+  display: none;
+  left: 50%;
+  margin-top: -50px;
+  position: absolute;
+  z-index: 10000;
+}
+
+/* line 135, ../components/sass/_prettyPhoto.scss */
+.pp_gallery div {
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 136, ../components/sass/_prettyPhoto.scss */
+.pp_gallery ul {
+  float: left;
+  height: 35px;
+  position: relative;
+  white-space: nowrap;
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+
+/* line 137, ../components/sass/_prettyPhoto.scss */
+.pp_gallery ul a {
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+  display: block;
+  float: left;
+  height: 33px;
+  overflow: hidden;
+}
+
+/* line 138, ../components/sass/_prettyPhoto.scss */
+.pp_gallery ul a img {
+  border: 0;
+}
+
+/* line 139, ../components/sass/_prettyPhoto.scss */
+.pp_gallery li {
+  display: block;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+/* line 140, ../components/sass/_prettyPhoto.scss */
+.pp_gallery li.default a {
+  background: url(../images/prettyPhoto/facebook/default_thumbnail.gif) 0 0 no-repeat;
+  display: block;
+  height: 33px;
+  width: 50px;
+}
+
+/* line 141, ../components/sass/_prettyPhoto.scss */
+.pp_gallery .pp_arrow_previous, .pp_gallery .pp_arrow_next {
+  margin-top: 7px !important;
+}
+
+/* line 142, ../components/sass/_prettyPhoto.scss */
+a.pp_next {
+  background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+  display: block;
+  float: right;
+  height: 100%;
+  text-indent: -10000px;
+  width: 49%;
+}
+
+/* line 143, ../components/sass/_prettyPhoto.scss */
+a.pp_previous {
+  background: url(../images/prettyPhoto/light_rounded/btnNext.png) 10000px 10000px no-repeat;
+  display: block;
+  float: left;
+  height: 100%;
+  text-indent: -10000px;
+  width: 49%;
+}
+
+/* line 144, ../components/sass/_prettyPhoto.scss */
+a.pp_expand, a.pp_contract {
+  cursor: pointer;
+  display: none;
+  height: 20px;
+  position: absolute;
+  right: 30px;
+  text-indent: -10000px;
+  top: 10px;
+  width: 20px;
+  z-index: 20000;
+}
+
+/* line 145, ../components/sass/_prettyPhoto.scss */
+a.pp_close {
+  position: absolute;
+  right: 23px;
+  top: 7px;
+  display: block;
+  line-height: 22px;
+  text-indent: -10000px;
+}
+
+/* line 146, ../components/sass/_prettyPhoto.scss */
+.pp_loaderIcon {
+  display: block;
+  height: 24px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  margin: -12px 0 0 -12px;
+}
+
+/* line 147, ../components/sass/_prettyPhoto.scss */
+#pp_full_res {
+  line-height: 1 !important;
+}
+
+/* line 148, ../components/sass/_prettyPhoto.scss */
+#pp_full_res .pp_inline {
+  text-align: left;
+}
+
+/* line 149, ../components/sass/_prettyPhoto.scss */
+#pp_full_res .pp_inline p {
+  margin: 0 0 15px;
+}
+
+/* line 150, ../components/sass/_prettyPhoto.scss */
+div.ppt {
+  color: #fff;
+  display: none;
+  font-size: 17px;
+  z-index: 9999;
+  margin: 0 0 5px 15px;
+}
+
+/* line 151, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_content, div.light_rounded .pp_content {
+  background-color: transparent;
+}
+
+/* line 152, ../components/sass/_prettyPhoto.scss */
+div.pp_default #pp_full_res .pp_inline, div.light_rounded .pp_content .ppt, div.light_rounded #pp_full_res .pp_inline, div.light_square .pp_content .ppt, div.light_square #pp_full_res .pp_inline, div.facebook .pp_content .ppt, div.facebook #pp_full_res .pp_inline {
+  color: #000;
+}
+
+/* line 153, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_gallery ul li a:hover, div.pp_default .pp_gallery ul li.selected a, .pp_gallery ul a:hover, .pp_gallery li.selected a {
+  border-color: #fff;
+}
+
+/* line 154, ../components/sass/_prettyPhoto.scss */
+div.pp_default .pp_details, div.light_rounded .pp_details, div.dark_rounded .pp_details, div.dark_square .pp_details, div.light_square .pp_details, div.facebook .pp_details {
+  position: relative;
+}
+
+/* line 155, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_top .pp_middle, div.light_rounded .pp_content_container .pp_left, div.light_rounded .pp_content_container .pp_right, div.light_rounded .pp_bottom .pp_middle, div.light_square .pp_left, div.light_square .pp_middle, div.light_square .pp_right, div.light_square .pp_content, div.facebook .pp_content {
+  background: #fff;
+}
+
+/* line 156, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_description, div.light_square .pp_description {
+  margin-right: 85px;
+}
+
+/* line 157, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_gallery a.pp_arrow_previous, div.light_rounded .pp_gallery a.pp_arrow_next, div.dark_rounded .pp_gallery a.pp_arrow_previous, div.dark_rounded .pp_gallery a.pp_arrow_next, div.dark_square .pp_gallery a.pp_arrow_previous, div.dark_square .pp_gallery a.pp_arrow_next, div.light_square .pp_gallery a.pp_arrow_previous, div.light_square .pp_gallery a.pp_arrow_next {
+  margin-top: 12px !important;
+}
+
+/* line 158, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_arrow_previous.disabled, div.dark_rounded .pp_arrow_previous.disabled, div.dark_square .pp_arrow_previous.disabled, div.light_square .pp_arrow_previous.disabled {
+  background-position: 0 -87px;
+  cursor: default;
+}
+
+/* line 159, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_arrow_next.disabled, div.dark_rounded .pp_arrow_next.disabled, div.dark_square .pp_arrow_next.disabled, div.light_square .pp_arrow_next.disabled {
+  background-position: -22px -87px;
+  cursor: default;
+}
+
+/* line 160, ../components/sass/_prettyPhoto.scss */
+div.light_rounded .pp_loaderIcon, div.light_square .pp_loaderIcon {
+  background: url(../images/prettyPhoto/light_rounded/loader.gif) center center no-repeat;
+}
+
+/* line 161, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .pp_top .pp_middle, div.dark_rounded .pp_content, div.dark_rounded .pp_bottom .pp_middle {
+  background: url(../images/prettyPhoto/dark_rounded/contentPattern.png) top left repeat;
+}
+
+/* line 162, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded .currentTextHolder, div.dark_square .currentTextHolder {
+  color: #c4c4c4;
+}
+
+/* line 163, ../components/sass/_prettyPhoto.scss */
+div.dark_rounded #pp_full_res .pp_inline, div.dark_square #pp_full_res .pp_inline {
+  color: #fff;
+}
+
+/* line 164, ../components/sass/_prettyPhoto.scss */
+.pp_top, .pp_bottom {
+  height: 20px;
+  position: relative;
+}
+
+/* line 165, ../components/sass/_prettyPhoto.scss */
+* html .pp_top, * html .pp_bottom {
+  padding: 0 20px;
+}
+
+/* line 166, ../components/sass/_prettyPhoto.scss */
+.pp_top .pp_left, .pp_bottom .pp_left {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 20px;
+}
+
+/* line 167, ../components/sass/_prettyPhoto.scss */
+.pp_top .pp_middle, .pp_bottom .pp_middle {
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+/* line 168, ../components/sass/_prettyPhoto.scss */
+* html .pp_top .pp_middle, * html .pp_bottom .pp_middle {
+  left: 0;
+  position: static;
+}
+
+/* line 169, ../components/sass/_prettyPhoto.scss */
+.pp_top .pp_right, .pp_bottom .pp_right {
+  height: 20px;
+  left: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+}
+
+/* line 170, ../components/sass/_prettyPhoto.scss */
+.pp_fade, .pp_gallery li.default a img {
+  display: none;
+}
+
+/* Sections */
+/* line 1, ../components/sass/_header.scss */
+header {
+  background: transparent;
+  width: 100%;
+  z-index: 1001;
+  position: fixed;
+  -webkit-animation: feature-bg-anim .6s ease-in-out;
+  /*float:left;*/
+}
+
+/* line 13, ../components/sass/_header.scss */
+.logo {
+  margin: 0;
+}
+/* line 15, ../components/sass/_header.scss */
+.logo a {
+  color: #d8d8d8;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 22px;
+  float: left;
+  letter-spacing: 0.2em;
+  padding: 3%;
+}
+
+/* line 27, ../components/sass/_header.scss */
+.toggle {
+  color: #d8d8d8;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: bold;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 40, ../components/sass/_header.scss */
+.open-toggle {
+  margin-right: 5%;
+  margin-top: 2%;
+  float: right;
+}
+@media only screen and (min-width: 993px) {
+  /* line 40, ../components/sass/_header.scss */
+  .open-toggle {
+    margin-right: 4%;
+    margin-top: 3%;
+  }
+}
+
+/* line 51, ../components/sass/_header.scss */
+.close-toggle {
+  position: fixed;
+  width: 35px;
+  margin-top: 2.3%;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-left: 4px;
+}
+@media only screen and (min-width: 993px) {
+  /* line 51, ../components/sass/_header.scss */
+  .close-toggle {
+    margin-top: 3.6%;
+  }
+}
+
+/*------Header-copy--------*/
+/* line 63, ../components/sass/_header.scss */
+.banner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/***FitText***/
+/* line 71, ../components/sass/_header.scss */
+.banner-holder {
+  width: 84%;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+/* line 77, ../components/sass/_header.scss */
+#responsive_headline {
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+  font: 95px/1 "Impact";
+  text-transform: uppercase;
+  display: block;
+  text-shadow: #253e45 -1px 1px 0, #253e45 -2px 2px 0, #d45848 -3px 3px 0, #d45848 -4px 4px 0;
+  margin: 5% auto 5%;
+}
+
+/* line 91, ../components/sass/_header.scss */
+.weblink {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  line-height: 2;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+}
+
+/*------Sidebar--------*/
+/* line 102, ../components/sass/_header.scss */
+nav.sidebar {
+  position: fixed;
+  width: 206px;
+  top: 0;
+  margin: 0;
+  background-color: #696868;
+  right: 0;
+  padding: 0px 22px;
+  z-index: 999;
+  overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 102, ../components/sass/_header.scss */
+  nav.sidebar {
+    width: 237px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 102, ../components/sass/_header.scss */
+  nav.sidebar {
+    width: 300px;
+  }
+}
+
+/* line 119, ../components/sass/_header.scss */
+nav.sidebar ul {
+  margin-top: 9%;
+}
+/* line 121, ../components/sass/_header.scss */
+nav.sidebar ul li {
+  margin-bottom: 9px;
+}
+/* line 123, ../components/sass/_header.scss */
+nav.sidebar ul li a {
+  font-size: 1.4em;
+  color: #0a2933;
+  font-weight: 300;
+  line-height: 0.9;
+  padding: 0 2%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 133, ../components/sass/_header.scss */
+nav.sidebar ul li a:hover {
+  color: #bbbbbb;
+}
+/* line 136, ../components/sass/_header.scss */
+nav.sidebar ul li a .trigger {
+  color: #0A2933;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background: #fff url(../images/select-arrow-open.png) 98% center no-repeat;
+  display: block;
+  border: 1px solid #0A2933;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 153, ../components/sass/_header.scss */
+nav.sidebar ul li a.trigger {
+  color: #0A2933;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background: #fff url(../images/select-arrow-open.png) 98% center no-repeat;
+  display: block;
+  border: 1px solid #0A2933;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 400;
+}
+/* line 166, ../components/sass/_header.scss */
+nav.sidebar ul li a.trigger:hover {
+  color: #777;
+}
+
+/* line 173, ../components/sass/_header.scss */
+nav.sidebar ul li a.activetrigger {
+  color: #0A2933;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
+  display: block;
+  border: 1px solid #0A2933;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 400;
+}
+/* line 186, ../components/sass/_header.scss */
+nav.sidebar ul li a.activetrigger:hover {
+  background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
+  color: #777;
+}
+/* line 190, ../components/sass/_header.scss */
+nav.sidebar ul li a.activetrigger:active {
+  background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
+  color: #777;
+}
+
+/*new dropdown*/
+/* line 200, ../components/sass/_header.scss */
+.search-content {
+  padding-top: 0;
+}
+
+/* line 203, ../components/sass/_header.scss */
+.search-box form p {
+  color: #0A2933;
+}
+
+/* line 207, ../components/sass/_header.scss */
+ul li a.dropcontainer {
+  position: relative;
+  font-size: 16px;
+  color: #777;
+}
+
+/* line 215, ../components/sass/_header.scss */
+ul li a.dropcontainer ul {
+  font-size: 16px;
+  border: 1px solid #0A2933;
+  border-top: none;
+  background: #fff;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  z-index: 100;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* line 230, ../components/sass/_header.scss */
+.dropcontainer ul li {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+
+/* line 235, ../components/sass/_header.scss */
+.dropcontainer ul li:hover {
+  background: #f5f5f5;
+  outline: none;
+}
+
+/* line 240, ../components/sass/_header.scss */
+.dropcontainer ul li:first-child {
+  display: none;
+}
+
+/* line 245, ../components/sass/_header.scss */
+.dropcontainer ul li:last-child {
+  border-bottom: none;
+}
+
+/* line 250, ../components/sass/_header.scss */
+.dropdownhidden {
+  display: none;
+}
+
+/* line 255, ../components/sass/_header.scss */
+nav.sidebar .dropdownvisible, .dropdownvisible {
+  height: auto;
+  position: static;
+}
+/* line 258, ../components/sass/_header.scss */
+nav.sidebar .dropdownvisible a, .dropdownvisible a {
+  text-decoration: none;
+  color: #0A2933;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* line 265, ../components/sass/_header.scss */
+.dropdownvisible {
+  position: fixed;
+}
+
+/*Scroll*/
+/* Change this: 
+/////////////// */
+/*.dropdownvisible {
+height: auto;
+}*/
+/* To this: 
+/////////////// */
+/*.dropdownvisible {
+    height: 200px;
+    overflow-y: scroll;
+    }*/
+/* line 286, ../components/sass/_header.scss */
+ul li.active {
+  background: none repeat scroll 0 0 transparent;
+  margin-left: -4px;
+  padding: 4px;
+}
+/* line 290, ../components/sass/_header.scss */
+ul li.active a {
+  color: blue !important;
+}
+/* line 292, ../components/sass/_header.scss */
+ul li.active a:hover {
+  color: #ffffff !important;
+}
+
+/* line 297, ../components/sass/_header.scss */
+ul.social {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin: 25% 7% 0 3% !important;
+}
+/* line 302, ../components/sass/_header.scss */
+ul.social li {
+  width: 16%;
+  float: left;
+}
+/* line 305, ../components/sass/_header.scss */
+ul.social li a {
+  font-size: 1.9em !important;
+}
+
+/* line 312, ../components/sass/_header.scss */
+.push {
+  right: 244px;
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 312, ../components/sass/_header.scss */
+  .push {
+    right: 280px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 312, ../components/sass/_header.scss */
+  .push {
+    right: 323px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 318, ../components/sass/_header.scss */
+  .push-margin {
+    display: none;
+  }
+}
+
+/* line 1, ../components/sass/_sections.scss */
+.main-content {
+  position: relative;
+  z-index: 1000;
+  overflow: hidden;
+  padding-top: 11%;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 1, ../components/sass/_sections.scss */
+  .main-content {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 1, ../components/sass/_sections.scss */
+  .main-content {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 13, ../components/sass/_sections.scss */
+  .individual .main-content {
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 0;
+  }
+}
+
+/* line 21, ../components/sass/_sections.scss */
+.sections {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 7%;
+  z-index: 998;
+}
+@media only screen and (min-width: 993px) {
+  /* line 21, ../components/sass/_sections.scss */
+  .sections {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* line 34, ../components/sass/_sections.scss */
+.home .sections {
+  margin: 0;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 38, ../components/sass/_sections.scss */
+  .sections.contact {
+    clear: both;
+    padding-top: 7%;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 38, ../components/sass/_sections.scss */
+  .sections.contact {
+    clear: both;
+    padding-top: 7%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 38, ../components/sass/_sections.scss */
+  .sections.contact {
+    clear: both;
+    padding-top: 7%;
+  }
+}
+/* line 51, ../components/sass/_sections.scss */
+.sections.contact p {
+  text-align: center;
+  padding-top: 6%;
+  line-height: 22px;
+}
+
+/* line 60, ../components/sass/_sections.scss */
+.sections.post-large {
+  background-color: #f9f9f9;
+}
+
+/* line 63, ../components/sass/_sections.scss */
+.section-header {
+  padding: 5% 0;
+}
+
+/* line 66, ../components/sass/_sections.scss */
+.sections-wrapper {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+/* line 70, ../components/sass/_sections.scss */
+.bio ul {
+  text-align: center;
+  margin-top: 7%;
+}
+/* line 73, ../components/sass/_sections.scss */
+.bio ul li {
+  display: inline-block;
+  text-align: center;
+  background: none;
+  padding: 0 3%;
+  font-size: 1.3em;
+}
+/* line 79, ../components/sass/_sections.scss */
+.bio ul li a {
+  text-decoration: none;
+  color: #2D2D2F;
+  font-size: 1.2em;
+}
+
+/*USER INFO BAR*/
+/* line 92, ../components/sass/_sections.scss */
+.user-infobar {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 28px;
+  width: 100%;
+  z-index: 1999;
+  padding: 10px 0;
+  background: rgba(211, 215, 216, 0.89);
+  text-align: center;
+}
+@media only screen and (min-width: 993px) {
+  /* line 92, ../components/sass/_sections.scss */
+  .user-infobar {
+    width: 7%;
+    margin-left: 40.1%;
+    top: 107px;
+    height: 104px;
+    padding: 1% 1.5% 1.5%;
+  }
+}
+
+/* line 110, ../components/sass/_sections.scss */
+.tabs-bar {
+  height: 37px;
+  z-index: 1001;
+}
+
+/* line 118, ../components/sass/_sections.scss */
+.tabs-bar ul {
+  overflow: hidden;
+  text-align: center;
+  padding-top: 14px;
+}
+/* line 122, ../components/sass/_sections.scss */
+.tabs-bar ul li {
+  margin: 0;
+  float: left;
+  width: 20%;
+  height: 20%;
+  padding-bottom: 5%;
+  /*&:nth-child(1) { 
+  	background-color: #636393;
+  }
+  &:nth-child(2) { 
+  	background-color: #B5222D;
+   }
+  &:nth-child(3) {
+  	 background-color: #D4953C; 
+   }
+  &:nth-child(4) {
+  	background-color: #609491;
+   }
+  &:nth-child(5) {
+  	 background-color: #87A248; 
+   }*/
+}
+@media only screen and (min-width: 993px) {
+  /* line 122, ../components/sass/_sections.scss */
+  .tabs-bar ul li {
+    padding: 6px 0 10% 0;
+    float: none;
+    width: 80px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 118, ../components/sass/_sections.scss */
+  .tabs-bar ul {
+    padding-top: 0;
+  }
+}
+
+/* line 156, ../components/sass/_sections.scss */
+.tabs-bar a {
+  color: #0A2933;
+  font-weight: 700;
+  line-height: 2px;
+  font-size: 1em;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+/* line 167, ../components/sass/_sections.scss */
+.tabs-bar a:hover {
+  font-weight: 300;
+}
+@media only screen and (min-width: 993px) {
+  /* line 156, ../components/sass/_sections.scss */
+  .tabs-bar a {
+    font-size: 1.5em;
+  }
+}
+
+/* line 175, ../components/sass/_sections.scss */
+.tabs-bar ul a span {
+  margin: 0px 13%;
+  display: none;
+}
+
+/* line 181, ../components/sass/_sections.scss */
+.tabs-bar .fa {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 188, ../components/sass/_sections.scss */
+.nav-up {
+  bottom: -48px;
+}
+
+/***HOME PAGE***/
+/* line 196, ../components/sass/_sections.scss */
+.home {
+  padding: 0 !important;
+}
+
+/* line 201, ../components/sass/_sections.scss */
+.home h1 {
+  color: #333;
+  padding-bottom: 5%;
+  line-height: 1.1em;
+  font-weight: normal;
+  letter-spacing: -0.03em;
+  margin-left: -0.2em;
+  display: block;
+  text-align: center;
+  font-size: 4.5em;
+  font-weight: 800;
+  padding-top: 3%;
+}
+@media only screen and (min-width: 993px) {
+  /* line 201, ../components/sass/_sections.scss */
+  .home h1 {
+    font-size: 7.5em;
+  }
+}
+/* line 217, ../components/sass/_sections.scss */
+.home h2 {
+  padding-top: 7%;
+}
+/* line 220, ../components/sass/_sections.scss */
+.home h4 {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-rendering: optimizeSpeed;
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: 0 !important;
+  -webkit-margin-start: 0px !important;
+  -webkit-margin-end: 0px !important;
+  padding: 7% 0 0;
+}
+@media only screen and (min-width: 993px) {
+  /* line 220, ../components/sass/_sections.scss */
+  .home h4 {
+    font-size: 2em;
+  }
+}
+/* line 235, ../components/sass/_sections.scss */
+.home p {
+  font-size: 2.2em;
+  line-height: 1.2em;
+  padding: 4% 6%;
+  text-align: center;
+  margin: 0;
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 244, ../components/sass/_sections.scss */
+  .home-header .section-header {
+    padding: 5% 10% 0;
+  }
+}
+
+/* line 249, ../components/sass/_sections.scss */
+.mission .section-header {
+  padding: 2%;
+}
+
+/* line 252, ../components/sass/_sections.scss */
+.home > div:nth-child(2) {
+  background-color: #d0d0d0;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 252, ../components/sass/_sections.scss */
+  .home > div:nth-child(2) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 252, ../components/sass/_sections.scss */
+  .home > div:nth-child(2) {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 252, ../components/sass/_sections.scss */
+  .home > div:nth-child(2) {
+    clear: both;
+  }
+}
+
+/* line 264, ../components/sass/_sections.scss */
+.home > div:nth-child(3) {
+  background-color: #f7f7f4;
+}
+
+/* line 1, ../components/sass/directory.scss */
+.directory {
+  padding: 3% 2%;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 7%;
+  z-index: 998;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+}
+/* line 12, ../components/sass/directory.scss */
+.directory article {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  float: left;
+  width: 44%;
+  margin: 0;
+  background: transparent;
+  margin: 0px 2% 25px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 12, ../components/sass/directory.scss */
+  .directory article {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 12, ../components/sass/directory.scss */
+  .directory article {
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 12, ../components/sass/directory.scss */
+  .directory article {
+    width: 20%;
+  }
+}
+/* line 34, ../components/sass/directory.scss */
+.directory article a {
+  display: block;
+  padding-bottom: 3em;
+  color: #fff;
+  -moz-transition: opacity 0.35s ease;
+  -o-transition: opacity 0.35s ease;
+  -webkit-transition: opacity 0.35s ease;
+  transition: opacity 0.35s ease;
+}
+
+/* line 45, ../components/sass/directory.scss */
+.directory header {
+  z-index: 1000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+}
+/* line 52, ../components/sass/directory.scss */
+.directory header h2 {
+  padding: 0 3%;
+  text-align: center;
+  margin-bottom: .25em;
+  font-style: normal;
+  font-size: 1.3em;
+  line-height: 1.1em;
+  letter-spacing: .025em;
+  margin-top: 2%;
+  text-transform: uppercase;
+  margin-top: 6%;
+}
+/* line 64, ../components/sass/directory.scss */
+.directory header ul {
+  display: none;
+  margin-bottom: 0;
+  font-size: .75em;
+  line-height: 1.35em;
+  letter-spacing: .075em;
+  font-family: "maison-neue-for-tgd", Helvetica, Arial, Sans-Serif, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 500;
+  opacity: .5;
+}
+/* line 75, ../components/sass/directory.scss */
+.directory header ul li {
+  display: inline;
+  margin-right: .25em;
+}
+
+/* line 81, ../components/sass/directory.scss */
+.directory-image {
+  position: relative;
+}
+/* line 83, ../components/sass/directory.scss */
+.directory-image img {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+/* line 1, ../components/sass/_posts.scss */
+.post {
+  padding: 0px;
+  margin: 0 4% 25px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+/* line 10, ../components/sass/_posts.scss */
+.post article {
+  padding: 15px;
+  margin-bottom: 0%;
+  clear: both;
+  text-align: center;
+  padding: 0;
+  border: 0.75px solid rgba(15, 14, 14, 0.24);
+}
+
+/* line 19, ../components/sass/_posts.scss */
+.home .post {
+  padding: 0;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 19, ../components/sass/_posts.scss */
+  .home .post {
+    width: 45%;
+    float: left;
+    margin: 2.1%;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 19, ../components/sass/_posts.scss */
+  .home .post {
+    width: 45%;
+    float: left;
+    margin: 2.1%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 19, ../components/sass/_posts.scss */
+  .home .post {
+    width: 29%;
+    float: left;
+    margin: 2.1%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 39, ../components/sass/_posts.scss */
+  .search-content .post {
+    width: 31%;
+    float: left;
+  }
+  /* line 43, ../components/sass/_posts.scss */
+  .search-content .post .featured-image {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 39, ../components/sass/_posts.scss */
+  .search-content .post {
+    width: 31%;
+    float: left;
+  }
+  /* line 50, ../components/sass/_posts.scss */
+  .search-content .post .featured-image {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 39, ../components/sass/_posts.scss */
+  .search-content .post {
+    width: 31%;
+    float: left;
+  }
+  /* line 57, ../components/sass/_posts.scss */
+  .search-content .post .featured-image {
+    width: 100% !important;
+  }
+}
+
+/* line 62, ../components/sass/_posts.scss */
+.post-content {
+  padding: 7.5px;
+  overflow: hidden;
+}
+
+/* line 66, ../components/sass/_posts.scss */
+.featured-image {
+  width: 100% !important;
+  height: 220px;
+  float: left !important;
+  min-height: 0 !important;
+  margin-bottom: 0;
+  margin-right: 3.33333333%;
+  position: relative;
+  margin-left: auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 66, ../components/sass/_posts.scss */
+  .featured-image {
+    width: 50% !important;
+    height: 286px;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 66, ../components/sass/_posts.scss */
+  .featured-image {
+    width: 50% !important;
+    height: 286px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 66, ../components/sass/_posts.scss */
+  .featured-image {
+    width: 50% !important;
+    height: 300px;
+  }
+}
+/* line 93, ../components/sass/_posts.scss */
+.featured-image img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 97, ../components/sass/_posts.scss */
+  .home .featured-image {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 97, ../components/sass/_posts.scss */
+  .home .featured-image {
+    width: 100% !important;
+  }
+}
+
+/* line 106, ../components/sass/_posts.scss */
+.copy {
+  background: #fff;
+  display: block;
+  margin: 0;
+  padding: 20px 20px 15px 20px;
+  overflow: hidden;
+  height: 232px;
+}
+
+/* line 115, ../components/sass/_posts.scss */
+.home .copy {
+  padding: 1px;
+  height: auto;
+}
+
+/* line 120, ../components/sass/_posts.scss */
+.title {
+  width: 100%;
+  padding: 3% 0;
+  text-align: left;
+  height: auto !important;
+  min-height: 0 !important;
+}
+/* line 126, ../components/sass/_posts.scss */
+.title h3, .title h4 {
+  padding: 0 0 2% 0;
+  text-align: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  margin: 10px 0 5px;
+  line-height: 1.2;
+}
+/* line 135, ../components/sass/_posts.scss */
+.title a {
+  text-decoration: none;
+  color: #0A2933;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 143, ../components/sass/_posts.scss */
+.read-more {
+  margin: 30px 0;
+  padding-top: 10px;
+  text-align: center;
+  /*test*/
+}
+/* line 147, ../components/sass/_posts.scss */
+.read-more a {
+  border-radius: 1px;
+  color: #333333;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  border: 1px solid #333333;
+  text-decoration: none;
+}
+/* line 157, ../components/sass/_posts.scss */
+.read-more a:hover {
+  background-color: #1B1C4C;
+  color: #fff;
+}
+
+/* line 164, ../components/sass/_posts.scss */
+.home .read-more {
+  margin: 0 2% 2%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* line 3, ../components/sass/_blog-post.scss */
+.content-wrapper h2 {
+  padding-top: 10%;
+}
+/* line 6, ../components/sass/_blog-post.scss */
+.content-wrapper article {
+  margin-bottom: 2%;
+}
+/* line 9, ../components/sass/_blog-post.scss */
+.content-wrapper .post-meta {
+  padding-bottom: 0;
+}
+
+/* line 13, ../components/sass/_blog-post.scss */
+.content-copy {
+  margin-top: 5%;
+}
+
+/* line 16, ../components/sass/_blog-post.scss */
+.content-copy p, .post-meta p {
+  padding: 0 6%;
+}
+
+/* line 19, ../components/sass/_blog-post.scss */
+.main-content {
+  z-index: 998;
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 23, ../components/sass/_blog-post.scss */
+  .singlePage-post-image {
+    width: 50%;
+    background-position: right 5% top 38%;
+    max-height: none;
+    height: 100%;
+    position: fixed;
+  }
+}
+
+/* line 2, ../components/sass/_portfolio.scss */
+.portfolio ul li {
+  width: 82%;
+  height: 200px;
+  padding: 8%;
+  overflow: hidden;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 2, ../components/sass/_portfolio.scss */
+  .portfolio ul li {
+    width: 40%;
+    padding: 5%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 2, ../components/sass/_portfolio.scss */
+  .portfolio ul li {
+    width: 40%;
+    padding: 5%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 2, ../components/sass/_portfolio.scss */
+  .portfolio ul li {
+    width: 33%;
+    padding: 3% 0;
+    float: left;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 1, ../components/sass/_portfolio.scss */
+  .portfolio ul {
+    padding: 3% 1%;
+    float: left;
+  }
+}
+
+/* line 28, ../components/sass/_portfolio.scss */
+.portfolio a img {
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  -webkit-transition: all .6s ease;
+}
+/* line 34, ../components/sass/_portfolio.scss */
+.portfolio a img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  filter: gray;
+  -webkit-transition: all .6s ease;
+}
+@media only screen and (min-width: 993px) {
+  /* line 28, ../components/sass/_portfolio.scss */
+  .portfolio a img {
+    padding-left: 3%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 1, ../components/sass/_footer.scss */
+  footer {
+    margin-top: 47px;
+  }
+}
+/* line 4, ../components/sass/_footer.scss */
+footer div {
+  text-align: center;
+}
+/* line 7, ../components/sass/_footer.scss */
+footer li {
+  display: inline-block;
+  text-align: center;
+  background: none;
+  padding: 0 1%;
+  font-size: 2em;
+}
+/* line 13, ../components/sass/_footer.scss */
+footer li a {
+  text-decoration: none;
+  color: #020d28;
+  font-size: 1.2em;
+}
+/* line 19, ../components/sass/_footer.scss */
+footer p {
+  font-size: 1.1em;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-weight: 400;
+  letter-spacing: .05em;
+  color: #020d28;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 993px) {
+  /* line 1, ../components/sass/_footer.scss */
+  footer {
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 35, ../components/sass/_footer.scss */
+  footer ul {
+    margin-top: 14% !important;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* line 43, ../components/sass/_footer.scss */
+  footer .sections-wrapper {
+    width: 50%;
+    margin-left: 50%;
+    padding: 0;
+  }
+}
+
+/* line 50, ../components/sass/_footer.scss */
+.scalers:hover {
+  /* -webkit-transform: $scale; */
+  -moz-transform: 3;
+  -o-transform: 3;
+}
+
+/*make these intoformstylens...not so specific*/
+/* line 55, ../components/sass/_footer.scss */
+.contact input[type="submit"] {
+  background: #020d28;
+  padding: 4%;
+}
+/* line 58, ../components/sass/_footer.scss */
+.contact input[type="submit"]:hover {
+  color: #0a2933;
+  background-color: #ffffff;
+  border: 1px solid #0a2933;
+}
+
+/* line 65, ../components/sass/_footer.scss */
+.contact input[type="textarea"] {
+  height: 110px;
+}
+
+/* line 69, ../components/sass/_footer.scss */
+.contact input, textarea {
+  width: 95%;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-size: 1.5em;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5% 5px;
+  display: inline-block;
+  margin: 2% 0;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 800;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #0A2933;
+  line-height: 2;
+}
+/* line 89, ../components/sass/_footer.scss */
+.contact input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #0a2933;
+}
+/* line 92, ../components/sass/_footer.scss */
+.contact input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #0a2933;
+}
+/* line 95, ../components/sass/_footer.scss */
+.contact input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
+  color: #0a2933;
+}
+@media only screen and (min-width: 601px) and (max-width: 772px) {
+  /* line 69, ../components/sass/_footer.scss */
+  .contact input, textarea {
+    padding: 1% 0px;
+  }
+}
+
+/* line 102, ../components/sass/_footer.scss */
+.contact button, input[type="submit"], .intro-btn button, input[type="submit"] {
+  border: none;
+  font-size: 1.45em;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: inline-block;
+  margin: 15px 2px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 900;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+/* line 123, ../components/sass/_footer.scss */
+.contact button:hover, input[type="submit"]:hover, .intro-btn button:hover, input[type="submit"]:hover {
+  color: #0A2933;
+  background-color: #ffffff;
+}
+
+/**home-page**/
+/* line 2, ../components/sass/_home.scss */
+.hero-holder {
+  height: 240px;
+  margin-top: 0px;
+}
+
+/* line 6, ../components/sass/_home.scss */
+.hero {
+  position: relative;
+  background-color: #000;
+  padding: 0;
+  z-index: 6;
+  background-image: url("http://web.kateeldridge.co/kivvi/images/home.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+>>>>>>> my-new-branch

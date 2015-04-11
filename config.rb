@@ -1,5 +1,4 @@
-require 'bootstrap-sass'
 css_dir='_/css'
 sass_dir='_/components/sass'
-javascripts_dir='_js'
+javascripts_dir='_/components/js'
 output_style= :expanded

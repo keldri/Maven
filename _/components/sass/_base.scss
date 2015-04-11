@@ -10,9 +10,15 @@
 body{
 	font-family: $font-primary;
 	font-size:10px;
-	line-height:160%;
-	color:$color-secondary;
+	color:#0A2933;
+	background-color:#f9f9f9;
 }
+
+.site-wrapper {
+background-color: #fff;
+overflow: hidden;
+}
+
 .container-fluid {
 padding-top: 12%;
 }
@@ -27,17 +33,16 @@ padding-top: 12%;
 =======
 	font-family:'Lato', sans-serif;
 	font-weight:800;
-	color:#ffffff;
+	color:#0A2933;
 	text-align:	left;
 >>>>>>> my-new-branch
 	padding-bottom:4%;
 }
-
 h1{
 	font-size: 4.5em;
 }
-
 h2 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 	font-size: 3.4em;
 line-height: 60%;
@@ -49,34 +54,52 @@ font-weight: 300;
 	color: #0a2933;
 	font-weight: 900;
 >>>>>>> my-new-branch
+=======
+	font-size: 2.5em;
+	font-weight: 300;
+	line-height: 0.9;
+	padding:0 3%;
+	text-align: center;
+	@include respond-to(large-screens)  { 
+		padding-bottom: 4% 
+	}
+>>>>>>> my-new-branch
 }
 h3{
-color:$color-secondary;
-font-weight: 300;
-line-height: 18px;
-font-size: 1.6em;
-}
-
-h4{
+	font-weight: 300;
+	line-height: 18px;
 	font-size: 1.6em;
+	padding: 0;
+	text-align:center;
+	@include respond-to(large-screens)  { 
+		padding: 4% 0;
+	    font-size: 2.6em;
+	    line-height: 1.2;
+	}
+}
+h4{
+	font-size: 1.3em;
 	line-height: 100%;
-	color: $color-secondary;
 	margin: 0;
+<<<<<<< HEAD
 	font-weight: 400;
 <<<<<<< HEAD
 
 =======
 >>>>>>> my-new-branch
+=======
+	font-weight: 600;text-align:center;
+>>>>>>> my-new-branch
 }
-
-
 a{
 	text-decoration:underline;
+	font-family: 'Lato', sans-serif;
 	color:$mediumgray;
 	&:hover{
-		color:orange;
+		color: #AF8812;
 	}
 }
+<<<<<<< HEAD
 
 p {
 <<<<<<< HEAD
@@ -150,12 +173,32 @@ font-size: 1.45em;
 	border: 2px solid #fff;
 	background: transparent;
 	color: #fff;
+=======
+hr {
+	width: 50%;
+}
+article {
+	margin-bottom: 13%;
+}
+p {
+>>>>>>> my-new-branch
 	font-family: 'Lato', sans-serif;
-	&:hover{
-		color:$color-secondary;
-		background-color:#ffffff;
-		}
-}		
+	margin-bottom: 5%;
+	font-size: 1.6em;
+	text-align: left;
+	line-height: 23px;
+	font-weight: 400;
+	opacity: 0.8;
+	padding: 0 6%;
+	color:#0A2933;
+	@include respond-to(large-screens)  { 
+		margin-bottom: 2%;
+	}
+}
+
+
+
+	
 
 .img-responsive{
 	width:100%;
@@ -165,6 +208,7 @@ font-size: 1.45em;
 	z-index: -100;
 	opacity: 0.4;
 }
+<<<<<<< HEAD
 .sections{
 padding: 12% 6%;}
 /*---------------------------Footer-----------------------*/
@@ -199,10 +243,33 @@ color:#0a2933;
 }
 &:focus:-ms-input-placeholder{
 	color:#0a2933;
+=======
+
+/*-----------prettyphoto---move---*/
+/*.portfolio ul {
+overflow: hidden;
+padding: 0 10%;
+	li{
+		width: 100%;
+		height: 242px;
+		overflow: hidden;
+		float: left;
+		margin-bottom: 10%;
+	}
+>>>>>>> my-new-branch
 }
+.portfolio ul li a img{
+	width:100%;
 }
+#imagelightbox{
+    /*position: fixed;*/
+   /* z-index: 9999;
+    -ms-touch-action: none;
+    touch-action: none;
+}*/
 
 
+<<<<<<< HEAD
 .subscribe input[type="submit"] {
 top: -2.7%;
 width: 31%;
@@ -219,4 +286,7 @@ height: 100%;
 =======
 
 		
+>>>>>>> my-new-branch
+=======
+
 >>>>>>> my-new-branch

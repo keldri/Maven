@@ -1,12 +1,8 @@
 
 @import url('http://fonts.googleapis.com/css?family=Muli');
 @import url('http://fonts.googleapis.com/css?family=Raleway:900,800,700');
-<<<<<<< HEAD
-@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
-=======
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700');
 
->>>>>>> my-new-branch
 body{
 	font-family: $font-primary;
 	font-size:10px;
@@ -25,24 +21,16 @@ padding-top: 12%;
 //check to see how this affects mobile when have internet resizer
 
 #{headings()}{
-<<<<<<< HEAD
-	font-family: lato;
-	font-weight: 300;
-	color:#ffffff;
-	text-align: left;
-=======
 	font-family:'Lato', sans-serif;
 	font-weight:800;
 	color:#0A2933;
 	text-align:	left;
->>>>>>> my-new-branch
 	padding-bottom:4%;
 }
 h1{
-	font-size: 4.5em;
+	font-size: 3em;
 }
 h2 {
-<<<<<<< HEAD
 	font-size: 2.5em;
 	font-weight: 300;
 	line-height: 0.9;
@@ -51,19 +39,6 @@ h2 {
 	@include respond-to(large-screens)  { 
 		padding-bottom: 4% 
 	}
-=======
-<<<<<<< HEAD
-	font-size: 3.4em;
-line-height: 60%;
-color: #147574;
-font-weight: 300;
-=======
-	font-size:2.2em;
-	line-height: 60%;
-	color: #0a2933;
-	font-weight: 900;
->>>>>>> my-new-branch
->>>>>>> master
 }
 h3{
 	font-weight: 300;
@@ -81,15 +56,7 @@ h4{
 	font-size: 1.3em;
 	line-height: 100%;
 	margin: 0;
-<<<<<<< HEAD
 	font-weight: 600;text-align:center;
-=======
-	font-weight: 400;
-<<<<<<< HEAD
-
-=======
->>>>>>> my-new-branch
->>>>>>> master
 }
 a{
 	text-decoration:underline;
@@ -99,7 +66,6 @@ a{
 		color: #AF8812;
 	}
 }
-<<<<<<< HEAD
 hr {
 	width: 50%;
 }
@@ -107,81 +73,6 @@ article {
 	margin-bottom: 13%;
 }
 p {
-=======
-
-p {
-<<<<<<< HEAD
-font-family: "proxima-nova",sans-serif;
-margin-bottom: 5%;
-font-size: 1.67em;
-text-align: left;
-line-height: 1.5;
-font-weight: 100;
-color: #303c40;
-text-rendering: optimizeLegibility;
-=======
-font-family: 'Lato', sans-serif;
-margin-bottom: 5%;
-font-size: 1.7em;
-text-align: left;
-line-height: 27px;
->>>>>>> my-new-branch
-}
-#contact-us input,textarea {
-	width:100%;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
-<<<<<<< HEAD
-	font-size: 1.3em;
-=======
-	font-size: 1.5em;
->>>>>>> my-new-branch
-	color: #ffffff;
-	cursor: pointer;
-	padding: 5%;
-	display: inline-block;
-	margin: 1% 2% 1% 0;
-	text-transform: uppercase;
-	letter-spacing: 0;
-	font-weight: 800;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	border: 1px solid $color-secondary;
-	&:focus::-webkit-input-placeholder{
-	color:#0a2933;
-}
-&:focus::-moz-placeholder {
-color:#0a2933;
-}
-&:focus:-ms-input-placeholder{
-	color:#0a2933;
-}
-}
-#contact-us button, input[type="submit"], .intro-btn button, input[type="submit"] {
-	border: none;
-font-size: 1.45em;
-	color: inherit;
-	cursor: pointer;
-	padding: 8px 12px;
-	display: inline-block;
-	margin: 15px 2px;
-	text-transform: uppercase;
-	letter-spacing: 0;
-	text-align:center;
-	font-weight: 900;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-	border: 2px solid #fff;
-	background: transparent;
-	color: #fff;
->>>>>>> master
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 5%;
 	font-size: 1.6em;
@@ -208,7 +99,6 @@ font-size: 1.45em;
 	z-index: -100;
 	opacity: 0.4;
 }
-<<<<<<< HEAD
 
 /*-----------prettyphoto---move---*/
 /*.portfolio ul {
@@ -221,42 +111,6 @@ padding: 0 10%;
 		float: left;
 		margin-bottom: 10%;
 	}
-=======
-.sections{
-padding: 12% 6%;}
-/*---------------------------Footer-----------------------*/
-
-.subscribe{
-	background-color:$color-primary;
-	padding-top: 7%;
-	padding-bottom: 17%;
-}
-.subscribe form{
-	height: 50px;
-}
-.subscribe input[type="email"] {
-	border: 1px solid #fff;
-color: #0a2933;
-margin: 0;
-width: 66%;
-height: 100%;
-margin-right:1%;
-<<<<<<< HEAD
-padding: 0 2%;
-font-size: 1.3em;
-=======
-padding: 0 4%;
-font-size: 1.5em;
-&:focus::-webkit-input-placeholder{
-	color:#0a2933;
-}
-&:focus::-moz-placeholder {
-color:#0a2933;
->>>>>>> my-new-branch
-}
-&:focus:-ms-input-placeholder{
-	color:#0a2933;
->>>>>>> master
 }
 .portfolio ul li a img{
 	width:100%;
@@ -269,24 +123,4 @@ color:#0a2933;
 }*/
 
 
-<<<<<<< HEAD
 
-=======
-.subscribe input[type="submit"] {
-top: -2.7%;
-width: 31%;
-margin: 0;
-font-size: 1.5em;
-font-family: muli;
-height: 100%;
-}
-<<<<<<< HEAD
-	.contact-info {
-	padding: 14% .5% 3% 0;
-}
-
-=======
-
-		
->>>>>>> my-new-branch
->>>>>>> master

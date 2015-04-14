@@ -1,12 +1,14 @@
+
+
 header{
 	background: transparent;
 	width: 100%;
+	position:absolute;
 	z-index: 1001;
-	position: fixed;
 	-webkit-animation: feature-bg-anim .6s ease-in-out;
 	/*float:left;*/
-		@include respond-to(large-screens) { 
-			
+		@include respond-to(x-large-screens) { 
+			position:fixed;
 		}
 }
 
@@ -22,7 +24,30 @@ header{
 		float: left;
 		letter-spacing: 0.2em;
 		padding: 3%;
+		
 	}
+}
+.toggle-navigation{
+	position: absolute;
+	z-index: 1001;
+	right: 3%;
+	a{	
+		border-radius: 1px;
+		color: #333333;
+		padding: 10px 16px;
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: 900;
+		letter-spacing: 0.25em;
+		border: 1px solid #333333;
+		text-decoration: none;
+		background-color:#ffffff;
+			&:hover{
+			  background-color: #1B1C4C;
+			  color: #fff;
+			  margin: 0;
+			  }
+	 }
 }
 .toggle{
 	color: #d8d8d8;

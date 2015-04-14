@@ -1768,10 +1768,11 @@ header {
 /* line 30, ../components/sass/_header.scss */
 .toggle-navigation {
   position: absolute;
-  z-index: 1001;
+  z-index: 1003;
   right: 3%;
+  top: 1%;
 }
-/* line 34, ../components/sass/_header.scss */
+/* line 35, ../components/sass/_header.scss */
 .toggle-navigation a {
   border-radius: 1px;
   color: #333333;
@@ -1784,14 +1785,19 @@ header {
   text-decoration: none;
   background-color: #ffffff;
 }
-/* line 45, ../components/sass/_header.scss */
+/* line 46, ../components/sass/_header.scss */
 .toggle-navigation a:hover {
   background-color: #1B1C4C;
   color: #fff;
   margin: 0;
 }
 
-/* line 52, ../components/sass/_header.scss */
+/* line 53, ../components/sass/_header.scss */
+.individual .toggle-navigation {
+  top: 1.8%;
+}
+
+/* line 56, ../components/sass/_header.scss */
 .toggle {
   color: #d8d8d8;
   text-decoration: none;
@@ -1802,21 +1808,21 @@ header {
   border-radius: 2px;
 }
 
-/* line 65, ../components/sass/_header.scss */
+/* line 69, ../components/sass/_header.scss */
 .open-toggle {
   margin-right: 5%;
   margin-top: 2%;
   float: right;
 }
 @media only screen and (min-width: 993px) {
-  /* line 65, ../components/sass/_header.scss */
+  /* line 69, ../components/sass/_header.scss */
   .open-toggle {
     margin-right: 4%;
     margin-top: 3%;
   }
 }
 
-/* line 76, ../components/sass/_header.scss */
+/* line 80, ../components/sass/_header.scss */
 .close-toggle {
   position: fixed;
   width: 35px;
@@ -1826,14 +1832,14 @@ header {
   margin-left: 4px;
 }
 @media only screen and (min-width: 993px) {
-  /* line 76, ../components/sass/_header.scss */
+  /* line 80, ../components/sass/_header.scss */
   .close-toggle {
     margin-top: 3.6%;
   }
 }
 
 /*------Header-copy--------*/
-/* line 88, ../components/sass/_header.scss */
+/* line 92, ../components/sass/_header.scss */
 .banner-container {
   position: absolute;
   top: 0;
@@ -1843,14 +1849,14 @@ header {
 }
 
 /***FitText***/
-/* line 96, ../components/sass/_header.scss */
+/* line 100, ../components/sass/_header.scss */
 .banner-holder {
   width: 84%;
   margin: 0 auto;
   max-width: 1140px;
 }
 
-/* line 102, ../components/sass/_header.scss */
+/* line 106, ../components/sass/_header.scss */
 #responsive_headline {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -1862,7 +1868,7 @@ header {
   margin: 5% auto 5%;
 }
 
-/* line 116, ../components/sass/_header.scss */
+/* line 120, ../components/sass/_header.scss */
 .weblink {
   text-decoration: none;
   text-transform: uppercase;
@@ -1874,7 +1880,7 @@ header {
 }
 
 /*------Sidebar--------*/
-/* line 127, ../components/sass/_header.scss */
+/* line 131, ../components/sass/_header.scss */
 nav.sidebar {
   position: fixed;
   width: 206px;
@@ -1889,27 +1895,27 @@ nav.sidebar {
   min-height: 100%;
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 127, ../components/sass/_header.scss */
+  /* line 131, ../components/sass/_header.scss */
   nav.sidebar {
     width: 237px;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 127, ../components/sass/_header.scss */
+  /* line 131, ../components/sass/_header.scss */
   nav.sidebar {
     width: 300px;
   }
 }
 
-/* line 144, ../components/sass/_header.scss */
+/* line 148, ../components/sass/_header.scss */
 nav.sidebar ul {
   margin-top: 9%;
 }
-/* line 146, ../components/sass/_header.scss */
+/* line 150, ../components/sass/_header.scss */
 nav.sidebar ul li {
   margin-bottom: 9px;
 }
-/* line 148, ../components/sass/_header.scss */
+/* line 152, ../components/sass/_header.scss */
 nav.sidebar ul li a {
   font-size: 1.4em;
   color: #0a2933;
@@ -1921,11 +1927,11 @@ nav.sidebar ul li a {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 158, ../components/sass/_header.scss */
+/* line 162, ../components/sass/_header.scss */
 nav.sidebar ul li a:hover {
   color: #bbbbbb;
 }
-/* line 161, ../components/sass/_header.scss */
+/* line 165, ../components/sass/_header.scss */
 nav.sidebar ul li a .trigger {
   color: #0A2933;
   padding: 10px;
@@ -1940,7 +1946,7 @@ nav.sidebar ul li a .trigger {
   text-align: center;
 }
 
-/* line 178, ../components/sass/_header.scss */
+/* line 182, ../components/sass/_header.scss */
 nav.sidebar ul li a.trigger {
   color: #0A2933;
   padding: 10px;
@@ -1955,12 +1961,12 @@ nav.sidebar ul li a.trigger {
   text-align: center;
   font-weight: 400;
 }
-/* line 191, ../components/sass/_header.scss */
+/* line 195, ../components/sass/_header.scss */
 nav.sidebar ul li a.trigger:hover {
   color: #777;
 }
 
-/* line 198, ../components/sass/_header.scss */
+/* line 202, ../components/sass/_header.scss */
 nav.sidebar ul li a.activetrigger {
   color: #0A2933;
   padding: 10px;
@@ -1975,36 +1981,36 @@ nav.sidebar ul li a.activetrigger {
   text-align: center;
   font-weight: 400;
 }
-/* line 211, ../components/sass/_header.scss */
+/* line 215, ../components/sass/_header.scss */
 nav.sidebar ul li a.activetrigger:hover {
   background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
   color: #777;
 }
-/* line 215, ../components/sass/_header.scss */
+/* line 219, ../components/sass/_header.scss */
 nav.sidebar ul li a.activetrigger:active {
   background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
   color: #777;
 }
 
 /*new dropdown*/
-/* line 225, ../components/sass/_header.scss */
+/* line 229, ../components/sass/_header.scss */
 .search-content {
   padding-top: 0;
 }
 
-/* line 228, ../components/sass/_header.scss */
+/* line 232, ../components/sass/_header.scss */
 .search-box form p {
   color: #0A2933;
 }
 
-/* line 232, ../components/sass/_header.scss */
+/* line 236, ../components/sass/_header.scss */
 ul li a.dropcontainer {
   position: relative;
   font-size: 16px;
   color: #777;
 }
 
-/* line 240, ../components/sass/_header.scss */
+/* line 244, ../components/sass/_header.scss */
 ul li a.dropcontainer ul {
   font-size: 16px;
   border: 1px solid #0A2933;
@@ -2020,39 +2026,39 @@ ul li a.dropcontainer ul {
   text-align: center;
 }
 
-/* line 255, ../components/sass/_header.scss */
+/* line 259, ../components/sass/_header.scss */
 .dropcontainer ul li {
   padding: 0px;
   margin-bottom: 5px;
 }
 
-/* line 260, ../components/sass/_header.scss */
+/* line 264, ../components/sass/_header.scss */
 .dropcontainer ul li:hover {
   background: #f5f5f5;
   outline: none;
 }
 
-/* line 265, ../components/sass/_header.scss */
+/* line 269, ../components/sass/_header.scss */
 .dropcontainer ul li:first-child {
   display: none;
 }
 
-/* line 270, ../components/sass/_header.scss */
+/* line 274, ../components/sass/_header.scss */
 .dropcontainer ul li:last-child {
   border-bottom: none;
 }
 
-/* line 275, ../components/sass/_header.scss */
+/* line 279, ../components/sass/_header.scss */
 .dropdownhidden {
   display: none;
 }
 
-/* line 280, ../components/sass/_header.scss */
+/* line 284, ../components/sass/_header.scss */
 nav.sidebar .dropdownvisible, .dropdownvisible {
   height: auto;
   position: static;
 }
-/* line 283, ../components/sass/_header.scss */
+/* line 287, ../components/sass/_header.scss */
 nav.sidebar .dropdownvisible a, .dropdownvisible a {
   text-decoration: none;
   color: #0A2933;
@@ -2060,7 +2066,7 @@ nav.sidebar .dropdownvisible a, .dropdownvisible a {
   font-weight: 400;
 }
 
-/* line 290, ../components/sass/_header.scss */
+/* line 294, ../components/sass/_header.scss */
 .dropdownvisible {
   position: fixed;
 }
@@ -2077,57 +2083,57 @@ height: auto;
     height: 200px;
     overflow-y: scroll;
     }*/
-/* line 311, ../components/sass/_header.scss */
+/* line 315, ../components/sass/_header.scss */
 ul li.active {
   background: none repeat scroll 0 0 transparent;
   margin-left: -4px;
   padding: 4px;
 }
-/* line 315, ../components/sass/_header.scss */
+/* line 319, ../components/sass/_header.scss */
 ul li.active a {
   color: blue !important;
 }
-/* line 317, ../components/sass/_header.scss */
+/* line 321, ../components/sass/_header.scss */
 ul li.active a:hover {
   color: #ffffff !important;
 }
 
-/* line 322, ../components/sass/_header.scss */
+/* line 326, ../components/sass/_header.scss */
 ul.social {
   display: inline-block;
   float: left;
   width: 100%;
   margin: 25% 7% 0 3% !important;
 }
-/* line 327, ../components/sass/_header.scss */
+/* line 331, ../components/sass/_header.scss */
 ul.social li {
   width: 16%;
   float: left;
 }
-/* line 330, ../components/sass/_header.scss */
+/* line 334, ../components/sass/_header.scss */
 ul.social li a {
   font-size: 1.9em !important;
 }
 
-/* line 337, ../components/sass/_header.scss */
+/* line 341, ../components/sass/_header.scss */
 .push {
   right: 244px;
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 337, ../components/sass/_header.scss */
+  /* line 341, ../components/sass/_header.scss */
   .push {
     right: 280px;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 337, ../components/sass/_header.scss */
+  /* line 341, ../components/sass/_header.scss */
   .push {
     right: 323px;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 343, ../components/sass/_header.scss */
+  /* line 347, ../components/sass/_header.scss */
   .push-margin {
     display: none;
   }

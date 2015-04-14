@@ -29,8 +29,9 @@ header{
 }
 .toggle-navigation{
 	position: absolute;
-	z-index: 1001;
+	z-index: 1003;
 	right: 3%;
+	top:1%;
 	a{	
 		border-radius: 1px;
 		color: #333333;
@@ -48,6 +49,9 @@ header{
 			  margin: 0;
 			  }
 	 }
+}
+.individual .toggle-navigation{
+top:1.8%;
 }
 .toggle{
 	color: #d8d8d8;

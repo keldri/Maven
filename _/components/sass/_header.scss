@@ -7,11 +7,13 @@ header{
 	z-index: 1001;
 	-webkit-animation: feature-bg-anim .6s ease-in-out;
 	/*float:left;*/
-		@include respond-to(x-large-screens) { 
+		
+}
+.individual header{
+	@include respond-to(x-large-screens) { 
 			position:fixed;
 		}
 }
-
 .logo {
 	margin:0;
 	a{

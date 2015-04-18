@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'respond-to'.
-        on line 25 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss, in `respond-to'
-        from line 25 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss
+        on line 24 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss, in `respond-to'
+        from line 24 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss
 
-20: 			margin: 0px 2% 25px;
-21: 			background-color: #fff;
-22: 			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-23: 			-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-24: 			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-25: 				@include respond-to(medium-screens){
-26: 					width:28%;
-27: 				}
-28: 				@include respond-to(large-screens){
-29: 					width:28%;
-30: 				}
+19: 			  margin: 0px 2% 25px;
+20: 			  background-color: #fff;
+21: 			  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+22: 			  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+23: 			  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+24: 				@include respond-to(medium-screens){
+25: 					width:28%;
+26: 				}
+27: 				@include respond-to(large-screens){
+28: 					width:28%;
+29: 				}
 
 Backtrace:
-/Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss:25:in `respond-to'
-/Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss:25
+/Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss:24:in `respond-to'
+/Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss:24
 /Users/kateeldridge/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 /Users/kateeldridge/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/kateeldridge/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
@@ -84,4 +84,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'respond-to'.\A         on line 25 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss, in `respond-to'\A         from line 25 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss\A \A 20: 			margin: 0px 2% 25px;\A 21: 			background-color: #fff;\A 22: 			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 23: 			-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 24: 			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 25: 				@include respond-to(medium-screens){\A 26: 					width:28%;\A 27: 				}\A 28: 				@include respond-to(large-screens){\A 29: 					width:28%;\A 30: 				}"; }
+  content: "Error: Undefined mixin 'respond-to'.\A         on line 24 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss, in `respond-to'\A         from line 24 of /Users/kateeldridge/Documents/kivvi/_/components/sass/directory.scss\A \A 19: 			  margin: 0px 2% 25px;\A 20: 			  background-color: #fff;\A 21: 			  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 22: 			  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 23: 			  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);\A 24: 				@include respond-to(medium-screens){\A 25: 					width:28%;\A 26: 				}\A 27: 				@include respond-to(large-screens){\A 28: 					width:28%;\A 29: 				}"; }

@@ -10,18 +10,17 @@
 	position: relative;
 	overflow: hidden;
 		article {
-			overflow: hidden;
-			position: relative;
-			display: block;
-			float: left;
-			width: 44%;
-			margin: 0;
-			background: transparent;
-			margin: 0px 2% 25px;
-			background-color: #fff;
-			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-			-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+			  overflow: hidden;
+			  position: relative;
+			  display: block;
+			  float: left;
+			  width: 44%;
+			  background: transparent;
+			  margin: 0px 2% 25px;
+			  background-color: #fff;
+			  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+			  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+			  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 				@include respond-to(medium-screens){
 					width:28%;
 				}
@@ -33,7 +32,6 @@
 				}
 				a{
 					display: block;
-					padding-bottom: 3em;
 					color: #fff;
 					-moz-transition: opacity 0.35s ease;
 					-o-transition: opacity 0.35s ease;
@@ -43,38 +41,36 @@
 		}
 }		
 .directory header {
-	z-index: 1000;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 3em;
+	  z-index: 1000;
+	  position: relative;
+	  height: 4em;
+	  padding: 7% 0% 0;
+	  background-color: rgba(255, 255, 255, 0.42);
 		h2{
-			  padding: 0 3%;
-			  text-align: center;
-			  margin-bottom: .25em;
-			  font-style: normal;
-			  font-size: 1.3em;
-			  line-height: 1.1em;
-			  letter-spacing: .025em;
-			  margin-top: 2%;
-			  text-transform: uppercase;
-			  margin-top: 6%;
+			text-align: center;
+			margin-bottom: .25em;
+			font-style: normal;
+			font-size: 1.3em;
+			line-height: 1.1em;
+			letter-spacing: .025em;
+			text-transform: uppercase;
+			margin-top: 0%;
+			font-weight: 900;
 		}
 		ul{
-			  display: none;
-			margin-bottom: 0;
-			font-size: .75em;
+			display: inherit;
+			padding-bottom: 2%;
+			font-size: 1em;
 			line-height: 1.35em;
 			letter-spacing: .075em;
 			font-family: "maison-neue-for-tgd", Helvetica, Arial, Sans-Serif, sans-serif;
-			font-weight: 400;
 			font-style: normal;
-			font-weight: 500;
-			opacity: .5;
+			font-weight: 700;
+			color: #0A2933;
+			text-align: center;
+			text-transform: uppercase;
 				li{
 				display: inline;
-				margin-right: .25em;
 				}
 		}
 }	

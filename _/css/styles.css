@@ -2484,7 +2484,6 @@ ul.social li a {
   display: block;
   float: left;
   width: 44%;
-  margin: 0;
   background: transparent;
   margin: 0px 2% 25px;
   background-color: #fff;
@@ -2510,10 +2509,9 @@ ul.social li a {
     width: 20%;
   }
 }
-/* line 34, ../components/sass/directory.scss */
+/* line 33, ../components/sass/directory.scss */
 .directory article a {
   display: block;
-  padding-bottom: 3em;
   color: #fff;
   -moz-transition: opacity 0.35s ease;
   -o-transition: opacity 0.35s ease;
@@ -2521,52 +2519,50 @@ ul.social li a {
   transition: opacity 0.35s ease;
 }
 
-/* line 45, ../components/sass/directory.scss */
+/* line 43, ../components/sass/directory.scss */
 .directory header {
   z-index: 1000;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 3em;
+  position: relative;
+  height: 4em;
+  padding: 7% 0% 0;
+  background-color: rgba(255, 255, 255, 0.42);
 }
-/* line 52, ../components/sass/directory.scss */
+/* line 49, ../components/sass/directory.scss */
 .directory header h2 {
-  padding: 0 3%;
   text-align: center;
   margin-bottom: .25em;
   font-style: normal;
   font-size: 1.3em;
   line-height: 1.1em;
   letter-spacing: .025em;
-  margin-top: 2%;
   text-transform: uppercase;
-  margin-top: 6%;
+  margin-top: 0%;
+  font-weight: 900;
 }
-/* line 64, ../components/sass/directory.scss */
+/* line 60, ../components/sass/directory.scss */
 .directory header ul {
-  display: none;
-  margin-bottom: 0;
-  font-size: .75em;
+  display: inherit;
+  padding-bottom: 2%;
+  font-size: 1em;
   line-height: 1.35em;
   letter-spacing: .075em;
   font-family: "maison-neue-for-tgd", Helvetica, Arial, Sans-Serif, sans-serif;
-  font-weight: 400;
   font-style: normal;
-  font-weight: 500;
-  opacity: .5;
+  font-weight: 700;
+  color: #0A2933;
+  text-align: center;
+  text-transform: uppercase;
 }
-/* line 75, ../components/sass/directory.scss */
+/* line 72, ../components/sass/directory.scss */
 .directory header ul li {
   display: inline;
-  margin-right: .25em;
 }
 
-/* line 81, ../components/sass/directory.scss */
+/* line 77, ../components/sass/directory.scss */
 .directory-image {
   position: relative;
 }
-/* line 83, ../components/sass/directory.scss */
+/* line 79, ../components/sass/directory.scss */
 .directory-image img {
   right: 0;
   top: 0;

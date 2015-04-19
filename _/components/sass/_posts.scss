@@ -1,3 +1,6 @@
+.post-wrapper{
+	padding:4% 2%;
+}
 .post{
 	padding: 0px;
 	margin: 0 4% 25px;
@@ -151,9 +154,9 @@ min-height: 0 !important;
 
 	}
 	@include respond-to(x-large-screens){
-		width: 29%;
-		float: left;
-		margin: 2.1%;
+		  width: 45.6%;
+		  float: left;
+		  margin: 2.1%;
 	}
 }
 .home .featured-image {

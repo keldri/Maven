@@ -10,6 +10,9 @@
 			padding-top:0;
 		}		
 }
+.extra-padding{
+	padding-top: 16%;
+}
 .individual .main-content{
 @include respond-to(x-large-screens)  { 
 			width:50%;
@@ -33,6 +36,7 @@
 }
 .home .sections {
   margin: 0;
+  	clear:both;
 }
 
 .sections.contact{
@@ -61,7 +65,7 @@
 	background-color: #f9f9f9;
 }
 .section-header {
-	padding: 5% 0;
+padding: 4% 6% 0;
 }
 .sections-wrapper{
 	padding-right:4%;
@@ -215,29 +219,30 @@ display: inline-block;
 			}
 	}
 	h2 {
-		  padding-top: 7%;
+		padding-top: 7%;
+		padding: 0;
+		line-height: 150%;
+		color: #101F46;
+		text-align: left;
+		  font-family: calibre_regular,sans-serif;
 	}
 	h4{ 
 		display: block;
 		text-align: center;
-		font-size: 11px;
+		font-size: 17px;
 		letter-spacing: 0.3em;
-		text-rendering: optimizeSpeed;
-		-webkit-margin-before: 0 !important;
-		-webkit-margin-after: 0 !important;
-		-webkit-margin-start: 0px !important;
-		-webkit-margin-end: 0px !important;
 		padding: 7% 0 0;
+		color:#0A2933;
 			@include respond-to(x-large-screens)  { 
 				font-size:2em;
 			}
 	}	
 	p{
-		font-size: 2.2em;
-		line-height: 1.2em;
+		font-size: 1.8em;
+		line-height: 1.6em;
 		padding: 4% 6%;
-		text-align: center;
-		margin:0;
+		text-align: left;
+		margin: 0;
 	}
 }  
 
@@ -247,7 +252,7 @@ display: inline-block;
 			}
 }
 .mission .section-header{
-	padding:2%;
+	  padding: 4% 6% 0;
 }
 .home > div:nth-child(2){
 	background-color:rgb(208, 208, 208);

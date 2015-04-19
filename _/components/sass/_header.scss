@@ -16,6 +16,7 @@ header{
 }
 .logo {
 	margin:0;
+	opacity: .8;
 	a{
 		color: #d8d8d8;
 		text-decoration: none;
@@ -25,8 +26,8 @@ header{
 		line-height: 22px;
 		float: left;
 		letter-spacing: 0.2em;
-		padding: 3%;
-		
+		margin-left: 3%;
+		margin-top: 4%;	
 	}
 }
 .toggle-navigation{
@@ -53,7 +54,7 @@ header{
 	 }
 }
 .individual .toggle-navigation{
-top:1.8%;
+	top: 0.4%;
 }
 .toggle{
 	color: #d8d8d8;

@@ -34,8 +34,12 @@ h2 {
 	font-size: 2.5em;
 	font-weight: 300;
 	line-height: 0.9;
-	padding:0 3%;
-	text-align: center;
+	padding: 0;
+	line-height: 150%;
+	color: #101F46;
+	text-align: left;
+	font-family: calibre_regular,sans-serif;
+	text-transform:uppercase;
 	@include respond-to(large-screens)  { 
 		
 	}

@@ -11,7 +11,19 @@
 		}		
 }
 .extra-padding{
-	padding-top: 16%;
+	padding-top: 9%;
+	@include respond-to(small-screens)  { 
+	padding-top:3%;
+	}
+	@include respond-to(meduium-screens)  { 
+	padding-top:3%;
+	}
+	@include respond-to(large-screens)  { 
+	padding-top:3%;
+	}
+	@include respond-to(x-large-screens)  { 
+	padding-top:0;
+	}
 }
 .individual .main-content{
 @include respond-to(x-large-screens)  { 

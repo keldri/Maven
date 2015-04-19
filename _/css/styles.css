@@ -2174,11 +2174,29 @@ ul.social li a {
 
 /* line 13, ../components/sass/_sections.scss */
 .extra-padding {
-  padding-top: 16%;
+  padding-top: 9%;
+}
+@media only screen and (min-width: 600px) {
+  /* line 13, ../components/sass/_sections.scss */
+  .extra-padding {
+    padding-top: 3%;
+  }
+}
+@media only screen and (min-width: 773px) and (max-width: 992px) {
+  /* line 13, ../components/sass/_sections.scss */
+  .extra-padding {
+    padding-top: 3%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 13, ../components/sass/_sections.scss */
+  .extra-padding {
+    padding-top: 0;
+  }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 16, ../components/sass/_sections.scss */
+  /* line 28, ../components/sass/_sections.scss */
   .individual .main-content {
     width: 50%;
     margin-left: 50%;
@@ -2186,7 +2204,7 @@ ul.social li a {
   }
 }
 
-/* line 24, ../components/sass/_sections.scss */
+/* line 36, ../components/sass/_sections.scss */
 .sections {
   padding: 0;
   width: 100%;
@@ -2197,69 +2215,69 @@ ul.social li a {
   z-index: 998;
 }
 @media only screen and (min-width: 993px) {
-  /* line 24, ../components/sass/_sections.scss */
+  /* line 36, ../components/sass/_sections.scss */
   .sections {
     padding: 0;
     width: 100%;
   }
 }
 
-/* line 37, ../components/sass/_sections.scss */
+/* line 49, ../components/sass/_sections.scss */
 .home .sections {
   margin: 0;
   clear: both;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 42, ../components/sass/_sections.scss */
+  /* line 54, ../components/sass/_sections.scss */
   .sections.contact {
     clear: both;
     padding-top: 7%;
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 42, ../components/sass/_sections.scss */
+  /* line 54, ../components/sass/_sections.scss */
   .sections.contact {
     clear: both;
     padding-top: 7%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 42, ../components/sass/_sections.scss */
+  /* line 54, ../components/sass/_sections.scss */
   .sections.contact {
     clear: both;
     padding-top: 7%;
   }
 }
-/* line 55, ../components/sass/_sections.scss */
+/* line 67, ../components/sass/_sections.scss */
 .sections.contact p {
   text-align: center;
   padding-top: 6%;
   line-height: 22px;
 }
 
-/* line 64, ../components/sass/_sections.scss */
+/* line 76, ../components/sass/_sections.scss */
 .sections.post-large {
   background-color: #f9f9f9;
 }
 
-/* line 67, ../components/sass/_sections.scss */
+/* line 79, ../components/sass/_sections.scss */
 .section-header {
   padding: 4% 6% 0;
 }
 
-/* line 70, ../components/sass/_sections.scss */
+/* line 82, ../components/sass/_sections.scss */
 .sections-wrapper {
   padding-right: 4%;
   padding-left: 4%;
 }
 
-/* line 74, ../components/sass/_sections.scss */
+/* line 86, ../components/sass/_sections.scss */
 .bio ul {
   text-align: center;
   margin-top: 7%;
 }
-/* line 77, ../components/sass/_sections.scss */
+/* line 89, ../components/sass/_sections.scss */
 .bio ul li {
   display: inline-block;
   text-align: center;
@@ -2267,7 +2285,7 @@ ul.social li a {
   padding: 0 3%;
   font-size: 1.3em;
 }
-/* line 83, ../components/sass/_sections.scss */
+/* line 95, ../components/sass/_sections.scss */
 .bio ul li a {
   text-decoration: none;
   color: #2D2D2F;
@@ -2275,7 +2293,7 @@ ul.social li a {
 }
 
 /*USER INFO BAR*/
-/* line 96, ../components/sass/_sections.scss */
+/* line 108, ../components/sass/_sections.scss */
 .user-infobar {
   position: fixed;
   left: 0px;
@@ -2288,7 +2306,7 @@ ul.social li a {
   text-align: center;
 }
 @media only screen and (min-width: 993px) {
-  /* line 96, ../components/sass/_sections.scss */
+  /* line 108, ../components/sass/_sections.scss */
   .user-infobar {
     width: 7%;
     margin-left: 40.1%;
@@ -2298,19 +2316,19 @@ ul.social li a {
   }
 }
 
-/* line 114, ../components/sass/_sections.scss */
+/* line 126, ../components/sass/_sections.scss */
 .tabs-bar {
   height: 37px;
   z-index: 1001;
 }
 
-/* line 122, ../components/sass/_sections.scss */
+/* line 134, ../components/sass/_sections.scss */
 .tabs-bar ul {
   overflow: hidden;
   text-align: center;
   padding-top: 14px;
 }
-/* line 126, ../components/sass/_sections.scss */
+/* line 138, ../components/sass/_sections.scss */
 .tabs-bar ul li {
   margin: 0;
   float: left;
@@ -2334,7 +2352,7 @@ ul.social li a {
    }*/
 }
 @media only screen and (min-width: 993px) {
-  /* line 126, ../components/sass/_sections.scss */
+  /* line 138, ../components/sass/_sections.scss */
   .tabs-bar ul li {
     padding: 6px 0 10% 0;
     float: none;
@@ -2342,13 +2360,13 @@ ul.social li a {
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 122, ../components/sass/_sections.scss */
+  /* line 134, ../components/sass/_sections.scss */
   .tabs-bar ul {
     padding-top: 0;
   }
 }
 
-/* line 160, ../components/sass/_sections.scss */
+/* line 172, ../components/sass/_sections.scss */
 .tabs-bar a {
   color: #0A2933;
   font-weight: 700;
@@ -2361,24 +2379,24 @@ ul.social li a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
-/* line 171, ../components/sass/_sections.scss */
+/* line 183, ../components/sass/_sections.scss */
 .tabs-bar a:hover {
   font-weight: 300;
 }
 @media only screen and (min-width: 993px) {
-  /* line 160, ../components/sass/_sections.scss */
+  /* line 172, ../components/sass/_sections.scss */
   .tabs-bar a {
     font-size: 1.5em;
   }
 }
 
-/* line 179, ../components/sass/_sections.scss */
+/* line 191, ../components/sass/_sections.scss */
 .tabs-bar ul a span {
   margin: 0px 13%;
   display: none;
 }
 
-/* line 185, ../components/sass/_sections.scss */
+/* line 197, ../components/sass/_sections.scss */
 .tabs-bar .fa {
   font-size: 2.5em;
   text-align: center;
@@ -2386,18 +2404,18 @@ ul.social li a {
   display: inline-block;
 }
 
-/* line 192, ../components/sass/_sections.scss */
+/* line 204, ../components/sass/_sections.scss */
 .nav-up {
   bottom: -48px;
 }
 
 /***HOME PAGE***/
-/* line 200, ../components/sass/_sections.scss */
+/* line 212, ../components/sass/_sections.scss */
 .home {
   padding: 0 !important;
 }
 
-/* line 205, ../components/sass/_sections.scss */
+/* line 217, ../components/sass/_sections.scss */
 .home h1 {
   color: #333;
   padding-bottom: 5%;
@@ -2412,12 +2430,12 @@ ul.social li a {
   padding-top: 3%;
 }
 @media only screen and (min-width: 993px) {
-  /* line 205, ../components/sass/_sections.scss */
+  /* line 217, ../components/sass/_sections.scss */
   .home h1 {
     font-size: 7.5em;
   }
 }
-/* line 221, ../components/sass/_sections.scss */
+/* line 233, ../components/sass/_sections.scss */
 .home h2 {
   padding-top: 7%;
   padding: 0;
@@ -2426,7 +2444,7 @@ ul.social li a {
   text-align: left;
   font-family: calibre_regular,sans-serif;
 }
-/* line 229, ../components/sass/_sections.scss */
+/* line 241, ../components/sass/_sections.scss */
 .home h4 {
   display: block;
   text-align: center;
@@ -2436,12 +2454,12 @@ ul.social li a {
   color: #0A2933;
 }
 @media only screen and (min-width: 993px) {
-  /* line 229, ../components/sass/_sections.scss */
+  /* line 241, ../components/sass/_sections.scss */
   .home h4 {
     font-size: 2em;
   }
 }
-/* line 240, ../components/sass/_sections.scss */
+/* line 252, ../components/sass/_sections.scss */
 .home p {
   font-size: 1.8em;
   line-height: 1.6em;
@@ -2451,41 +2469,41 @@ ul.social li a {
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 249, ../components/sass/_sections.scss */
+  /* line 261, ../components/sass/_sections.scss */
   .home-header .section-header {
     padding: 5% 10% 0;
   }
 }
 
-/* line 254, ../components/sass/_sections.scss */
+/* line 266, ../components/sass/_sections.scss */
 .mission .section-header {
   padding: 4% 6% 0;
 }
 
-/* line 257, ../components/sass/_sections.scss */
+/* line 269, ../components/sass/_sections.scss */
 .home > div:nth-child(2) {
   background-color: #d0d0d0;
 }
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 257, ../components/sass/_sections.scss */
+  /* line 269, ../components/sass/_sections.scss */
   .home > div:nth-child(2) {
     clear: both;
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 257, ../components/sass/_sections.scss */
+  /* line 269, ../components/sass/_sections.scss */
   .home > div:nth-child(2) {
     clear: both;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 257, ../components/sass/_sections.scss */
+  /* line 269, ../components/sass/_sections.scss */
   .home > div:nth-child(2) {
     clear: both;
   }
 }
 
-/* line 269, ../components/sass/_sections.scss */
+/* line 281, ../components/sass/_sections.scss */
 .home > div:nth-child(3) {
   background-color: #f7f7f4;
 }

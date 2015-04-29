@@ -1,6 +1,9 @@
 .post-wrapper{
 	padding:4% 2%;
-}
+		@include respond-to(x-large-screens){
+			padding:1% 4%;
+		}
+}	
 .post{
 	padding: 0px;
 	margin: 0 4% 25px;
@@ -16,23 +19,23 @@
 			padding: 0;
 			border: 0.75px solid rgba(15, 14, 14, 0.24);
 		}
-	@include respond-to(medium-screens){
-		width: 91%;
-		float: left;			
-	}	
-	@include respond-to(large-screens){
-		width: 42%;
-		float: left;
-	}	
-	@include respond-to(x-large-screens){
-		width: 21%;
-		float: left;
-		margin:2%;
-	}	  
+		@include respond-to(medium-screens){
+			width: 91%;
+			float: left;			
+		}	
+		@include respond-to(large-screens){
+			width: 42%;
+			float: left;
+		}	
+		@include respond-to(x-large-screens){
+			width: 21%;
+			float: left;
+			margin:2%;
+		}	  
 }	
 .post-content{
-  padding: 7.5px;
-  overflow: hidden;
+	padding: 7.5px;
+	overflow: hidden;
 }
 .featured-image{
 	width: 100%;
@@ -55,31 +58,31 @@
 		@include respond-to(x-large-screens){
 			width: 100%;
 		}
-			img{
-				width: 100%;
-			}
+		img{
+			width: 100%;
+		}
 }
 .title{
-width: 100%;
-padding: 3% 0;
-text-align: left;
-height: auto !important;
-min-height: 0 !important;
-	h3, h4{
-		padding:0 0 2% 0;
-		text-align:center;
-		text-align: center;
-		font-size: 18px;
-		letter-spacing: 0.05em;
-		margin: 10px 0 5px;
-		line-height: 1.2;
-	}
-	a{
-	text-decoration:none;
-	color:#0A2933;
-	font-weight:700;
-	text-transform:uppercase;
-	}
+	width: 100%;
+	padding: 3% 0;
+	text-align: left;
+	height: auto !important;
+	min-height: 0 !important;
+		h3, h4{
+			padding:0 0 2% 0;
+			text-align:center;
+			text-align: center;
+			font-size: 18px;
+			letter-spacing: 0.05em;
+			margin: 10px 0 5px;
+			line-height: 1.2;
+		}
+		a{
+		text-decoration:none;
+		color:#0A2933;
+		font-weight:700;
+		text-transform:uppercase;
+		}
 }
 .read-more {
 	margin: 30px 0;
@@ -107,82 +110,82 @@ min-height: 0 !important;
 	padding: 20px 20px 15px 20px;
 	overflow: hidden;
 	height:232px;
-}
-/**********INDIVIDUAL PAGE POSTS*********/
-.individual .post{
-	@include respond-to(medium-screens){
-				width: 92%;
-			}	
-			@include respond-to(large-screens){
-				width: 92%;
-			}	
-			@include respond-to(x-large-screens){
-				width: 94%;
-				margin-left:3%;
-			}	  	
-	}
-.individual .featured-image{
-	@include respond-to(medium-screens) { 
-		width: 50% ;
-		  height: 286px;
+		p {
+			font-size: 1.5em;
 		}
-
+}
+/*-------INDIVIDUAL PAGE POSTS-----------*/
+.individual .post{
+	
+		@include respond-to(medium-screens){
+			width: 92%;
+		}	
+		@include respond-to(large-screens){
+			width: 92%;
+		}	
+		@include respond-to(x-large-screens){
+			width: 94%;
+			margin-left:3%;
+		}	  	
+}
+.individual .featured-image{
+		@include respond-to(medium-screens) { 
+			width: 50%;
+			height: 286px;
+		}
 		@include respond-to(large-screens) { 
-		width: 50%;
-	    height: 286px;
-
+			width: 50%;
+		    height: 286px;
 		}
 		@include respond-to(x-large-screens) { 
-		  width: 50% ;
-		  height: 300px;
+			width: 50% ;
+			height: 300px;
 		}
 }
-/****************************************/
-/************HOME PAGE POSTS*************/
+/*------------HOME PAGE POSTS-----------*/
 .home .post {
-  padding: 0;
-	@include respond-to(medium-screens){
-		width: 45%;
-		float: left;
-		margin: 2.1%;
-
-	}
-	@include respond-to(large-screens){
-		width: 45%;
-		float: left;
-		margin: 2.1%;
-
-	}
-	@include respond-to(x-large-screens){
-		  width: 45.6%;
-		  float: left;
-		  margin: 2.1%;
-	}
+	padding: 0;
+		@include respond-to(medium-screens){
+			width: 45%;
+			float: left;
+			margin: 2.1%;
+		}
+		@include respond-to(large-screens){
+			width: 45%;
+			float: left;
+			margin: 2.1%;
+		}
+		@include respond-to(x-large-screens){
+			  width: 45.6%;
+			  float: left;
+			  margin: 2.1%;
+		}
 }
 .home .featured-image {
-	@include respond-to(medium-screens){
-	  width: 100%;
-	  }
-	@include respond-to(large-screens){
-	  width: 100%;
-	  }
-	  @include respond-to(x-large-screens){
-	  width: 100% !important;
-	  }
+		
+		@include respond-to(medium-screens){
+			width: 100%;
+		}
+		@include respond-to(large-screens){
+			width: 100%;
+		}
+		@include respond-to(x-large-screens){
+			width: 100% !important;
+		}
 }
 .home .copy{
 	padding:1px;
 	height: auto;
 }
 .home .title {
-  padding: 8% 0;
+	padding: 8% 0;
 }
 .home .read-more{
-  margin: 0 2% 2%;
-  padding-top: 10px;
-  text-align: center;
+	margin: 0 2% 2%;
+	padding-top: 10px;
+	text-align: center;
 }
-/****************************************/
+
 
 
 

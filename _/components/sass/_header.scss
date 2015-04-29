@@ -1,57 +1,54 @@
-
-
 header{
 	background: transparent;
 	width: 100%;
 	position:absolute;
 	z-index: 1001;
 	-webkit-animation: feature-bg-anim .6s ease-in-out;
-	/*float:left;*/
-		
 }
 .individual header{
-	@include respond-to(x-large-screens) { 
+		
+		@include respond-to(x-large-screens) { 
 			position:fixed;
 		}
 }
 .logo {
 	margin:0;
 	opacity: .8;
-	a{
-		color: #d8d8d8;
-		text-decoration: none;
-		font-weight: bold;
-		text-transform: uppercase;
-		font-size: 15px;
-		line-height: 22px;
-		float: left;
-		letter-spacing: 0.2em;
-		margin-left: 3%;
-		margin-top: 4%;	
-	}
+		a{
+			color: #d8d8d8;
+			text-decoration: none;
+			font-weight: bold;
+			text-transform: uppercase;
+			font-size: 15px;
+			line-height: 22px;
+			float: left;
+			letter-spacing: 0.2em;
+			margin-left: 3%;
+			margin-top: 4%;	
+		}
 }
 .toggle-navigation{
 	position: absolute;
 	z-index: 1003;
 	right: 3%;
 	top:1%;
-	a{	
-		border-radius: 1px;
-		color: #333333;
-		padding: 10px 16px;
-		text-transform: uppercase;
-		font-size: 10px;
-		font-weight: 900;
-		letter-spacing: 0.25em;
-		border: 1px solid #333333;
-		text-decoration: none;
-		background-color:#ffffff;
-			&:hover{
-			  background-color: #1B1C4C;
-			  color: #fff;
-			  margin: 0;
-			  }
-	 }
+		a{	
+			border-radius: 1px;
+			color: #333333;
+			padding: 10px 16px;
+			text-transform: uppercase;
+			font-size: 10px;
+			font-weight: 900;
+			letter-spacing: 0.25em;
+			border: 1px solid #333333;
+			text-decoration: none;
+			background-color:#ffffff;
+				&:hover{
+					  background-color: #1B1C4C;
+					  color: #fff;
+					  margin: 0;
+				}
+		 }
 }
 .individual .toggle-navigation{
 	top: 0.4%;
@@ -70,14 +67,15 @@ header{
 	}
 
 .open-toggle{
-	  margin-right: 5%;
-	  margin-top: 2%;
-	  float: right;
-@include respond-to(large-screens)  { }
-@include respond-to(x-large-screens) { 
-	margin-right: 4%;
-	margin-top: 3%;
-	 }
+	margin-right: 5%;
+	margin-top: 2%;
+	float: right;
+		@include respond-to(large-screens)  { 
+		}
+		@include respond-to(x-large-screens) { 
+			margin-right: 4%;
+			margin-top: 3%;
+		}
 }
 
 .close-toggle{
@@ -89,21 +87,21 @@ header{
 	margin-left: 4px;
 	@include respond-to(x-large-screens) { 
 		margin-top: 3.6%;
-		}
+	}
 }
 /*------Header-copy--------*/
 .banner-container{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
-/***FitText***/
+/*-------FitText----------*/
 .banner-holder{
-  width: 84%;
-  margin: 0 auto;
-  max-width: 1140px;  		
+	width: 84%;
+	margin: 0 auto;
+	max-width: 1140px;  		
 }
 
 #responsive_headline{
@@ -136,7 +134,7 @@ nav.sidebar {
 	width: 206px;
 	top: 0;
 	margin: 0;
-	background-color: #696868;
+	background-color: #201919;
 	right: 0;
 	padding: 0px 22px;
 	z-index: 999;
@@ -149,12 +147,12 @@ nav.sidebar {
 }
 
 nav.sidebar ul{
-	  margin-top: 9%;
-			li {
-				margin-bottom: 9px;
-					a{
+	margin-top: 9%;
+		li {
+			margin-bottom: 9px;
+				a{
 					font-size: 1.4em;
-					color: #0a2933;
+					color: rgba(255, 255, 255, 0.3);
 					font-weight: 300;
 					line-height: 0.9;
 					padding: 0 2%;
@@ -163,7 +161,7 @@ nav.sidebar ul{
 					text-transform: uppercase;
 					text-decoration: none;
 						&:hover {
-						color: #bbbbbb;
+							color: #ffffff;
 						}
 						.trigger {
 							color: #0A2933;
@@ -179,9 +177,9 @@ nav.sidebar ul{
 							text-align:center;
 						}
 
-					}
-			}
-	}
+				}
+		}
+}
 nav.sidebar ul li a.trigger {
 	color: #0A2933;
 	padding: 10px;
@@ -194,7 +192,7 @@ nav.sidebar ul li a.trigger {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	text-align:center;
-	 font-weight: 400;
+	font-weight: 400;
 		&:hover {
 			color: #777;
 		}
@@ -207,7 +205,7 @@ nav.sidebar ul li a.activetrigger {
 	padding: 10px;
 	font-size: 16px;
 	text-decoration:none;
-	background: #f5f5f5 url(../images/select-arrow-close.png) 98% center no-repeat;
+	background-color: rgba(255, 255, 255, 0.71);
 	display: block;
 	border: 1px solid #0A2933;
 	-webkit-box-sizing: border-box;
@@ -224,26 +222,20 @@ nav.sidebar ul li a.activetrigger {
 			color: #777;
 		}
 }
-
-
-
-
-/*new dropdown*/
+/*------dropdown-------*/
 .search-content {
   padding-top: 0;
 }
 .search-box form p{
   color: #0A2933;
+  padding: 0;
 }
-//
+
 ul li a.dropcontainer {
 	position: relative;
 	font-size: 16px;
 	color: #777;
 }
-
-
-//
  ul li a.dropcontainer ul {
 	font-size: 16px;
 	border: 1px solid #0A2933;
@@ -258,73 +250,48 @@ ul li a.dropcontainer {
 	box-sizing: border-box;
 	text-align:center;
 }
-//
 .dropcontainer ul li {
 	padding: 0px;
 	margin-bottom: 5px;
 }
-//
  .dropcontainer ul li:hover {
-background: #f5f5f5;
-outline: none;
+	background: #f5f5f5;
+	outline: none;
 }
-//
 .dropcontainer ul li:first-child {
 display: none;
 }
-
-//
 .dropcontainer ul li:last-child {
 border-bottom: none;
 }
-
-//
 .dropdownhidden {
 display: none;
 }
-
-//
- nav.sidebar .dropdownvisible, .dropdownvisible {
-height: auto;
-position:static;
-	 a {
-	  text-decoration: none;
-	  color: #0A2933;
-	  font-size: 16px;
-	  font-weight: 400;
-	  }
+nav.sidebar .dropdownvisible, .dropdownvisible {
+	height: auto;
+	position:static;
+		a {
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.3);
+			font-size: 16px;
+			font-weight: 400;
+		}
 }
 .dropdownvisible{
 	position:fixed;
 }
 /*Scroll*/
 
-/* Change this: 
-/////////////// */
-
-/*.dropdownvisible {
-height: auto;
-}*/
-
-/* To this: 
-/////////////// */
-
-/*.dropdownvisible {
-    height: 200px;
-    overflow-y: scroll;
-    }*/
-
-//
- ul li.active {
+ul li.active {
 	background: none repeat scroll 0 0 transparent;
 	margin-left: -4px;
 	padding: 4px;
-		 a{
-	color: blue !important;
+		a{
+			color: blue !important;
 			&:hover {
-			color: #ffffff !important; 
+				color: #ffffff !important; 
 			  }
-			}  
+		}  
 }	
 ul.social{
 	display:inline-block;
@@ -332,22 +299,25 @@ ul.social{
 	width:100%;
 	margin: 25% 7% 0 3%!important;
 		li{
-		width: 16%;
-		float: left;
-			a{
-			font-size: 1.9em !important;
-			}
+			width: 16%;
+			float: left;
+				a{
+					font-size: 1.9em !important;
+				}
 		}
 }		
-
-
 .push{ 
 	right:244px;
-	@include respond-to(large-screens)  {right:280px; }
-	@include respond-to(x-large-screens)  {right:323px; }
+	@include respond-to(large-screens)  {
+		right:280px;
+	}
+	@include respond-to(x-large-screens)  {
+		right:323px;
+	}
 }
 
 .push-margin{
+
 	@include respond-to(x-large-screens) { 
 		display:none;
 	}

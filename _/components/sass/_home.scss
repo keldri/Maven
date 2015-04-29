@@ -18,20 +18,21 @@
 }
 
 .logo-image{
-	  width: 100%;
-  max-width: 38px;
-  margin-top: 1%;
-  margin-bottom: 0%;
+	width: 100%;
+	max-width: 38px;
+	margin-top: 1%;
+	margin-bottom: 0%;
 }
 
 .yrule {
-  background: #FEE78C;
-  width: 30px;
-  height: 4px;
-  margin:5% 0 5%;
+	background: #FEE78C;
+	width: 30px;
+	height: 4px;
+	margin:5% 0 5%;
 }
 .influencers.post-wrapper{
-	  @include respond-to(medium-screens) { 
-		  padding: 4% 4%;
-	  }
+		
+		@include respond-to(medium-screens) { 
+			padding: 4% 4%;
+		}
 }

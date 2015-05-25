@@ -1,0 +1,43 @@
+.portfolio ul{	
+	li {
+	  width: 82%;
+	  height: 200px;
+	  padding: 8%;
+	  overflow: hidden;
+			@include respond-to(medium-screens) { 
+			  width: 40%;
+			  padding: 5%;
+			  float: left;
+			  }
+		  @include respond-to(large-screens) { 
+			  width: 40%;
+			  padding: 5%;
+			  float: left;
+			  }
+		   @include respond-to(x-large-screens) { 
+			  width: 33%;
+			  padding: 3% 0;
+			  float: left;
+			  }
+	}
+	 @include respond-to(x-large-screens) { 
+	  padding: 3% 1%;
+	  float: left;
+	}
+}
+.portfolio a img {
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  -webkit-transition: all .6s ease;
+  	&:hover{
+  		filter: grayscale(0%);
+	    -webkit-filter: grayscale(0%);
+	    filter: gray;
+	    -webkit-transition: all .6s ease;
+	  }
+   @include respond-to(x-large-screens) { 
+  		padding-left:3%;
+  		}
+}

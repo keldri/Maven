@@ -1,0 +1,98 @@
+
+.body-wrapper{
+	position:relative;
+}
+.masthead{
+  width:100%;
+  overflow: hidden;
+  position: relative;
+background-color: #000;
+padding: 0;
+z-index: 6;
+background-size: 100%;
+/*background-image: url("images/home.jpg");*/
+background-image: url("http://web.kateeldridge.co/kivvi/images/home.jpg");
+height: 700px;
+max-height: 48em;
+background-position: right 5% top 38%;
+@include respond-to(medium-screens) { 
+	background-position: right 5% top 38%;
+}
+@include respond-to(large-screens) { 
+	background-position: right 5% top 38%;
+}
+
+}
+.individual .masthead{
+@include respond-to(x-large-screens) { 
+	width:50%;
+	background-position: right 5% top 38%;
+	max-height:none;
+	height:100%;
+	position:fixed;
+		}
+}
+
+
+.item {
+	-webkit-filter: grayscale(100%);
+	padding: 1% 5%;
+		 &:hover{
+		      -webkit-filter: grayscale(0%);
+			}
+}
+
+ .item.w2{
+	 @include respond-to(x-large-screens)  { 
+		width:48%;
+	    clear:both;
+		}
+    @include respond-to(x-large-screens) {
+	     width:20%;
+	     }
+}
+
+
+/*-----------------Focal-Point----------------*/
+.focal-point.focal-test div{
+margin: -3em -2em;
+}
+
+    @include focal-point(
+    $grid: 12,
+    $landscape-classes: true,
+    $portrait-classes: true,
+    $breakpoint: 767px,
+    $inner-element: div,
+    $zoom-factor: 1,
+    $zoom-levels: 1
+    );
+
+.img-list p {
+text-align: center;
+}
+.content-wrapper {
+padding-top: 2%;
+}
+.post-meta {
+padding-bottom: 9%;
+}
+.post-meta p {
+text-align: center;
+font-size: 1.4em;
+}
+.post-meta a {
+text-decoration: none;
+}
+
+.pagination {
+font-size: 1.5em;
+		a{
+		text-decoration:none;
+		}
+}
+
+
+
+
+

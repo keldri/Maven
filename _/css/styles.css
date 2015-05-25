@@ -2004,97 +2004,91 @@ ul li a.dropcontainer ul {
   margin-bottom: 5px;
 }
 
-/* line 257, ../components/sass/_header.scss */
-.dropcontainer ul li:hover {
-  background: #f5f5f5;
-  outline: none;
-}
-
-/* line 261, ../components/sass/_header.scss */
+/* line 259, ../components/sass/_header.scss */
 .dropcontainer ul li:first-child {
   display: none;
 }
 
-/* line 264, ../components/sass/_header.scss */
+/* line 262, ../components/sass/_header.scss */
 .dropcontainer ul li:last-child {
   border-bottom: none;
 }
 
-/* line 267, ../components/sass/_header.scss */
+/* line 265, ../components/sass/_header.scss */
 .dropdownhidden {
   display: none;
 }
 
-/* line 270, ../components/sass/_header.scss */
+/* line 268, ../components/sass/_header.scss */
 nav.sidebar .dropdownvisible, .dropdownvisible {
   height: auto;
   position: static;
 }
-/* line 273, ../components/sass/_header.scss */
+/* line 271, ../components/sass/_header.scss */
 nav.sidebar .dropdownvisible a, .dropdownvisible a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.3);
+  color: #d75d31;
   font-size: 16px;
   font-weight: 400;
 }
 
-/* line 280, ../components/sass/_header.scss */
+/* line 278, ../components/sass/_header.scss */
 .dropdownvisible {
   position: fixed;
 }
 
 /*Scroll*/
-/* line 285, ../components/sass/_header.scss */
+/* line 283, ../components/sass/_header.scss */
 ul li.active {
   background: none repeat scroll 0 0 transparent;
   margin-left: -4px;
   padding: 4px;
 }
-/* line 289, ../components/sass/_header.scss */
+/* line 287, ../components/sass/_header.scss */
 ul li.active a {
   color: blue !important;
 }
-/* line 291, ../components/sass/_header.scss */
+/* line 289, ../components/sass/_header.scss */
 ul li.active a:hover {
   color: #ffffff !important;
 }
 
-/* line 296, ../components/sass/_header.scss */
+/* line 294, ../components/sass/_header.scss */
 ul.social {
   display: inline-block;
   float: left;
   width: 100%;
   margin: 25% 7% 0 3% !important;
 }
-/* line 301, ../components/sass/_header.scss */
+/* line 299, ../components/sass/_header.scss */
 ul.social li {
   width: 16%;
   float: left;
 }
-/* line 304, ../components/sass/_header.scss */
+/* line 302, ../components/sass/_header.scss */
 ul.social li a {
   font-size: 1.9em !important;
 }
 
-/* line 309, ../components/sass/_header.scss */
+/* line 307, ../components/sass/_header.scss */
 .push {
   right: 244px;
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 309, ../components/sass/_header.scss */
+  /* line 307, ../components/sass/_header.scss */
   .push {
     right: 280px;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 309, ../components/sass/_header.scss */
+  /* line 307, ../components/sass/_header.scss */
   .push {
     right: 323px;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 319, ../components/sass/_header.scss */
+  /* line 317, ../components/sass/_header.scss */
   .push-margin {
     display: none;
   }

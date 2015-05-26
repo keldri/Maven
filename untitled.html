@@ -1,0 +1,137 @@
+<?php
+/*Template Name:lynn_work*/ ?>
+
+
+<?php get_header(); ?>
+
+  <section id="content-bio">
+    <div class="container">
+      <div class="row">
+          <div class="btn-group">
+            <button type="button" data-toggle="dropdown" class="btn btn-info dropdown-toggle"><span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#item1">2010's</a></li>
+                <li><a href="#item2">2000's</a></li>
+                <li><a href="#item3">1990's</a></li>
+                <li><a href="#item4">1980's</a></li>
+                <li><a href="#default">1970's</a></li>
+            </ul>
+          </div><!--end btn-group-->
+
+           <!--GALLERY PRESENT-->
+          <div id="item1"><!--2010-->
+              <div class="post-full-sub">
+                    <h3>2010's</h3>
+                    <?php $images = get_field('gallery-present'); ?>
+                    <?php if($images): ?>
+                    <div class="popup-gallery">
+                      <?php foreach( $images as $image ): ?>
+                        <a href="<?php echo $image['url']; ?>" 
+                            class="lightbox-link" title="<?php echo $image['caption']; ?>" 
+                            data-description="<?php echo $image['description']; ?>">
+                                <div class="image-wrap col-xs-12 col-sm-6">
+                                  <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </div>  
+                        </a>
+                      <?php endforeach; ?>
+                    </div><!--end popup-gallery-->
+                <?php endif; ?>
+              </div><!--post-full-sub-->
+          <div><!--end item1-->
+            <!--END GALLERY PRESENT-->
+
+             <!--GALLERY 2000-->
+          <div id="item2"><!--2000-->
+              <div class="post-full-sub">
+                    <h3>2010's</h3>
+                    <?php $images = get_field('gallery-2000s'); ?>
+                    <?php if($images): ?>
+                    <div class="popup-gallery">
+                      <?php foreach( $images as $image ): ?>
+                        <a href="<?php echo $image['url']; ?>" 
+                            class="lightbox-link" title="<?php echo $image['caption']; ?>" 
+                            data-description="<?php echo $image['description']; ?>">
+                                <div class="image-wrap col-xs-12 col-sm-6">
+                                  <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </div>  
+                        </a>
+                      <?php endforeach; ?>
+                    </div><!--end popup-gallery-->
+                <?php endif; ?>
+              </div><!--post-full-sub-->
+          <div><!--end item1-->
+            <!--END GALLERY PRESENT-->
+
+             <!--GALLERY 1990's-->
+          <div id="item3"><!--1990's-->
+              <div class="post-full-sub">
+                    <h3>1990's</h3>
+                    <?php $images = get_field('gallery-1990s'); ?>
+                    <?php if($images): ?>
+                    <div class="popup-gallery">
+                      <?php foreach( $images as $image ): ?>
+                        <a href="<?php echo $image['url']; ?>" 
+                            class="lightbox-link" title="<?php echo $image['caption']; ?>" 
+                            data-description="<?php echo $image['description']; ?>">
+                                <div class="image-wrap col-xs-12 col-sm-6">
+                                  <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </div>  
+                        </a>
+                      <?php endforeach; ?>
+                    </div><!--end popup-gallery-->
+                <?php endif; ?>
+              </div><!--post-full-sub-->
+          <div><!--end item1-->
+            <!--END GALLERY 1990s-->
+            
+            <!--GALLERY 1980's-->
+          <div id="item4"><!--1980's-->
+              <div class="post-full-sub">
+                    <h3>1990's</h3>
+                    <?php $images = get_field('gallery-1980s'); ?>
+                    <?php if($images): ?>
+                    <div class="popup-gallery">
+                      <?php foreach( $images as $image ): ?>
+                        <a href="<?php echo $image['url']; ?>" 
+                            class="lightbox-link" title="<?php echo $image['caption']; ?>" 
+                            data-description="<?php echo $image['description']; ?>">
+                                <div class="image-wrap col-xs-12 col-sm-6">
+                                  <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </div>  
+                        </a>
+                      <?php endforeach; ?>
+                    </div><!--end popup-gallery-->
+                <?php endif; ?>
+              </div><!--post-full-sub-->
+          <div><!--end item1-->
+            <!--END GALLERY 1980s-->
+
+             <!--GALLERY 1970's-->
+          <div id="default"><!--1980's-->
+              <div class="post-full-sub">
+                    <h3>1970's</h3>
+                    <?php $images = get_field('gallery-1970s'); ?>
+                    <?php if($images): ?>
+                    <div class="popup-gallery">
+                      <?php foreach( $images as $image ): ?>
+                        <a href="<?php echo $image['url']; ?>" 
+                            class="lightbox-link" title="<?php echo $image['caption']; ?>" 
+                            data-description="<?php echo $image['description']; ?>">
+                                <div class="image-wrap col-xs-12 col-sm-6">
+                                  <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </div>  
+                        </a>
+                      <?php endforeach; ?>
+                    </div><!--end popup-gallery-->
+                <?php endif; ?>
+              </div><!--post-full-sub-->
+          <div><!--end item1-->
+            <!--END GALLERY 1970s-->
+             
+
+             
+      </div><!--row-->
+    </div><!--container-->
+  </section>  
+
+<?php get_footer(); ?>

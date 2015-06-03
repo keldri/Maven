@@ -7,7 +7,6 @@
  */
 ;
 (function($) {
-
 	var defaults = {
 		reCalcOnWindowResize: true,
 		throttleDuration: 17 //ms - set to 0 to disable throttling

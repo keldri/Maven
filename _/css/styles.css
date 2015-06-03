@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .focuspoint {
   position: relative;
   /*Any position but static should work*/
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 /* line 6, ../components/sass/_focuspoint.scss */
@@ -238,12 +238,12 @@ p {
 
 /* line 20, ../components/sass/_layout.scss */
 .masthead.lily {
-  background-image: url("http://web.kateeldridge.co/maven/images/Lily_1.png");
+  background-image: url("http://web.kateeldridge.co/Maven/images/Lily_1.png");
 }
 
 /* line 23, ../components/sass/_layout.scss */
 .masthead.kivvi {
-  background-image: url("http://web.kateeldridge.co/maven/images/Kivvi_2.png");
+  background-image: url("http://web.kateeldridge.co/Maven/images/Kivvi_2.png");
 }
 
 @media only screen and (min-width: 993px) {
@@ -2252,12 +2252,8 @@ ul.social li a {
     width: 100%;
   }
 }
-/* line 61, ../components/sass/_posts.scss */
-.featured-image img {
-  width: 100%;
-}
 
-/* line 65, ../components/sass/_posts.scss */
+/* line 62, ../components/sass/_posts.scss */
 .title {
   width: 100%;
   padding: 3% 0;
@@ -2265,7 +2261,7 @@ ul.social li a {
   height: auto !important;
   min-height: 0 !important;
 }
-/* line 71, ../components/sass/_posts.scss */
+/* line 68, ../components/sass/_posts.scss */
 .title h3, .title h4 {
   padding: 0 0 2% 0;
   text-align: center;
@@ -2275,7 +2271,7 @@ ul.social li a {
   margin: 10px 0 5px;
   line-height: 1.2;
 }
-/* line 80, ../components/sass/_posts.scss */
+/* line 77, ../components/sass/_posts.scss */
 .title a {
   text-decoration: none;
   color: #0A2933;
@@ -2283,13 +2279,13 @@ ul.social li a {
   text-transform: uppercase;
 }
 
-/* line 87, ../components/sass/_posts.scss */
+/* line 84, ../components/sass/_posts.scss */
 .read-more {
   margin: 30px 0;
   text-align: center;
   /*test*/
 }
-/* line 90, ../components/sass/_posts.scss */
+/* line 87, ../components/sass/_posts.scss */
 .read-more a {
   border-radius: 1px;
   color: #333333;
@@ -2301,13 +2297,13 @@ ul.social li a {
   border: 1px solid #333333;
   text-decoration: none;
 }
-/* line 100, ../components/sass/_posts.scss */
+/* line 97, ../components/sass/_posts.scss */
 .read-more a:hover {
   background-color: #1B1C4C;
   color: #fff;
 }
 
-/* line 106, ../components/sass/_posts.scss */
+/* line 103, ../components/sass/_posts.scss */
 .copy {
   background: #fff;
   display: block;
@@ -2316,26 +2312,26 @@ ul.social li a {
   overflow: hidden;
   height: 232px;
 }
-/* line 113, ../components/sass/_posts.scss */
+/* line 110, ../components/sass/_posts.scss */
 .copy p {
   font-size: 1.5em;
 }
 
 /*-------INDIVIDUAL PAGE POSTS-----------*/
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 118, ../components/sass/_posts.scss */
+  /* line 115, ../components/sass/_posts.scss */
   .individual .post {
     width: 92%;
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 118, ../components/sass/_posts.scss */
+  /* line 115, ../components/sass/_posts.scss */
   .individual .post {
     width: 92%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 118, ../components/sass/_posts.scss */
+  /* line 115, ../components/sass/_posts.scss */
   .individual .post {
     width: 94%;
     margin-left: 3%;
@@ -2343,21 +2339,21 @@ ul.social li a {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 131, ../components/sass/_posts.scss */
+  /* line 128, ../components/sass/_posts.scss */
   .individual .featured-image {
     width: 50%;
     height: 286px;
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 131, ../components/sass/_posts.scss */
+  /* line 128, ../components/sass/_posts.scss */
   .individual .featured-image {
     width: 50%;
     height: 286px;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 131, ../components/sass/_posts.scss */
+  /* line 128, ../components/sass/_posts.scss */
   .individual .featured-image {
     width: 50%;
     height: 300px;
@@ -2365,12 +2361,12 @@ ul.social li a {
 }
 
 /*------------HOME PAGE POSTS-----------*/
-/* line 146, ../components/sass/_posts.scss */
+/* line 143, ../components/sass/_posts.scss */
 .home .post {
   padding: 0;
 }
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 146, ../components/sass/_posts.scss */
+  /* line 143, ../components/sass/_posts.scss */
   .home .post {
     width: 45%;
     float: left;
@@ -2378,7 +2374,7 @@ ul.social li a {
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 146, ../components/sass/_posts.scss */
+  /* line 143, ../components/sass/_posts.scss */
   .home .post {
     width: 45%;
     float: left;
@@ -2386,7 +2382,7 @@ ul.social li a {
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 146, ../components/sass/_posts.scss */
+  /* line 143, ../components/sass/_posts.scss */
   .home .post {
     width: 45.6%;
     float: left;
@@ -2395,36 +2391,36 @@ ul.social li a {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 772px) {
-  /* line 164, ../components/sass/_posts.scss */
+  /* line 161, ../components/sass/_posts.scss */
   .home .featured-image {
     width: 100%;
   }
 }
 @media only screen and (min-width: 773px) and (max-width: 992px) {
-  /* line 164, ../components/sass/_posts.scss */
+  /* line 161, ../components/sass/_posts.scss */
   .home .featured-image {
     width: 100%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 164, ../components/sass/_posts.scss */
+  /* line 161, ../components/sass/_posts.scss */
   .home .featured-image {
     width: 100% !important;
   }
 }
 
-/* line 176, ../components/sass/_posts.scss */
+/* line 173, ../components/sass/_posts.scss */
 .home .copy {
   padding: 1px;
   height: auto;
 }
 
-/* line 180, ../components/sass/_posts.scss */
+/* line 177, ../components/sass/_posts.scss */
 .home .title {
   padding: 8% 0;
 }
 
-/* line 183, ../components/sass/_posts.scss */
+/* line 180, ../components/sass/_posts.scss */
 .home .read-more {
   margin: 0 2% 2%;
   padding-top: 10px;

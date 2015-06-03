@@ -36,7 +36,8 @@
 	$("#responsive_headline2").fitText(1.2);
 	$("#responsive_headline3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
 });
-
+//Focuspoint
+$('.focuspoint').focusPoint();
 
 })( jQuery, window, document );
 
